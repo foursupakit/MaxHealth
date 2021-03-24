@@ -21,11 +21,6 @@
                                     <span class="site-menu-title">ดูรายการขาย</span>
                                 </a>
                             </li>
-{{--                            <li class="site-menu-item {{ Request::is('sale-order/create')?'active':''}}">--}}
-{{--                                <a class="animsition-link" href="/sale-order/create">--}}
-{{--                                    <span class="site-menu-title">สร้างรายการขาย</span>--}}
-{{--                                </a>--}}
-{{--                            </li>--}}
                         </ul>
                     </li>
                     <li class="site-menu-item has-sub {{ Request::is('purchase-order/*','purchase-order')?'active open':''}}">
@@ -76,6 +71,25 @@
                             <li class="site-menu-item {{ Request::is('contact')?'active':''}}">
                                 <a class="animsition-link" href="/contact">
                                     <span class="site-menu-title">ผู้ติดต่อ</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="site-menu-item has-sub {{ Request::is('setting/*','setting')?'active open':''}}">
+                        <a href="javascript:void(0)">
+                            <i class="site-menu-icon icon wb-settings" aria-hidden="true"></i>
+                            <span class="site-menu-title">ตั้งค่า</span>
+                            <span class="site-menu-arrow"></span>
+                        </a>
+                        <ul class="site-menu-sub">
+                            <li class="site-menu-item {{ Request::is('setting/*','setting')?'active':''}}">
+                                <a class="animsition-link" href="/setting/company">
+                                    <span class="site-menu-title">ข้อมูลบริษัท</span>
+                                </a>
+                            </li>
+                            <li class="site-menu-item {{ Request::is('setting/transport')?'active':''}}">
+                                <a class="animsition-link" href="/setting/transport">
+                                    <span class="site-menu-title">ช่องทางขนส่ง</span>
                                 </a>
                             </li>
                         </ul>

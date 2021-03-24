@@ -22,6 +22,7 @@
         </div>
         <div class="page-content container-fluid">
             <div class="panel">
+                @include('product.modal')
                 <div class="row">
                     <div class="col-md-6">
                         <div class="panel-heading">
@@ -55,7 +56,7 @@
                                                     <option>เครื่องใช้ในบ้าน</option>
                                                     <option>เครื่องแต่งกาย</option>
                                                 </select>
-                                                <a class="d-block mt-1" href="">+เพิ่มหมวดหมู่</a>
+                                                <a href="" class="d-block mt-1" data-target="#modalCreate" data-toggle="modal">+เพิ่มหมวดหมู่</a>
                                             </div>
                                         </div>
                                     </div>

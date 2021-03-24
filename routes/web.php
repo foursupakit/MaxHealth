@@ -46,3 +46,10 @@ Route::group([ 'prefix' => 'product'], function () {
     Route::get('/create', 'ProductController@create')->name('product.create');
     Route::get('/edit', 'ProductController@edit')->name('product.edit');
 });
+
+// Setting
+Route::group([ 'prefix' => 'setting'], function () {
+    Route::get('/', 'SettingController@index')->name('setting.index');
+    Route::get('/company', 'SettingController@index')->name('setting.company');
+    Route::get('/transport', 'SettingController@transport')->name('setting.transport');
+});
