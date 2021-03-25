@@ -189,7 +189,7 @@
                             <div class="example">
                                 <form>
                                     <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ช่องทางการจัดส่ง</label>
+                                        <label class="col-md-3 col-form-label">ช่องทางจัดส่ง</label>
                                         <div class="col-md-9">
                                             <input type="text" class="form-control"
                                                    autocomplete="off" />
@@ -280,58 +280,6 @@
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="panel">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="panel-body pt-0">
-                            <div class="example">
-                                <form>
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title px-0">
-                                            <i class="icon icon-circle md-money white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การชำระเงิน</span>
-                                        </h3>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">การชำระเงิน</label>
-                                        <div class="col-md-9">
-                                            <p class="form-control-plaintext">ไม่มี</p>
-                                            <button type="button" class="btn btn-sm btn-outline-secondary" data-target="#modalPayment" data-toggle="modal">เพิ่มการชำระเงิน</button>
-                                            <p class="form-control-plaintext">ใช้สำหรับบันทึกการชำระเงิน เพื่อแสดงสถานะการชำระเงินของรายการซื้อ</p>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="panel-body pt-0">
-                            <div class="example">
-                                <form>
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title px-0">
-                                            <i class="icon icon-circle md-dropbox white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">คลังสินค้า/สาขา</span>
-                                        </h3>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-5 col-form-label">การโอนเงิน</label>
-                                        <div class="col-md-7">
-                                            <input type="radio" name="transfer" checked> รอโอนสินค้า
-                                            <select class="form-control example mt-5">
-                                                <option>ไม่ระบุ</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                            </select>
-                                            <input class="mt-5" name="transfer" type="radio"> รอโอนสินค้า
-                                        </div>
-                                    </div>
-                                </form>
                             </div>
                         </div>
                     </div>

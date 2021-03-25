@@ -29,7 +29,7 @@ Route::group([ 'prefix' => 'purchase-order'], function () {
     Route::get('/', 'PurchaseOrderController@index')->name('purchase-order.index');
     Route::get('/create', 'PurchaseOrderController@create')->name('purchase-order.create');
     Route::get('/edit', 'PurchaseOrderController@edit')->name('purchase-order.edit');
-    Route::get('/detail', 'PurchaseOrderController@detail')->name('purchase-order.detail');
+    Route::get('/detail/{id}', 'PurchaseOrderController@detail')->name('purchase-order.detail');
 });
 
 // Contact
@@ -52,4 +52,5 @@ Route::group([ 'prefix' => 'setting'], function () {
     Route::get('/', 'SettingController@index')->name('setting.index');
     Route::get('/company', 'SettingController@index')->name('setting.company');
     Route::get('/transport', 'SettingController@transport')->name('setting.transport');
+    Route::get('/change-password', 'SettingController@changePassword')->name('setting.change-password');
 });

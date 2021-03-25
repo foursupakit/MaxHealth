@@ -14,11 +14,11 @@
 @section('content')
     <div class="page">
         <div class="page-header">
-            <h1 class="page-title">หมวดหมู่</h1>
-            <span class="panel-desc">จำนวน 2 รายการ</span>
+            <h1 class="page-title">ช่องทางจัดส่ง</h1>
+            <span class="panel-desc">จำนวน 3 รายการ</span>
             <div class="page-header-actions">
-                <button type="button" class="btn btn-primary btn-round btn-lg" data-target="#modalCreate" data-toggle="modal">
-                    เพิ่มหมวดหมู่
+                <button type="button" class="btn btn-primary btn-round btn-lg" data-target="#modalCreateTransport" data-toggle="modal">
+                    เพิ่มช่องทางจัดส่ง
                 </button>
             </div>
             <div class="row no-gutters mt-20">
@@ -34,7 +34,7 @@
         <div class="page-content container-fluid">
             <!-- Panel Input Groups -->
             <div class="panel">
-                @include('product.modal')
+                @include('setting.modal')
                 <div class="panel-body container-fluid p-0">
                     <div class="row row-lg">
                         <div class="col-lg-12">
@@ -42,42 +42,54 @@
                                 <table class="table table-striped mb-0">
                                     <thead>
                                     <tr>
-                                        <th>#</th>
-                                        <th width="40%">ชื่อหมวดหมู่</th>
-                                        <th>มูลค่าสินค้าคงเหลือ</th>
-                                        <th>มูลค่าสินค้าพร้อมขาย</th>
+                                        <th width="40%">รายการช่องทางจัดส่ง</th>
+                                        <th>ค่าส่งพื้นฐาน</th>
+                                        <th>+ต่อชิ้น</th>
                                         <th></th>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
-                                        <td>1</td>
-                                        <td>เครื่องแต่งกาย</td>
-                                        <td>30,300</td>
-                                        <td>27,300</td>
-                                        <td>
+                                        <td>ไปรษณีย์ไทย</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="text-center">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
-                                                    data-target="#modalEdit" data-toggle="modal">
+                                                    data-target="#modalEditTransport" data-toggle="modal">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
-                                                    data-target="#modalDelete" data-toggle="modal">
+                                                    data-target="#modalDeleteTransport" data-toggle="modal">
                                                 <i class="icon md-delete" aria-hidden="true"></i>
                                             </button>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td>2</td>
-                                        <td>เครื่องใช้ในบ้าน</td>
-                                        <td>308,100</td>
-                                        <td>293,100</td>
-                                        <td>
+                                        <td>Kerry</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="text-center">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
-                                                    data-target="#modalEdit" data-toggle="modal">
+                                                    data-target="#modalEditTransport" data-toggle="modal">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
-                                                    data-target="#modalDelete" data-toggle="modal">
+                                                    data-target="#modalDeleteTransport" data-toggle="modal">
+                                                <i class="icon md-delete" aria-hidden="true"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>LINE MAN</td>
+                                        <td>-</td>
+                                        <td>-</td>
+                                        <td class="text-center">
+                                            <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                    data-target="#modalEditTransport" data-toggle="modal">
+                                                <i class="icon md-edit" aria-hidden="true"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                    data-target="#modalDeleteTransport" data-toggle="modal">
                                                 <i class="icon md-delete" aria-hidden="true"></i>
                                             </button>
                                         </td>

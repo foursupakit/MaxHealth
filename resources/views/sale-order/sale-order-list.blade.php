@@ -102,7 +102,7 @@
                                                 <span class="badge badge-warning">รอโอน</span>
                                             </td>
                                             <td>
-                                                <span class="badge badge-info">ชำระบางส่วน</span>
+                                                <span class="badge badge-warning">รอชำระ</span>
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
@@ -303,7 +303,7 @@
                                                 <span class="badge badge-warning">รอโอน</span>
                                             </td>
                                             <td>
-                                                <span class="badge badge-info">ชำระบางส่วน</span>
+                                                <span class="badge badge-warning">รอชำระ</span>
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"

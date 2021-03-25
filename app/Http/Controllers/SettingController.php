@@ -10,4 +10,14 @@ class SettingController extends Controller
     {
         return view('setting.setting-company');
     }
+
+    public function changePassword(Request $request)
+    {
+        return view('setting.setting-password');
+    }
+
+    public function transport(Request $request)
+    {
+        return view('setting.setting-transport');
+    }
 }

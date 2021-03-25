@@ -28,6 +28,48 @@
             <h1 class="page-title">รายละเอียดรายการซื้อ</h1>
         </div>
         <div class="page-content container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="d-flex justify-content-between">
+                                <div class="white">
+                                    <i class="icon icon-circle icon-2x md-money bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
+                                </div>
+                                <div>
+                                    <div>สถานะการชำระเงิน</div>
+                                    @if($id == '1')
+                                        <span class="float-right badge badge-warning" style="font-size: 100%;">การชำระเงิน</span>
+                                    @elseif($id == '2')
+                                        <span class="float-right badge badge-primary" style="font-size: 100%;">ชำระบางส่วน</span>
+                                    @elseif($id == '3')
+                                        <span class="float-right badge badge-success" style="font-size: 100%;">ชำระครบ</span>
+                                    @endif
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="d-flex justify-content-between">
+                                <div class="white">
+                                    <i class="icon icon-circle icon-2x icon md-dropbox bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
+                                </div>
+                                <div>
+                                    <div>สถานะการโอนสินค้า</div>
+                                    @if($id == '1' || $id == '2')
+                                        <span class="float-right badge badge-warning" style="font-size: 100%;">รอโอนสินค้า</span>
+                                    @elseif($id == '3')
+                                        <span class="float-right badge badge-success" style="font-size: 100%;">สำเร็จ</span>
+                                    @endif
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="panel">
                 @include('purchase-order.modal')
                 <div class="row">
@@ -47,7 +89,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ประเภท</label>
+                                        <label class="col-md-3 col-form-label">ประเภทรายการ</label>
                                         <div class="col-md-9">
                                             <p class="form-control-plaintext">ซื้อสินค้าเข้า</p>
                                         </div>
@@ -193,33 +235,29 @@
             <div class="panel">
                 <div class="row">
                     <div class="col-md-6">
-                        <div class="panel-body pt-0">
-                            <div class="example">
-                                <form>
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title px-0">
-                                            <i class="icon icon-circle md-money white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การชำระเงิน</span>
-                                        </h3>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-4 col-form-label"><span class="badge badge-warning" style="font-size: 100%;">รอการชำระเงิน</span></label>
-                                        <div class="col-md-8 text-right">
-                                            <button type="button" class="btn btn-outline-secondary" data-target="#modalPayment" data-toggle="modal"><i class="icon md-plus" aria-hidden="true"></i>ชำระเพิ่ม</button>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row mb-0">
-                                        <label class="col-md-4 col-form-label">จำนวนเงินที่ชำระ</label>
-                                        <div class="col-md-8 text-right">
-                                            <p class="form-control-plaintext">0</p>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row mb-0">
-                                        <label class="col-md-4 col-form-label">ยอดคงเหลือที่ต้องชำระ</label>
-                                        <div class="col-md-8 text-right">
-                                            <p class="form-control-plaintext">300</p>
-                                        </div>
-                                    </div>
-                                </form>
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="icon icon-circle md-money white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การชำระเงิน</span>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group row">
+                                <label class="col-md-4 col-form-label"><span class="badge badge-warning" style="font-size: 100%;">รอการชำระเงิน</span></label>
+                                <div class="col-md-8 text-right">
+                                    <button type="button" class="btn btn-outline-secondary" data-target="#modalPayment" data-toggle="modal"><i class="icon md-plus" aria-hidden="true"></i>ชำระเพิ่ม</button>
+                                </div>
+                            </div>
+                            <div class="form-group row mb-0">
+                                <label class="col-md-4 col-form-label">จำนวนเงินที่ชำระ</label>
+                                <div class="col-md-8 text-right">
+                                    <p class="form-control-plaintext">0</p>
+                                </div>
+                            </div>
+                            <div class="form-group row mb-0">
+                                <label class="col-md-4 col-form-label">ยอดคงเหลือที่ต้องชำระ</label>
+                                <div class="col-md-8 text-right">
+                                    <p class="form-control-plaintext">300</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -228,22 +266,18 @@
             <div class="panel">
                 <div class="row">
                     <div class="col-md-12">
-                        <div class="panel-body pt-0">
-                            <div class="example">
-                                <form>
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title px-0">
-                                            <i class="icon icon-circle md-swap white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การโอนสินค้า</span>
-                                        </h3>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-4 col-form-label"><span class="badge badge-warning" style="font-size: 100%;">รอโอนสินค้า</span></label>
-                                        <div class="col-md-8 text-right">
-                                            <button type="button" class="btn btn-outline-secondary"><i class="icon md-swap mr-5" aria-hidden="true"></i>โอนสินค้าบางส่วน</button>
-                                            <button type="button" class="btn btn-primary"><i class="icon md-swap" aria-hidden="true"></i>โอนสินค้าเข้าคลัง</button>
-                                        </div>
-                                    </div>
-                                </form>
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="icon icon-circle md-swap white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การโอนสินค้า</span>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group row">
+                                <label class="col-md-4 col-form-label"><span class="badge badge-warning" style="font-size: 100%;">รอโอนสินค้า</span></label>
+                                <div class="col-md-8 text-right">
+                                    <button type="button" class="btn btn-outline-secondary"><i class="icon md-swap mr-5" aria-hidden="true"></i>โอนสินค้าบางส่วน</button>
+                                    <button type="button" class="btn btn-primary"><i class="icon md-swap" aria-hidden="true"></i>โอนสินค้าเข้าคลัง</button>
+                                </div>
                             </div>
                         </div>
                     </div>

@@ -82,9 +82,14 @@
                             <span class="site-menu-arrow"></span>
                         </a>
                         <ul class="site-menu-sub">
-                            <li class="site-menu-item {{ Request::is('setting/*','setting')?'active':''}}">
+                            <li class="site-menu-item {{ Request::is('setting/company','setting')?'active':''}}">
                                 <a class="animsition-link" href="/setting/company">
                                     <span class="site-menu-title">ข้อมูลบริษัท</span>
+                                </a>
+                            </li>
+                            <li class="site-menu-item {{ Request::is('setting/change-password')?'active':''}}">
+                                <a class="animsition-link" href="/setting/change-password">
+                                    <span class="site-menu-title">เปลี่ยนรหัสผ่าน</span>
                                 </a>
                             </li>
                             <li class="site-menu-item {{ Request::is('setting/transport')?'active':''}}">

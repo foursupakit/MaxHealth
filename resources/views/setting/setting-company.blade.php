@@ -71,15 +71,6 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">รหัสผ่าน</label>
-                                        <div class="col-md-9">
-                                            <p class="form-control-plaintext">
-                                                ********
-                                                <a href="" class="mt-1 float-right"><i class="icon md-comment-edit"></i> เปลี่ยนรหัสผ่าน</a>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
                                         <label class="col-md-3 col-form-label">โทรสาร(Fax)</label>
                                         <div class="col-md-9">
                                             <input type="text" class="form-control" autocomplete="off" />
@@ -102,6 +93,15 @@
                         <div class="panel-body">
                             <div class="example">
                                 <form>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 col-form-label">รหัสผ่าน</label>
+                                        <div class="col-md-9">
+                                            <p class="form-control-plaintext">
+                                                ********
+                                                <a href="/setting/change-password" class="mt-1 float-right"><i class="icon md-comment-edit"></i> เปลี่ยนรหัสผ่าน</a>
+                                            </p>
+                                        </div>
+                                    </div>
                                     <div class="form-group row">
                                         <label class="col-md-3 col-form-label">ลายเซ็นอิเล็กทรอนิกส์</label>
                                         <div class="col-md-9">

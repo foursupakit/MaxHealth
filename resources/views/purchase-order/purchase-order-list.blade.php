@@ -20,10 +20,10 @@
         <div class="page-header">
             <h1 class="page-title">รายการซื้อ</h1>
             <div class="page-header-actions">
-                <button type="button" class="btn btn-light btn-round" data-toggle="tooltip" data-original-title="export excel">
+                <button type="button" class="btn btn-light btn-round btn-lg" data-toggle="tooltip" data-original-title="export excel">
                     นำเข้าไฟล์ (Excel)
                 </button>
-                <button type="button" class="btn btn-primary btn-round" data-toggle="tooltip" data-original-title="create" onclick="location.href='/purchase-order/create'">
+                <button type="button" class="btn btn-primary btn-round btn-lg" data-toggle="tooltip" data-original-title="create" onclick="location.href='/purchase-order/create'">
                     สร้าง
                 </button>
             </div>
@@ -73,7 +73,7 @@
                                         <tbody>
                                         <tr>
                                             <td>27 ม.ค. 2564</td>
-                                            <td><a href="/purchase-order/detail">PO-202101001</a></td>
+                                            <td><a href="/purchase-order/detail/1">PO-202101001</a></td>
                                             <td><a href="/contact/detail">บริษัท Shippop จำกัด</a></td>
                                             <td>6,000</td>
                                             <td>

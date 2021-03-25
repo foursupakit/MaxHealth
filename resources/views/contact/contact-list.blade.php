@@ -25,7 +25,7 @@
         <div class="page-header">
             <h1 class="page-title">ผู้ติดต่อ</h1>
             <div class="page-header-actions">
-                <button type="button" class="btn btn-primary btn-round" data-target="#modalCreate" data-toggle="modal">
+                <button type="button" class="btn btn-primary btn-round btn-lg" data-target="#modalCreate" data-toggle="modal">
                     เพิ่มผู้ติดต่อใหม่
                 </button>
             </div>

@@ -21,8 +21,9 @@ class PurchaseOrderController extends Controller
         return view('purchase-order.purchase-order-edit');
     }
 
-    public function detail(Request $request)
+    public function detail(Request $request, $id)
     {
-        return view('purchase-order.purchase-order-detail');
+        return view('purchase-order.purchase-order-detail')
+            ->with('id', $id);
     }
 }

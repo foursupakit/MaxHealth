@@ -207,7 +207,7 @@
                             <div class="example">
                                 <form>
                                     <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ช่องทางการจัดส่ง</label>
+                                        <label class="col-md-3 col-form-label">ช่องทางจัดส่ง</label>
                                         <div class="col-md-9">
                                             <input type="text" class="form-control"
                                                    autocomplete="off" />
@@ -270,86 +270,74 @@
             </div>
             <div class="panel">
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-6">
+                        <form>
+                            <div class="panel-heading">
+                                <h3 class="panel-title">
+                                    <i class="icon icon-circle md-account-box white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลที่อยู่ผู้รับ</span>
+                                </h3>
+                            </div>
+                            <div class="panel-body">
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ชื่อผู้รับ</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" value="ร้านค้า บางเขน" />
+                                        <span class="panel-desc">
+                                        <a href=""><i class="icon md-file"></i><span class="ml-5">คัดลอกจากข้อมูลลูกค้า</span></a>
+                                    </span>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">เบอร์โทรศัพท์ผู้รับ</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">อีเมลผู้รับ</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ที่อยู่/จัดส่ง</label>
+                                    <div class="col-md-9">
+                                        <textarea class="form-control" id="textareaDefault" rows="3">123 วัดชลอ บางกรวย นนทบุรี 11130</textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
                                 <i class="icon icon-circle md-truck white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลการจัดส่งสินค้า</span>
                             </h3>
                         </div>
                         <div class="panel-body pb-0">
-                            <div class="row row-lg">
-                                <div class="col-lg-6">
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">วันที่ส่งสินค้า</label>
-                                        <div class="col-md-9">
-                                            <div class="form-group">
-                                                <div class="input-group input-group-icon">
-                                                    <input type="text" class="form-control datepicker" data-plugin="datepicker" data-date-format="d/m/yyyy" readonly>
-                                                    <div class="input-group-append">
-                                                        <span class="input-group-text">
-                                                          <i class="icon md-close" aria-hidden="true"></i>
-                                                        </span>
-                                                        <span class="input-group-text">
-                                                          <i class="icon md-calendar" aria-hidden="true"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
+                            <div class="form-group row">
+                                <label class="col-md-3 col-form-label">วันที่ส่งสินค้า</label>
+                                <div class="col-md-9">
+                                    <div class="form-group">
+                                        <div class="input-group input-group-icon">
+                                            <input type="text" class="form-control datepicker" data-plugin="datepicker" data-date-format="d/m/yyyy" readonly>
+                                            <div class="input-group-append">
+                                                <span class="input-group-text">
+                                                  <i class="icon md-close" aria-hidden="true"></i>
+                                                </span>
+                                                <span class="input-group-text">
+                                                  <i class="icon md-calendar" aria-hidden="true"></i>
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="panel">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="panel-body pt-0">
-                            <div class="example">
-                                <form>
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title px-0">
-                                            <i class="icon icon-circle md-money white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การชำระเงิน</span>
-                                        </h3>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">การชำระเงิน</label>
-                                        <div class="col-md-9">
-                                            <p class="form-control-plaintext">ไม่มี</p>
-                                            <button type="button" class="btn btn-sm btn-outline-secondary" data-target="#modalPayment" data-toggle="modal">เพิ่มการชำระเงิน</button>
-                                            <p class="form-control-plaintext">ใช้สำหรับบันทึกการชำระเงิน เพื่อแสดงสถานะการชำระเงินของรายการซื้อ</p>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="panel-body pt-0">
-                            <div class="example">
-                                <form>
-                                    <div class="panel-heading">
-                                        <h3 class="panel-title px-0">
-                                            <i class="icon icon-circle md-dropbox white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">คลังสินค้า/สาขา</span>
-                                        </h3>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-5 col-form-label">การโอนเงิน</label>
-                                        <div class="col-md-7">
-                                            <input type="radio" name="transfer" checked> รอโอนสินค้า
-                                            <select class="form-control example mt-5">
-                                                <option>ไม่ระบุ</option>
-                                                <option>2</option>
-                                                <option>3</option>
-                                                <option>4</option>
-                                                <option>5</option>
-                                            </select>
-                                            <input class="mt-5" name="transfer" type="radio"> รอโอนสินค้า
-                                        </div>
-                                    </div>
-                                </form>
+                            <div class="form-group row">
+                                <label class="col-md-3 col-form-label">Tracking No.</label>
+                                <div class="col-md-9">
+                                    <input type="text" class="form-control" autocomplete="off">
+                                </div>
                             </div>
                         </div>
                     </div>

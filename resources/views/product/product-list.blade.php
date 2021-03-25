@@ -17,7 +17,7 @@
             <h1 class="page-title">สินค้า</h1>
             <span class="panel-desc">จัดการรูปภาพสินค้า</span>
             <div class="page-header-actions">
-                <button type="button" class="btn btn-primary btn-round" data-toggle="tooltip" data-original-title="create" onclick="location.href='/product/create'">
+                <button type="button" class="btn btn-primary btn-round btn-lg" data-toggle="tooltip" data-original-title="create" onclick="location.href='/product/create'">
                     เพิ่มสินค้าใหม่
                 </button>
             </div>
