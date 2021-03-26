@@ -65,10 +65,7 @@
                                             <td>27 ม.ค. 2564</td>
                                             <td><a href="/sale-order/detail/1">SO-202101001</a></td>
                                             <td><a href="/contact/detail">บริษัท Shippop จำกัด</a></td>
-                                            <td>
-                                                <img src="/assets/images/lazada_icon.png" width="15" class="mr-1">
-                                                <span title="Lazada" >Lazada</span>
-                                            </td>
+                                            <td>ตัวแทนจำหน่าย</td>
                                             <td></td>
                                             <td>6,000</td>
                                             <td>

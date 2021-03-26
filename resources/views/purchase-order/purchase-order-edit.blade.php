@@ -64,7 +64,7 @@
                                             <span class="required">*</span>
                                         </label>
                                         <div class="col-md-9">
-                                            <div class="form-group">
+                                            <div class="form-group mb-0">
                                                 <div class="input-group input-group-icon">
                                                     <input type="text" class="form-control datepicker" data-plugin="datepicker" data-date-format="d/m/yyyy" readonly>
                                                     <div class="input-group-append" for="test">

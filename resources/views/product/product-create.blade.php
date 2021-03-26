@@ -31,49 +31,47 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">รหัสสินค้า</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" />
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">รหัสสินค้า</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ชื่อสินค้า
+                                        <span class="required">*</span>
+                                    </label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">หมวดหมู่</label>
+                                    <div class="col-md-9">
+                                        <div class="form-group">
+                                            <select class="form-control mt-5">
+                                                <option>ไม่มีหมวดหมู่</option>
+                                                <option>เครื่องใช้ในบ้าน</option>
+                                                <option>เครื่องแต่งกาย</option>
+                                            </select>
+                                            <a href="" class="d-block mt-1" data-target="#modalCreate" data-toggle="modal">+เพิ่มหมวดหมู่</a>
                                         </div>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ชื่อสินค้า
-                                            <span class="required">*</span>
-                                        </label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">หน่วย</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" placeholder="ตัวอย่าง: ชิ้น, ตัว" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">หมวดหมู่</label>
-                                        <div class="col-md-9">
-                                            <div class="form-group">
-                                                <select class="form-control mt-5">
-                                                    <option>ไม่มีหมวดหมู่</option>
-                                                    <option>เครื่องใช้ในบ้าน</option>
-                                                    <option>เครื่องแต่งกาย</option>
-                                                </select>
-                                                <a href="" class="d-block mt-1" data-target="#modalCreate" data-toggle="modal">+เพิ่มหมวดหมู่</a>
-                                            </div>
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Tag สินค้า</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">หน่วย</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" placeholder="ตัวอย่าง: ชิ้น, ตัว" />
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">Tag สินค้า</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" />
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                         <div class="panel-heading">
                             <h3 class="panel-title">
@@ -81,22 +79,20 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ราคาซื้อ</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" placeholder="0" />
-                                        </div>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ราคาซื้อ</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" placeholder="0" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ราคาขาย</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" placeholder="0" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ราคาขาย</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" placeholder="0" />
                                     </div>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                         <div class="panel-heading">
                             <h3 class="panel-title">
@@ -104,32 +100,30 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">น้ำหนัก (กรัม)</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" placeholder="0" />
-                                        </div>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">น้ำหนัก (กรัม)</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" placeholder="0" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ขนาด (กว้าง ยาว สูง) (ซม.)</label>
-                                        <div class="col-md-9">
-                                            <div class="row">
-                                                <div class="col-md-4">
-                                                    <input type="text" class="form-control" autocomplete="off" placeholder="กว้าง" />
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <input type="text" class="form-control" autocomplete="off" placeholder="ยาว" />
-                                                </div>
-                                                <div class="col-md-4">
-                                                    <input type="text" class="form-control" autocomplete="off" placeholder="สูง" />
-                                                </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ขนาด (กว้าง ยาว สูง) (ซม.)</label>
+                                    <div class="col-md-9">
+                                        <div class="row">
+                                            <div class="col-md-4">
+                                                <input type="text" class="form-control" autocomplete="off" placeholder="กว้าง" />
+                                            </div>
+                                            <div class="col-md-4">
+                                                <input type="text" class="form-control" autocomplete="off" placeholder="ยาว" />
+                                            </div>
+                                            <div class="col-md-4">
+                                                <input type="text" class="form-control" autocomplete="off" placeholder="สูง" />
                                             </div>
                                         </div>
                                     </div>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -139,9 +133,7 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <input type="file" id="input-file-now" data-plugin="dropify" data-default-file="" />
-                            </div>
+                            <input type="file" id="input-file-now" data-plugin="dropify" data-default-file="" />
                         </div>
                     </div>
                 </div>
@@ -155,25 +147,102 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ยอดยกมา</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" placeholder="0" />
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ยอดยกมา</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" placeholder="0" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">สินค้าเข้าที่</label>
+                                    <div class="col-md-9">
+                                        <select class="form-control mt-5">
+                                            <option>คลังสินค้าหลัก</option>
+                                            <option>สาขาพระราม 9</option>
+                                            <option>สาขาธนบุรี</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="icon icon-circle md-settings white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ตั้งค่า</span>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <div class="row">
+                                    <label class="col-md-4">การตั้งค่า</label>
+                                    <div class="col-md-8">
+                                        <input type="checkbox" id="vehicle1" name="vehicle1" value="">
+                                        <label for="vehicle1"> แสดงในหน้าสั่งซื้อ</label><br>
+                                        <input type="checkbox" id="vehicle2" name="vehicle2" value="">
+                                        <label for="vehicle2"> Serial Number</label><br>
+                                        <div class="d-flex">
+                                            <div class="mr-3">
+                                                <input type="checkbox" id="vehicle3" name="vehicle3" value="">
+                                            </div>
+                                            <div>
+                                                <label for="vehicle3"> ล็อต/วันหมดอายุ</label><br>
+                                                <input type="text" class="form-control d-inline-block w-50 mr-1" autocomplete="off" value="90" /> วัน
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">สินค้าเข้าที่</label>
-                                        <div class="col-md-9">
-                                            <select class="form-control mt-5">
-                                                <option>คลังสินค้าหลัก</option>
-                                                <option>สาขาพระราม 9</option>
-                                                <option>สาขาธนบุรี</option>
-                                            </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="icon icon-circle md-notifications white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">แจ้งเตือน</span>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="form-group">
+                                <div class="row">
+                                    <label class="col-md-4">แจ้งเตือนสินค้าคงเหลือ</label>
+                                    <div class="col-md-8">
+                                        <div class="d-flex">
+                                            <div class="mr-3">
+                                                <input type="radio" id="male" name="gender" value="">
+                                            </div>
+                                            <div>
+                                                <label for="male">ใช้จำนวนตั้งต้น
+                                                    <span class="panel-desc text-secondary">ใช้จำนวนตามที่ระบุในการตั้งค่ารวมของบริษัท/ร้านค้า</span>
+                                                </label>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <div class="mr-3">
+                                                <input type="radio" id="female" name="gender" value="">
+                                            </div>
+                                            <div>
+                                                <label for="female">กำหนดจำนวนเอง</label><br>
+                                                <input type="text" class="form-control w-200" autocomplete="off" value="5" disabled />
+                                            </div>
+                                        </div>
+                                        <div class="d-flex mt-4">
+                                            <div class="mr-3">
+                                                <input type="checkbox" id="isremind" name="isremind" value="">
+                                            </div>
+                                            <div>
+                                                <label for="isremind">แจ้งเตือนหลังทำรายการขาย</label><br>
+                                                <div>
+                                                    <input type="text" class="form-control d-inline-block w-50 mr-1" autocomplete="off" value="5" /> วัน
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </form>
+                                </div>
                             </div>
                         </div>
                     </div>

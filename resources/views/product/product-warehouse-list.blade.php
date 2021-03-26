@@ -14,11 +14,11 @@
 @section('content')
     <div class="page">
         <div class="page-header">
-            <h1 class="page-title">หมวดหมู่</h1>
-            <span class="panel-desc">จำนวน 2 รายการ</span>
+            <h1 class="page-title">คลังสินค้า/สาขา</h1>
+            <span class="panel-desc">จำนวน 3 รายการ</span>
             <div class="page-header-actions">
-                <button type="button" class="btn btn-primary btn-round btn-lg" data-target="#modalCreateCategory" data-toggle="modal">
-                    เพิ่มหมวดหมู่
+                <button type="button" class="btn btn-primary btn-round btn-lg" data-target="#modalCreateWarehouse" data-toggle="modal">
+                    เพิ่มคลังสินค้า/สาขา
                 </button>
             </div>
             <div class="row no-gutters mt-20">
@@ -43,41 +43,65 @@
                                     <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th width="40%">ชื่อหมวดหมู่</th>
+                                        <th>รหัส</th>
+                                        <th width="40%">ชื่อคลัง/สาขา</th>
+                                        <th>ประเภท</th>
                                         <th>มูลค่าสินค้าคงเหลือ</th>
-                                        <th>มูลค่าสินค้าพร้อมขาย</th>
+                                        <th>เคลื่อนไหวล่าสุด</th>
                                         <th></th>
                                     </tr>
                                     </thead>
                                     <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>เครื่องแต่งกาย</td>
-                                        <td>30,300</td>
-                                        <td>27,300</td>
+                                        <td>W0001</td>
+                                        <td><a href="/product/warehouse/1">คลังสินค้าหลัก</a></td>
+                                        <td>ทั่วไป</td>
+                                        <td>96,600</td>
+                                        <td>27 ม.ค. 2564 16:35</td>
                                         <td>
-                                            <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
-                                                    data-target="#modalEditCategory" data-toggle="modal">
+                                            <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
+                                                    data-original-title="Edit" onclick="location.href='/product/warehouse/edit/1'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
-                                                    data-target="#modalDeleteCategory" data-toggle="modal">
+                                                    data-target="#modalDeleteWarehouse" data-toggle="modal">
                                                 <i class="icon md-delete" aria-hidden="true"></i>
                                             </button>
                                         </td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>เครื่องใช้ในบ้าน</td>
-                                        <td>308,100</td>
-                                        <td>293,100</td>
+                                        <td>W0002</td>
+                                        <td><a href="/product/warehouse/1">สาขาพระราม 9</a></td>
+                                        <td>ทั่วไป</td>
+                                        <td>20,900</td>
+                                        <td>27 ม.ค. 2564 16:39</td>
                                         <td>
-                                            <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
-                                                    data-target="#modalEditCategory" data-toggle="modal">
+                                            <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
+                                                    data-original-title="Edit" onclick="location.href='/product/warehouse/edit/1'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
-                                                    data-target="#modalDeleteCategory" data-toggle="modal">
+                                                    data-target="#modalDeleteWarehouse" data-toggle="modal">
+                                                <i class="icon md-delete" aria-hidden="true"></i>
+                                            </button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>W0003</td>
+                                        <td><a href="/product/warehouse/1">สาขานนทบุรี</a></td>
+                                        <td>ทั่วไป</td>
+                                        <td>220,900</td>
+                                        <td>27 ม.ค. 2564 16:39</td>
+                                        <td>
+                                            <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
+                                                    data-original-title="Edit" onclick="location.href='/product/warehouse/edit/1'">
+                                                <i class="icon md-edit" aria-hidden="true"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                    data-target="#modalDeleteWarehouse" data-toggle="modal">
                                                 <i class="icon md-delete" aria-hidden="true"></i>
                                             </button>
                                         </td>

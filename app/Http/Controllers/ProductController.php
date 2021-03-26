@@ -21,6 +21,22 @@ class ProductController extends Controller
         return view('product.product-category-list');
     }
 
+    public function warehouse(Request $request)
+    {
+        return view('product.product-warehouse-list');
+    }
+
+    public function warehouseDetail(Request $request, $id)
+    {
+        return view('product.product-warehouse-detail')
+            ->with('id', $id);
+    }
+
+    public function warehouseEdit(Request $request)
+    {
+        return view('product.product-warehouse-edit');
+    }
+
     public function create(Request $request)
     {
         return view('product.product-create');

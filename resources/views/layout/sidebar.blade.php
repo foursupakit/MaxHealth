@@ -49,7 +49,7 @@
                             <span class="site-menu-arrow"></span>
                         </a>
                         <ul class="site-menu-sub">
-                            <li class="site-menu-item {{ Request::is('product')?'active':''}}">
+                            <li class="site-menu-item {{ Request::is('product','product/edit','product/create')?'active':''}}">
                                 <a class="animsition-link" href="/product">
                                     <span class="site-menu-title">สินค้า</span>
                                 </a>
@@ -57,6 +57,11 @@
                             <li class="site-menu-item {{ Request::is('product/category')?'active':''}}">
                                 <a class="animsition-link" href="/product/category">
                                     <span class="site-menu-title">หมวดหมู่</span>
+                                </a>
+                            </li>
+                            <li class="site-menu-item {{ Request::is('product/warehouse')?'active':''}}">
+                                <a class="animsition-link" href="/product/warehouse">
+                                    <span class="site-menu-title">คลังสินค้า/สาขา</span>
                                 </a>
                             </li>
                         </ul>

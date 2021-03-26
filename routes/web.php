@@ -43,6 +43,9 @@ Route::group([ 'prefix' => 'contact'], function () {
 Route::group([ 'prefix' => 'product'], function () {
     Route::get('/', 'ProductController@index')->name('product.index');
     Route::get('/category', 'ProductController@category')->name('product.category');
+    Route::get('/warehouse', 'ProductController@warehouse')->name('product.warehouse');
+    Route::get('/warehouse/{id}', 'ProductController@warehouseDetail')->name('product.warehouse-detail');
+    Route::get('/warehouse/edit/{id}', 'ProductController@warehouseEdit')->name('product.warehouse-edit');
     Route::get('/create', 'ProductController@create')->name('product.create');
     Route::get('/edit', 'ProductController@edit')->name('product.edit');
 });

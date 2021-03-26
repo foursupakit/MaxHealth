@@ -56,7 +56,6 @@
                                         <td>1</td>
                                         <td>P0001-1</td>
                                         <td class="d-flex">
-
                                             <img src="/assets/images/cloth.jpg" width="50" class="mr-1">
                                             <div>
                                                 <a href="">
@@ -84,7 +83,6 @@
                                         <td>2</td>
                                         <td>P0001-2</td>
                                         <td class="d-flex">
-
                                             <img src="/assets/images/cloth.jpg" width="50" class="mr-1">
                                             <div>
                                                 <a href="">
@@ -112,7 +110,6 @@
                                         <td>3</td>
                                         <td>P0001-3</td>
                                         <td class="d-flex">
-
                                             <img src="/assets/images/cloth.jpg" width="50" class="mr-1">
                                             <div>
                                                 <a href="">
@@ -140,7 +137,6 @@
                                         <td>4</td>
                                         <td>P0001-4</td>
                                         <td class="d-flex">
-
                                             <img src="/assets/images/cloth.jpg" width="50" class="mr-1">
                                             <div>
                                                 <a href="">
@@ -168,7 +164,6 @@
                                         <td>5</td>
                                         <td>P0001-5</td>
                                         <td class="d-flex">
-
                                             <img src="/assets/images/cloth.jpg" width="50" class="mr-1">
                                             <div>
                                                 <a href="">

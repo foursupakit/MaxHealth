@@ -95,7 +95,7 @@
                                         </tr>
                                         <tr>
                                             <td>27 ม.ค. 2564</td>
-                                            <td><a href="javascript:void(0)">PO-202101002</a></td>
+                                            <td><a href="/purchase-order/detail/2">PO-202101002</a></td>
                                             <td>-</td>
                                             <td>30,000</td>
                                             <td>
@@ -117,7 +117,7 @@
                                         </tr>
                                         <tr>
                                             <td>27 ม.ค. 2564</td>
-                                            <td><a href="javascript:void(0)">PO-202101003</a></td>
+                                            <td><a href="/purchase-order/detail/3">PO-202101003</a></td>
                                             <td><a href="/contact/detail">บริษัท ABC จำกัด</a></td>
                                             <td>28,500</td>
                                             <td>
@@ -268,7 +268,7 @@
                                         </tr>
                                         <tr>
                                             <td>27 ม.ค. 2564</td>
-                                            <td><a href="javascript:void(0)">PO-202101002</a></td>
+                                            <td><a href="/purchase-order/detail/2">PO-202101002</a></td>
                                             <td>-</td>
                                             <td>30,000</td>
                                             <td>
@@ -350,7 +350,7 @@
                                         <tbody>
                                         <tr>
                                             <td>27 ม.ค. 2564</td>
-                                            <td><a href="javascript:void(0)">PO-202101003</a></td>
+                                            <td><a href="/purchase-order/detail/3">PO-202101003</a></td>
                                             <td><a href="/contact/detail">บริษัท ABC จำกัด</a></td>
                                             <td>28,500</td>
                                             <td>

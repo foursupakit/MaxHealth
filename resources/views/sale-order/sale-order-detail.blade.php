@@ -16,6 +16,10 @@
         .table-striped tbody tr:nth-of-type(2n) {
             background-color: rgba(238,238,238,.3);
         }
+
+        .form-group.row {
+            margin-bottom: 0.5rem;
+        }
     </style>
 @endsection
 
@@ -40,9 +44,9 @@
                                 <div>
                                     <div>สถานะการชำระเงิน</div>
                                     @if($id == '1')
-                                        <span class="float-right badge badge-warning" style="font-size: 100%;">การชำระเงิน</span>
+                                        <span class="float-right badge badge-warning" style="font-size: 100%;">รอการชำระเงิน</span>
                                     @elseif($id == '2')
-                                        <span class="float-right badge badge-primary" style="font-size: 100%;">ชำระบางส่วน</span>
+                                        <span class="float-right badge badge-warning" style="font-size: 100%;">รอการชำระเงิน</span>
                                     @elseif($id == '3')
                                         <span class="float-right badge badge-success" style="font-size: 100%;">ชำระครบ</span>
                                     @endif
@@ -115,6 +119,30 @@
                                             <p class="form-control-plaintext">9 มกราคม 2564</p>
                                         </div>
                                     </div>
+                                    @if($id == '1' || $id == '3')
+                                        <div class="form-group row">
+                                            <label class="col-md-3 col-form-label">ช่องทางการขาย</label>
+                                            <div class="col-md-9">
+                                                <p class="form-control-plaintext">ตัวแทนจำหน่าย</p>
+                                            </div>
+                                        </div>
+                                        <div class="form-group row">
+                                            <label class="col-md-3 col-form-label">ตัวแทนจำหน่าย</label>
+                                            <div class="col-md-9">
+                                                <p class="form-control-plaintext">ตัวแทนจำหน่าย1</p>
+                                            </div>
+                                        </div>
+                                    @elseif($id == '2')
+                                        <div class="form-group row">
+                                            <label class="col-md-3 col-form-label">ช่องทางการขาย</label>
+                                            <div class="col-md-9">
+                                                <p class="form-control-plaintext">
+                                                    <img src="/assets/images/lazada_icon.png" width="15" class="mr-1">
+                                                    <span title="Lazada" >Lazada</span>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    @endif
                                 </form>
                             </div>
                         </div>

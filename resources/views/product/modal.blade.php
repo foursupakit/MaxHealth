@@ -1,5 +1,5 @@
-<!-- Modal Create -->
-<div class="modal fade" id="modalCreate" aria-hidden="true" aria-labelledby="modalCreate"
+<!-- Modal Create Category -->
+<div class="modal fade" id="modalCreateCategory" aria-hidden="true" aria-labelledby="modalCreateCategory"
      role="dialog" tabindex="-1">
     <div class="modal-dialog modal-simple modal-center">
         <div class="modal-content">
@@ -27,8 +27,8 @@
 </div>
 <!-- End Modal -->
 
-<!-- Modal Edit -->
-<div class="modal fade" id="modalEdit" aria-hidden="true" aria-labelledby="modalEdit"
+<!-- Modal Edit Category -->
+<div class="modal fade" id="modalEditCategory" aria-hidden="true" aria-labelledby="modalEditCategory"
      role="dialog" tabindex="-1">
     <div class="modal-dialog modal-simple modal-center">
         <div class="modal-content">
@@ -56,8 +56,8 @@
 </div>
 <!-- End Modal -->
 
-<!-- Modal Delete -->
-<div class="modal fade" id="modalDelete" aria-hidden="true" aria-labelledby="modalDelete"
+<!-- Modal Delete Category -->
+<div class="modal fade" id="modalDeleteCategory" aria-hidden="true" aria-labelledby="modalDeleteCategory"
      role="dialog" tabindex="-1">
     <div class="modal-dialog modal-simple modal-center">
         <div class="modal-content">
@@ -73,6 +73,184 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-pure" data-dismiss="modal">ยกเลิก</button>
                 <button type="button" class="btn btn-primary">ยืนยัน</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
+
+<!-- Modal Create Warehouse -->
+<div class="modal fade" id="modalCreateWarehouse" aria-hidden="true" aria-labelledby="modalCreateWarehouse"
+     role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-simple modal-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">เพิ่มคลังสินค้า/สาขา</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <div class="row">
+                        <label for="addwarehouse" class="col-md-4 pt-md-2">รหัสคลัง/สาขา</label>
+                        <div class="col-md-8">
+                            <input type="text" id="addwarehouse" class="form-control w-200" autocomplete="off" value="W0004" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <label for="addbranch" class="col-md-4 pt-md-2">ชื่อคลัง/สาขา<span class="required-field">*</span></label>
+                        <div class="col-md-8">
+                            <input type="text" id="addbranch" class="form-control" autocomplete="off" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <label for="addprovince" class="col-md-4 pt-md-2">จังหวัด</label>
+                        <div class="col-md-8">
+                            <select class="form-control mt-5 w-200" id="addprovince">
+                                <option>ไม่ระบุ</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <label for="addDistrict" class="col-md-4 pt-md-2">อำเภอ/เขต</label>
+                        <div class="col-md-8">
+                            <select class="form-control mt-5 w-200" id="addDistrict">
+                                <option>ไม่ระบุ</option>
+                                <option>2</option>
+                                <option>3</option>
+                                <option>4</option>
+                                <option>5</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <label for="addAddress" class="col-md-4 pt-md-2">ที่อยู่</label>
+                        <div class="col-md-8">
+                            <textarea class="form-control" id="addAddress" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-round">บันทึก</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
+
+<!-- Modal Delete -->
+<div class="modal fade" id="modalDeleteWarehouse" aria-hidden="true" aria-labelledby="modalDeleteWarehouse"
+     role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-simple modal-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">ลบคลังสินค้า/สาขา</h4>
+            </div>
+            <div class="modal-body">
+                <p>ยืนยันการลบข้อมูลคลังสินค้า/สาขา ?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-pure" data-dismiss="modal">ยกเลิก</button>
+                <button type="button" class="btn btn-primary">ยืนยัน</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
+
+<!-- Modal Edit Warehouse Product -->
+<div class="modal fade" id="modalEditWarehouseProduct" aria-hidden="true" aria-labelledby="modalEditWarehouseProduct"
+     role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-simple modal-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">ปรับจำนวนคงเหลือในคลัง</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-md-4 pt-md-2">สินค้า</label>
+                        <div class="col-md-8">
+                            <p class="form-control-plaintext">เสื้อ(s)</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-md-4 pt-md-2">คลังสินค้า</label>
+                        <div class="col-md-8">
+                            <p class="form-control-plaintext">คลังสินค้าหลัก</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-md-4 pt-md-2">จำนวนคงเหลือปัจจุบัน</label>
+                        <div class="col-md-8">
+                            <p class="form-control-plaintext">19</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-md-4 pt-md-2">จำนวนคงเหลือที่ปรับ <span class="required-field">*</span></label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" autocomplete="off" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-md-4"></label>
+                        <div class="col-md-8">
+                            <input type="checkbox" checked> กำหนดราคาปรับ/หน่วย
+                            <span class="d-block mt-1 red-600">*ราคาปรับ/หน่วยมีผลกระทบกับต้นทุนสินค้า</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-md-4"></label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control" autocomplete="off" placeholder="ราคาปรับ/หน่วย" />
+                            <span class="d-block mt-2">
+                                <a href="" class="mt-2">ใช้ราคาซื้อตั้งต้น</a> |
+                                <a href="" class="mt-2">ใช้ราคาทุนสินค้าเฉลี่ย</a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-md-4 pt-md-2">หมายเหตุ</label>
+                        <div class="col-md-8">
+                            <textarea class="form-control" rows="3"></textarea>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-round">บันทึก</button>
             </div>
         </div>
     </div>

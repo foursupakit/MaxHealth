@@ -20,6 +20,10 @@
         .table-striped tbody tr:nth-of-type(2n) {
             background-color: rgba(238,238,238,.3);
         }
+
+        .form-group.row {
+            margin-bottom: 0.5rem;
+        }
     </style>
 @endsection
 
