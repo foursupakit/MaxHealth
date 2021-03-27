@@ -295,6 +295,122 @@
                     </div>
                 </div>
             </div>
+            <div class="panel">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="icon icon-circle md-money white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การชำระเงิน</span>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            @if($id == '1')
+                                <div class="form-group row">
+                                    <label class="col-md-4 col-form-label"><span class="badge badge-warning" style="font-size: 100%;">รอการชำระเงิน</span></label>
+                                    <div class="col-md-8 text-right">
+                                        <button type="button" class="btn btn-sm btn-outline-secondary" data-target="#modalPayment" data-toggle="modal"><i class="icon md-plus" aria-hidden="true"></i>ชำระเพิ่ม</button>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-0">
+                                    <label class="col-md-4 col-form-label">จำนวนเงินที่ชำระ</label>
+                                    <div class="col-md-8 text-right">
+                                        <p class="form-control-plaintext">0</p>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-0">
+                                    <label class="col-md-4 col-form-label">ยอดคงเหลือที่ต้องชำระ</label>
+                                    <div class="col-md-8 text-right">
+                                        <p class="form-control-plaintext">300</p>
+                                    </div>
+                                </div>
+                            @elseif($id == '2')
+                                <div class="form-group row">
+                                    <label class="col-md-4 col-form-label"><span class="badge badge-primary" style="font-size: 100%;">ชำระบางส่วน</span></label>
+                                    <div class="col-md-8 text-right">
+                                        <button type="button" class="btn btn-outline-secondary" data-target="#modalPayment" data-toggle="modal"><i class="icon md-plus" aria-hidden="true"></i>ชำระเพิ่ม</button>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-0">
+                                    <label class="col-md-4 col-form-label">จำนวนเงินที่ชำระ</label>
+                                    <div class="col-md-8 text-right">
+                                        <p class="form-control-plaintext">150</p>
+                                    </div>
+                                </div>
+                                <div class="form-group row mb-0">
+                                    <label class="col-md-4 col-form-label">ยอดคงเหลือที่ต้องชำระ</label>
+                                    <div class="col-md-8 text-right">
+                                        <p class="form-control-plaintext">150</p>
+                                    </div>
+                                </div>
+                                <div class="form-group row bg-grey-100 p-10">
+                                    <label class="col-md-12 col-form-label" style="font-weight: 700;">1 รายการ</label>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-5 col-form-label">บัตรเครดิต
+                                        <span class="panel-desc">27 ม.ค. 2564</span>
+                                    </label>
+                                    <div class="col-md-7 d-flex align-items-center text-right">
+                                        <p class="form-control-plaintext">150 บาท</p>
+                                    </div>
+                                </div>
+                            @elseif($id == '3')
+                                <div class="form-group row">
+                                    <label class="col-md-4 col-form-label"><span class="badge badge-success" style="font-size: 100%;">ชำระครบ</span></label>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-4 col-form-label">จำนวนเงินที่ชำระ</label>
+                                    <div class="col-md-8 text-right">
+                                        <p class="form-control-plaintext">300</p>
+                                    </div>
+                                </div>
+                                <div class="form-group row bg-grey-100 p-10">
+                                    <label class="col-md-12 col-form-label" style="font-weight: 700;">1 รายการ</label>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-5 col-form-label">บัตรเครดิต
+                                        <span class="panel-desc">27 ม.ค. 2564</span>
+                                    </label>
+                                    <div class="col-md-7 d-flex align-items-center text-right">
+                                        <p class="form-control-plaintext">300 บาท</p>
+                                    </div>
+                                </div>
+                            @endif
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="icon icon-circle md-swap white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การโอนสินค้า</span>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            @if($id == '1' || $id == '2')
+                                <div class="form-group row">
+                                    <label class="col-md-4 col-form-label"><span class="badge badge-warning" style="font-size: 100%;">รอโอนสินค้า</span></label>
+                                    <div class="col-md-8 text-right">
+                                        <button type="button" class="btn btn-outline-secondary"><i class="icon md-swap mr-5" aria-hidden="true"></i>โอนสินค้าบางส่วน</button>
+                                        <button type="button" class="btn btn-primary"><i class="icon md-swap" aria-hidden="true"></i>โอนสินค้าเข้าคลัง</button>
+                                    </div>
+                                </div>
+                            @elseif($id == '3')
+                                <div class="form-group row">
+                                    <label class="col-md-4 col-form-label"><span class="badge badge-success mr-5" style="font-size: 100%;">สำเร็จ</span>โอนออกจาก <a href="javascript:void(0)">คลังสินค้าหลัก</a></label>
+                                </div>
+                                <div class="form-group row bg-grey-100 p-10">
+                                    <label class="col-md-8 col-form-label" style="font-weight: 700;">โอนออกจาก : คลังสินค้าหลัก(27 มกราคม 2564)</label>
+                                    <div class="col-md-4 text-md-right">
+                                        <button type="button" class="btn btn-outline-secondary">พิมพ์</button>
+                                    </div>
+                                </div>
+                            @endif
+                        </div>
+                    </div>
+                </div>
+            </div>
             <div class="row no-gutters">
                 <div class="col-md-12 d-flex justify-content-between">
                     <button type="button" class="btn btn-round btn-pure btn-lg" onclick="window.history.back();">กลับ</button>

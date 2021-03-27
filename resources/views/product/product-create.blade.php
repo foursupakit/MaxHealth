@@ -184,8 +184,6 @@
                                     <div class="col-md-8">
                                         <input type="checkbox" id="vehicle1" name="vehicle1" value="">
                                         <label for="vehicle1"> แสดงในหน้าสั่งซื้อ</label><br>
-                                        <input type="checkbox" id="vehicle2" name="vehicle2" value="">
-                                        <label for="vehicle2"> Serial Number</label><br>
                                         <div class="d-flex">
                                             <div class="mr-3">
                                                 <input type="checkbox" id="vehicle3" name="vehicle3" value="">
@@ -213,21 +211,11 @@
                                     <div class="col-md-8">
                                         <div class="d-flex">
                                             <div class="mr-3">
-                                                <input type="radio" id="male" name="gender" value="">
+                                                <input type="checkbox" id="female" name="gender" value="">
                                             </div>
                                             <div>
-                                                <label for="male">ใช้จำนวนตั้งต้น
-                                                    <span class="panel-desc text-secondary">ใช้จำนวนตามที่ระบุในการตั้งค่ารวมของบริษัท/ร้านค้า</span>
-                                                </label>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex">
-                                            <div class="mr-3">
-                                                <input type="radio" id="female" name="gender" value="">
-                                            </div>
-                                            <div>
-                                                <label for="female">กำหนดจำนวนเอง</label><br>
-                                                <input type="text" class="form-control w-200" autocomplete="off" value="5" disabled />
+                                                <label for="female">แจ้งเตือนสินค้าคงเหลือน้อยกว่า</label><br>
+                                                <input type="text" class="form-control d-inline-block w-100 mr-1" autocomplete="off" value="5" disabled /> ชิ้น
                                             </div>
                                         </div>
                                         <div class="d-flex mt-4">
@@ -236,9 +224,7 @@
                                             </div>
                                             <div>
                                                 <label for="isremind">แจ้งเตือนหลังทำรายการขาย</label><br>
-                                                <div>
-                                                    <input type="text" class="form-control d-inline-block w-50 mr-1" autocomplete="off" value="5" /> วัน
-                                                </div>
+                                                <input type="text" class="form-control d-inline-block w-50 mr-1" autocomplete="off" value="5" /> วัน
                                             </div>
                                         </div>
                                     </div>

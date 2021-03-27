@@ -31,7 +31,7 @@ Route::group([ 'prefix' => 'sale-order'], function () {
 Route::group([ 'prefix' => 'purchase-order'], function () {
     Route::get('/', 'PurchaseOrderController@index')->name('purchase-order.index');
     Route::get('/create', 'PurchaseOrderController@create')->name('purchase-order.create');
-    Route::get('/edit', 'PurchaseOrderController@edit')->name('purchase-order.edit');
+    Route::get('/edit/{id}', 'PurchaseOrderController@edit')->name('purchase-order.edit');
     Route::get('/detail/{id}', 'PurchaseOrderController@detail')->name('purchase-order.detail');
     Route::get('/return-product', 'PurchaseOrderController@returnProduct')->name('purchase-order.return-product');
     Route::get('/return-product/create', 'PurchaseOrderController@returnProductCreate')->name('purchase-order.return-product-create');

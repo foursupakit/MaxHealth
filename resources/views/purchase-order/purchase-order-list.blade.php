@@ -81,7 +81,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit/1'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -103,7 +103,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit/2'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -125,7 +125,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit/3'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -276,7 +276,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit/2'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -358,7 +358,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit/3'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
