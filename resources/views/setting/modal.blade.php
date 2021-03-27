@@ -60,8 +60,6 @@
                 <div class="form-group row">
                     <div class="col-md-3">การแสดงผล</div>
                     <div class="col-md-9">
-                        <input type="checkbox" id="display1" name="display1" checked>
-                        <label for="display1"> แสดงในรายการซื้อขาย</label><br>
                         <input type="checkbox" id="display2" name="display2" checked>
                         <label for="display2"> แสดงในหน้าสั่งซื้อ</label>
                     </div>

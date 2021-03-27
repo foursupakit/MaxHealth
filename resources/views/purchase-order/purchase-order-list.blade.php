@@ -20,9 +20,6 @@
         <div class="page-header">
             <h1 class="page-title">รายการซื้อ</h1>
             <div class="page-header-actions">
-                <button type="button" class="btn btn-light btn-round btn-lg" data-toggle="tooltip" data-original-title="export excel">
-                    นำเข้าไฟล์ (Excel)
-                </button>
                 <button type="button" class="btn btn-primary btn-round btn-lg" data-toggle="tooltip" data-original-title="create" onclick="location.href='/purchase-order/create'">
                     สร้าง
                 </button>

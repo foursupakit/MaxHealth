@@ -76,13 +76,13 @@
                     <li class="site-menu-item has-sub {{ Request::is('contact/*','contact')?'active open':''}}">
                         <a href="javascript:void(0)">
                             <i class="site-menu-icon icon wb-users" aria-hidden="true"></i>
-                            <span class="site-menu-title">ลูกค้า</span>
+                            <span class="site-menu-title">ผู้ติดต่อ</span>
                             <span class="site-menu-arrow"></span>
                         </a>
                         <ul class="site-menu-sub">
                             <li class="site-menu-item {{ Request::is('contact')?'active':''}}">
                                 <a class="animsition-link" href="/contact">
-                                    <span class="site-menu-title">ผู้ติดต่อ</span>
+                                    <span class="site-menu-title">คู่ค้า</span>
                                 </a>
                             </li>
                         </ul>
