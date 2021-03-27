@@ -79,6 +79,16 @@
                                             </div>
                                         </div>
                                     </div>
+                                    <div class="form-group row">
+                                        <label class="col-md-3 col-form-label">ประเภทภาษี</label>
+                                        <div class="col-md-9">
+                                            <select class="form-control example mt-5">
+                                                <option>ไม่มีภาษี</option>
+                                                <option>แยกภาษีมูลค่าเพิ่ม 7%</option>
+                                                <option>รวมภาษีมูลค่าเพิ่ม 7%</option>
+                                            </select>
+                                        </div>
+                                    </div>
                                 </form>
                             </div>
                         </div>
@@ -312,17 +322,21 @@
                         </div>
                         <div class="panel-body">
                             <div class="form-group row">
-                                <label class="col-md-5 col-form-label">การโอนเงิน</label>
+                                <label class="col-md-5 col-form-label">การโอนสินค้า</label>
                                 <div class="col-md-7">
                                     <input type="radio" name="transfer" checked> รอโอนสินค้า
                                     <select class="form-control example mt-5">
                                         <option>ไม่ระบุ</option>
-                                        <option>2</option>
-                                        <option>3</option>
-                                        <option>4</option>
-                                        <option>5</option>
+                                        <option>คลังสินค้าหลัก</option>
+                                        <option>สาขาพระราม 9</option>
+                                        <option>สาขานนทบุรี</option>
                                     </select>
-                                    <input class="mt-5" name="transfer" type="radio"> รอโอนสินค้า
+                                    <input class="mt-5" name="transfer" type="radio"> โอนทันทีเข้าคลังสินค้า
+                                    <select class="form-control example mt-5">
+                                        <option>คลังสินค้าหลัก</option>
+                                        <option>สาขาพระราม 9</option>
+                                        <option>สาขานนทบุรี</option>
+                                    </select>
                                 </div>
                             </div>
                         </div>

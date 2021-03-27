@@ -22,6 +22,13 @@
                                 </a>
                             </li>
                         </ul>
+                        <ul class="site-menu-sub">
+                            <li class="site-menu-item {{ Request::is('sale-order/return-product')?'active':''}}">
+                                <a class="animsition-link" href="/sale-order/return-product">
+                                    <span class="site-menu-title">รับคืนสินค้า</span>
+                                </a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="site-menu-item has-sub {{ Request::is('purchase-order/*','purchase-order')?'active open':''}}">
                         <a href="javascript:void(0)">

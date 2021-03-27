@@ -80,9 +80,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ประเภทภาษี
-                                            <span class="required">*</span>
-                                        </label>
+                                        <label class="col-md-3 col-form-label">ประเภทภาษี</label>
                                         <div class="col-md-9">
                                             <select class="form-control example mt-5">
                                                 <option>ไม่มีภาษี</option>
@@ -108,7 +106,7 @@
                                         <label class="col-md-3 col-form-label">ชื่อบริษัท</label>
                                         <div class="col-md-9">
                                             <div class="input-group input-group-icon">
-                                                <input type="text" class="form-control" name="company" value="บริษัท Shippop จำกัด"
+                                                <input type="text" class="form-control" name="company" value="บริษัท ABC จำกัด"
                                                        autocomplete="off" />
                                                 <div class="input-group-append">
                                                     <span type="button" class="input-group-text pointer border-0" data-target="#modalCompany" data-toggle="modal"

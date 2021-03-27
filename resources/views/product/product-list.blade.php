@@ -70,6 +70,10 @@
                                         <td>50 ตัว</td>
                                         <td>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
+                                                    data-original-title="Preview">
+                                                <i class="icon md-eye text-success" aria-hidden="true"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="Edit" onclick="location.href='/product/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
@@ -96,6 +100,10 @@
                                         <td>60 ตัว</td>
                                         <td>50 ตัว</td>
                                         <td>
+                                            <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
+                                                    data-original-title="Not Preview">
+                                                <i class="icon md-eye-off text-danger" aria-hidden="true"></i>
+                                            </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="Edit" onclick="location.href='/product/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
@@ -124,6 +132,10 @@
                                         <td>50 ตัว</td>
                                         <td>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
+                                                    data-original-title="Preview">
+                                                <i class="icon md-eye text-success" aria-hidden="true"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="Edit" onclick="location.href='/product/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
@@ -151,6 +163,10 @@
                                         <td>50 ตัว</td>
                                         <td>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
+                                                    data-original-title="Preview">
+                                                <i class="icon md-eye text-success" aria-hidden="true"></i>
+                                            </button>
+                                            <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="Edit" onclick="location.href='/product/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
@@ -177,6 +193,10 @@
                                         <td>60 ตัว</td>
                                         <td>50 ตัว</td>
                                         <td>
+                                            <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
+                                                    data-original-title="Preview">
+                                                <i class="icon md-eye text-success" aria-hidden="true"></i>
+                                            </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="Edit" onclick="location.href='/product/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
