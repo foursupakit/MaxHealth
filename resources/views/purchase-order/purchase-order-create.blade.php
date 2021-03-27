@@ -42,55 +42,53 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ประเภท</label>
-                                        <div class="col-md-9">
-                                            <p class="form-control-plaintext">ซื้อสินค้าเข้า</p>
-                                        </div>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ประเภท</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-plaintext">ซื้อสินค้าเข้า</p>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">รายการ
-                                            <span class="required">*</span>
-                                        </label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" name="list" value="PO-202102001"
-                                                   autocomplete="off" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">รายการ
+                                        <span class="required">*</span>
+                                    </label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="list" value="PO-202102001"
+                                               autocomplete="off" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">วันที่
-                                            <span class="required">*</span>
-                                        </label>
-                                        <div class="col-md-9">
-                                            <div class="form-group mb-0">
-                                                <div class="input-group input-group-icon">
-                                                    <input type="text" class="form-control datepicker" data-plugin="datepicker" data-date-format="d/m/yyyy" readonly>
-                                                    <div class="input-group-append">
-                                                        <span class="input-group-text">
-                                                          <i class="icon md-close" aria-hidden="true"></i>
-                                                        </span>
-                                                        <span class="input-group-text">
-                                                          <i class="icon md-calendar" aria-hidden="true"></i>
-                                                        </span>
-                                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">วันที่
+                                        <span class="required">*</span>
+                                    </label>
+                                    <div class="col-md-9">
+                                        <div class="form-group mb-0">
+                                            <div class="input-group input-group-icon">
+                                                <input type="text" class="form-control datepicker" data-plugin="datepicker" data-date-format="d/m/yyyy" readonly>
+                                                <div class="input-group-append">
+                                                    <span class="input-group-text">
+                                                      <i class="icon md-close" aria-hidden="true"></i>
+                                                    </span>
+                                                    <span class="input-group-text">
+                                                      <i class="icon md-calendar" aria-hidden="true"></i>
+                                                    </span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ประเภทภาษี</label>
-                                        <div class="col-md-9">
-                                            <select class="form-control example mt-5">
-                                                <option>ไม่มีภาษี</option>
-                                                <option>แยกภาษีมูลค่าเพิ่ม 7%</option>
-                                                <option>รวมภาษีมูลค่าเพิ่ม 7%</option>
-                                            </select>
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ประเภทภาษี</label>
+                                    <div class="col-md-9">
+                                        <select class="form-control example mt-5">
+                                            <option>ไม่มีภาษี</option>
+                                            <option>แยกภาษีมูลค่าเพิ่ม 7%</option>
+                                            <option>รวมภาษีมูลค่าเพิ่ม 7%</option>
+                                        </select>
                                     </div>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -100,45 +98,43 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ชื่อบริษัท</label>
-                                        <div class="col-md-9">
-                                            <div class="input-group input-group-icon">
-                                                <input type="text" class="form-control" name="company" placeholder="พิมพ์ ชื่อ,รหัส"
-                                                       autocomplete="off" />
-                                                <div class="input-group-append">
-                                                    <span type="button" class="input-group-text pointer border-0" data-target="#modalCompany" data-toggle="modal"
-                                                          style="background-color: initial;">
-                                                      <i class="icon md-book-image" aria-hidden="true"></i>
-                                                    </span>
-                                                </div>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ชื่อบริษัท</label>
+                                    <div class="col-md-9">
+                                        <div class="input-group input-group-icon">
+                                            <input type="text" class="form-control" name="company" placeholder="พิมพ์ ชื่อ,รหัส"
+                                                   autocomplete="off" />
+                                            <div class="input-group-append">
+                                                <span type="button" class="input-group-text pointer border-0" data-target="#modalCompany" data-toggle="modal"
+                                                      style="background-color: initial;">
+                                                  <i class="icon md-book-image" aria-hidden="true"></i>
+                                                </span>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">เบอร์โทรศัพท์</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" name="phone"
-                                                   autocomplete="off" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">เบอร์โทรศัพท์</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="phone"
+                                               autocomplete="off" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">อีเมล</label>
-                                        <div class="col-md-9">
-                                            <input type="email" class="form-control" name="email"
-                                                   autocomplete="off" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">อีเมล</label>
+                                    <div class="col-md-9">
+                                        <input type="email" class="form-control" name="email"
+                                               autocomplete="off" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ที่อยู่บริษัท</label>
-                                        <div class="col-md-9">
-                                            <textarea class="form-control" id="textareaDefault" rows="3"></textarea>
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ที่อยู่บริษัท</label>
+                                    <div class="col-md-9">
+                                        <textarea class="form-control" id="textareaDefault" rows="3"></textarea>
                                     </div>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -201,8 +197,12 @@
                                     <div class="form-group row">
                                         <label class="col-md-3 col-form-label">ช่องทางจัดส่ง</label>
                                         <div class="col-md-9">
-                                            <input type="text" class="form-control"
-                                                   autocomplete="off" />
+                                            <select class="form-control mt-5">
+                                                <option></option>
+                                                <option>ไปรษณีย์ไทย</option>
+                                                <option>Kerry</option>
+                                                <option>LINE MAN</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="form-group row">

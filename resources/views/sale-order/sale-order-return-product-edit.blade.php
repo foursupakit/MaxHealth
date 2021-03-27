@@ -27,9 +27,9 @@
     <div class="page">
         <div class="page-header">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/sale-order"><i class="icon md-chevron-left" aria-hidden="true">กลับ</i></a></li>
+                <li class="breadcrumb-item"><a href="/sale-order/return-product"><i class="icon md-chevron-left" aria-hidden="true">กลับ</i></a></li>
             </ol>
-            <h1 class="page-title">แก้ไขรายการซื้อ</h1>
+            <h1 class="page-title">แก้ไขรายการรับคืนสินค้า</h1>
         </div>
         <div class="page-content container-fluid">
             <div class="panel">
@@ -42,103 +42,105 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ประเภท</label>
-                                        <div class="col-md-9">
-                                            <p class="form-control-plaintext">ซื้อสินค้าเข้า</p>
-                                        </div>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ประเภท</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-plaintext">รับคืนสินค้า</p>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">รายการ
-                                            <span class="required">*</span>
-                                        </label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" name="list" value="PO-202102001"
-                                                   autocomplete="off" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">รายการ
+                                        <span class="required">*</span>
+                                    </label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="list" value="CN-202103001"
+                                               autocomplete="off" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">วันที่
-                                            <span class="required">*</span>
-                                        </label>
-                                        <div class="col-md-9">
-                                            <div class="form-group mb-0">
-                                                <div class="input-group input-group-icon">
-                                                    <input type="text" class="form-control datepicker" data-plugin="datepicker" data-date-format="d/m/yyyy" readonly>
-                                                    <div class="input-group-append" for="test">
-                                                        <span class="input-group-text">
-                                                          <i class="icon md-close" aria-hidden="true"></i>
-                                                        </span>
-                                                        <span class="input-group-text">
-                                                          <i class="icon md-calendar" aria-hidden="true"></i>
-                                                        </span>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ประเภทภาษี</label>
-                                        <div class="col-md-9">
-                                            <select class="form-control example mt-5">
-                                                <option>ไม่มีภาษี</option>
-                                                <option>แยกภาษีมูลค่าเพิ่ม 7%</option>
-                                                <option>รวมภาษีมูลค่าเพิ่ม 7%</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">
-                                <i class="icon icon-circle md-account white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ผู้ติดต่อ</span>
-                            </h3>
-                        </div>
-                        <div class="panel-body">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ชื่อบริษัท</label>
-                                        <div class="col-md-9">
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">วันที่
+                                        <span class="required">*</span>
+                                    </label>
+                                    <div class="col-md-9">
+                                        <div class="form-group mb-0">
                                             <div class="input-group input-group-icon">
-                                                <input type="text" class="form-control" name="company" value="บริษัท ABC จำกัด"
-                                                       autocomplete="off" />
-                                                <div class="input-group-append">
-                                                    <span type="button" class="input-group-text pointer border-0" data-target="#modalCompany" data-toggle="modal"
-                                                          style="background-color: initial;">
-                                                      <i class="icon md-book-image" aria-hidden="true"></i>
+                                                <input type="text" class="form-control datepicker" data-plugin="datepicker" data-date-format="d/m/yyyy" readonly>
+                                                <div class="input-group-append" for="test">
+                                                    <span class="input-group-text">
+                                                      <i class="icon md-close" aria-hidden="true"></i>
+                                                    </span>
+                                                    <span class="input-group-text">
+                                                      <i class="icon md-calendar" aria-hidden="true"></i>
                                                     </span>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">เบอร์โทรศัพท์</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" name="phone" value="024567890"
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">อ้างอิง</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" />
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ประเภทภาษี</label>
+                                    <div class="col-md-9">
+                                        <select class="form-control example mt-5">
+                                            <option>ไม่มีภาษี</option>
+                                            <option>แยกภาษีมูลค่าเพิ่ม 7%</option>
+                                            <option>รวมภาษีมูลค่าเพิ่ม 7%</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="icon icon-circle md-account white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ลูกค้า</span>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ชื่อลูกค้า</label>
+                                    <div class="col-md-9">
+                                        <div class="input-group input-group-icon">
+                                            <input type="text" class="form-control" name="company" value="บริษัท ABC จำกัด"
                                                    autocomplete="off" />
+                                            <div class="input-group-append">
+                                                <span type="button" class="input-group-text pointer border-0" data-target="#modalCompany" data-toggle="modal"
+                                                      style="background-color: initial;">
+                                                  <i class="icon md-book-image" aria-hidden="true"></i>
+                                                </span>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">อีเมล</label>
-                                        <div class="col-md-9">
-                                            <input type="email" class="form-control" name="email" value="you@zortshop.com"
-                                                   autocomplete="off" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">เบอร์โทรศัพท์ลูกค้า</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" name="phone" value="024567890"
+                                               autocomplete="off" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ที่อยู่บริษัท</label>
-                                        <div class="col-md-9">
-                                            <textarea class="form-control" id="textareaDefault" rows="3">234 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220</textarea>
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">อีเมลลูกค้า</label>
+                                    <div class="col-md-9">
+                                        <input type="email" class="form-control" name="email" value="you@zortshop.com"
+                                               autocomplete="off" />
                                     </div>
-                                </form>
-                            </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ที่อยู่ลูกค้า</label>
+                                    <div class="col-md-9">
+                                        <textarea class="form-control" id="textareaDefault" rows="3">234 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220</textarea>
+                                    </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -170,18 +172,18 @@
                                             <tr>
                                                 <td><button type="button" class="btn btn-sm btn-outline-secondary" data-target="#modalGoods" data-toggle="modal">เลือก</button></td>
                                                 <td>
-                                                    <input type="text" class="form-control" autocomplete="off" value="P0007"/>
+                                                    <input type="text" class="form-control" autocomplete="off" value="P0004"/>
                                                 </td>
                                                 <td>
-                                                    <input type="text" class="form-control" autocomplete="off" value="เสื้อ(M)"/>
+                                                    <input type="text" class="form-control" autocomplete="off" value="โต๊ะไม้"/>
                                                 </td>
                                                 <td>
-                                                    <input type="number" class="form-control text-right input-group form-input-group spinner" autocomplete="off" value="5.00" />
+                                                    <input type="number" class="form-control text-right input-group form-input-group spinner" autocomplete="off" value="1.00" />
                                                 </td>
                                                 <td>
-                                                    <input type="text" class="form-control text-right" autocomplete="off" value="300.00"/>
+                                                    <input type="text" class="form-control text-right" autocomplete="off" value="800.00"/>
                                                 </td>
-                                                <td>1,500.00<i class="icon md-close ml-10" aria-hidden="true"></i></td>
+                                                <td>800.00<i class="icon md-close ml-10" aria-hidden="true"></i></td>
                                             </tr>
                                             </tbody>
                                         </table>
@@ -201,8 +203,12 @@
                                     <div class="form-group row">
                                         <label class="col-md-3 col-form-label">ช่องทางจัดส่ง</label>
                                         <div class="col-md-9">
-                                            <input type="text" class="form-control"
-                                                   autocomplete="off" />
+                                            <select class="form-control mt-5">
+                                                <option></option>
+                                                <option>ไปรษณีย์ไทย</option>
+                                                <option>Kerry</option>
+                                                <option>LINE MAN</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="form-group row">
@@ -233,7 +239,7 @@
                                     <div class="form-group row">
                                         <label class="col-md-5 col-form-label">มูลค่ารวมก่อนภาษี</label>
                                         <div class="col-md-7">
-                                            <p class="form-control-plaintext">1,500.00</p>
+                                            <p class="form-control-plaintext">800.00</p>
                                         </div>
                                     </div>
                                     <div class="form-group row">
@@ -245,13 +251,13 @@
                                     <div class="form-group row">
                                         <label class="col-md-5 col-form-label">มูลค่ารวม</label>
                                         <div class="col-md-7">
-                                            <p class="form-control-plaintext">1,500.00</p>
+                                            <p class="form-control-plaintext">800.00</p>
                                         </div>
                                     </div>
                                     <div class="form-group row bg-grey-100">
                                         <label class="col-md-5 col-form-label" style="font-weight: 700;">มูลค่ารวมสุทธิ</label>
                                         <div class="col-md-7">
-                                            <p class="form-control-plaintext" style="font-weight: 700;">1,500.00</p>
+                                            <p class="form-control-plaintext" style="font-weight: 700;">800.00</p>
                                         </div>
                                     </div>
                                 </form>

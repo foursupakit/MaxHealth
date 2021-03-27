@@ -209,8 +209,12 @@
                                     <div class="form-group row">
                                         <label class="col-md-3 col-form-label">ช่องทางจัดส่ง</label>
                                         <div class="col-md-9">
-                                            <input type="text" class="form-control"
-                                                   autocomplete="off" />
+                                            <select class="form-control mt-5">
+                                                <option></option>
+                                                <option>ไปรษณีย์ไทย</option>
+                                                <option>Kerry</option>
+                                                <option>LINE MAN</option>
+                                            </select>
                                         </div>
                                     </div>
                                     <div class="form-group row">
