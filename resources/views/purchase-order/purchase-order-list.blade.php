@@ -61,9 +61,9 @@
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
                                         <tr>
-                                            <th>วันที่</th>
+                                            <th>วันที่ออกใบสั่งซื้อ</th>
                                             <th>รายการ</th>
-                                            <th>ลูกค้า</th>
+                                            <th>ผู้ติดต่อ</th>
                                             <th>มูลค่า</th>
                                             <th>สถานะ</th>
                                             <th>ชำระเงิน</th>
@@ -234,7 +234,7 @@
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
                                         <tr>
-                                            <th>วันที่</th>
+                                            <th>วันที่ออกใบสั่งซื้อ</th>
                                             <th>รายการ</th>
                                             <th>ผู้ติดต่อ</th>
                                             <th>มูลค่า</th>
@@ -297,7 +297,7 @@
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
                                         <tr>
-                                            <th>วันที่</th>
+                                            <th>วันที่ออกใบสั่งซื้อ</th>
                                             <th>รายการ</th>
                                             <th>ผู้ติดต่อ</th>
                                             <th>มูลค่า</th>
@@ -338,7 +338,7 @@
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
                                         <tr>
-                                            <th>วันที่</th>
+                                            <th>วันที่ออกใบสั่งซื้อ</th>
                                             <th>รายการ</th>
                                             <th>ผู้ติดต่อ</th>
                                             <th>มูลค่า</th>
