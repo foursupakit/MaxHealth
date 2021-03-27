@@ -23,7 +23,7 @@
                             </li>
                         </ul>
                         <ul class="site-menu-sub">
-                            <li class="site-menu-item {{ Request::is('sale-order/return-product')?'active':''}}">
+                            <li class="site-menu-item {{ Request::is('sale-order/return-product','sale-order/return-product/*')?'active':''}}">
                                 <a class="animsition-link" href="/sale-order/return-product">
                                     <span class="site-menu-title">รับคืนสินค้า</span>
                                 </a>
@@ -45,6 +45,11 @@
                             <li class="site-menu-item {{ Request::is('purchase-order/create')?'active':''}}">
                                 <a class="animsition-link" href="/purchase-order/create">
                                     <span class="site-menu-title">สร้างรายการซื้อ</span>
+                                </a>
+                            </li>
+                            <li class="site-menu-item {{ Request::is('purchase-order/return-product','purchase-order/return-product/*')?'active':''}}">
+                                <a class="animsition-link" href="/purchase-order/return-product">
+                                    <span class="site-menu-title">คืนสินค้า</span>
                                 </a>
                             </li>
                         </ul>

@@ -33,6 +33,9 @@ Route::group([ 'prefix' => 'purchase-order'], function () {
     Route::get('/create', 'PurchaseOrderController@create')->name('purchase-order.create');
     Route::get('/edit', 'PurchaseOrderController@edit')->name('purchase-order.edit');
     Route::get('/detail/{id}', 'PurchaseOrderController@detail')->name('purchase-order.detail');
+    Route::get('/return-product', 'PurchaseOrderController@returnProduct')->name('purchase-order.return-product');
+    Route::get('/return-product/create', 'PurchaseOrderController@returnProductCreate')->name('purchase-order.return-product-create');
+    Route::get('/return-product/edit', 'PurchaseOrderController@returnProductEdit')->name('purchase-order.return-product-edit');
 });
 
 // Contact
