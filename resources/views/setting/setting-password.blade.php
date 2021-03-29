@@ -40,28 +40,26 @@
                 <div class="row">
                     <div class="col-md-7">
                         <div class="panel-body">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">รหัสผ่านเดิม</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" />
-                                        </div>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">รหัสผ่านเดิม</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">รหัสผ่านใหม่</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">รหัสผ่านใหม่</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ยืนยันรหัสผ่านใหม่</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ยืนยันรหัสผ่านใหม่</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" />
                                     </div>
-                                </form>
-                            </div>
+                                </div>
+                        </form>
                         </div>
                         <div class="panel-footer">
                             <button type="button" class="btn btn-round btn-primary btn-lg">เปลี่ยนรหัสผ่าน</button>

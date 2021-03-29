@@ -84,8 +84,7 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <form>
+                            <form>
                                     <div class="form-group row">
                                         <label class="col-md-3 col-form-label">รายการ</label>
                                         <div class="col-md-9">
@@ -105,7 +104,6 @@
                                         </div>
                                     </div>
                                 </form>
-                            </div>
                         </div>
                     </div>
                     <div class="col-md-6">
@@ -115,34 +113,32 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ชื่อบริษัท</label>
-                                        <div class="col-md-9 col-form-label">
-                                            <a href="/contact/detail">บริษัท Shippop จำกัด</a>
-                                        </div>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ชื่อบริษัท</label>
+                                    <div class="col-md-9 col-form-label">
+                                        <a href="/contact/detail">บริษัท Shippop จำกัด</a>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">เบอร์โทรศัพท์</label>
-                                        <div class="col-md-9">
-                                            <p class="form-control-plaintext">024567890</p>
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">เบอร์โทรศัพท์</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-plaintext">024567890</p>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">อีเมล</label>
-                                        <div class="col-md-9">
-                                            <p class="form-control-plaintext">you@zortshop.com</p>
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">อีเมล</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-plaintext">you@zortshop.com</p>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ที่อยู่บริษัท</label>
-                                        <div class="col-md-9">
-                                            <p class="form-control-plaintext">234 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220</p>
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ที่อยู่บริษัท</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-plaintext">234 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220</p>
                                     </div>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -196,22 +192,19 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="panel-body pt-0">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">หมายเหตุ</label>
-                                        <div class="col-md-9">
-                                            <p class="form-control-plaintext">-</p>
-                                        </div>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">หมายเหตุ</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-plaintext">-</p>
                                     </div>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="panel-body pt-0">
-                            <div class="example">
-                                <form class="text-md-right">
+                            <form class="text-md-right">
                                     <div class="form-group row">
                                         <label class="col-md-5 col-form-label">จำนวนทั้งหมด</label>
                                         <div class="col-md-7">
@@ -231,7 +224,6 @@
                                         </div>
                                     </div>
                                 </form>
-                            </div>
                         </div>
                     </div>
                 </div>

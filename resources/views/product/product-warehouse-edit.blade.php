@@ -109,9 +109,7 @@
                             <div class="text-center">
                                 รูปโลโก้บริษัท
                             </div>
-                            <div class="example">
-                                <input type="file" id="input-file-now" data-plugin="dropify" data-default-file="" />
-                            </div>
+                            <input type="file" id="input-file-now" data-plugin="dropify" data-default-file="" />
                         </div>
                     </div>
                 </div>

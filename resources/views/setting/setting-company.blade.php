@@ -33,28 +33,26 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ชื่อบริษัท</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" value="Max Health" />
-                                        </div>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ชื่อบริษัท</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" value="Max Health" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">เลขผู้เสียภาษี</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">เลขผู้เสียภาษี</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ที่อยู่</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ที่อยู่</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" />
                                     </div>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                         <div class="panel-heading">
                             <h3 class="panel-title">
@@ -62,28 +60,26 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">อีเมล</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" value="test@gmail.com" />
-                                        </div>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">อีเมล</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" value="test@gmail.com" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">โทรสาร(Fax)</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">โทรสาร(Fax)</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">Website</label>
-                                        <div class="col-md-9">
-                                            <input type="text" class="form-control" autocomplete="off" />
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Website</label>
+                                    <div class="col-md-9">
+                                        <input type="text" class="form-control" autocomplete="off" />
                                     </div>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                         <div class="panel-heading">
                             <h3 class="panel-title">
@@ -91,8 +87,7 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <form>
+                            <form>
 {{--                                    <div class="form-group row">--}}
 {{--                                        <label class="col-md-3 col-form-label">รหัสผ่าน</label>--}}
 {{--                                        <div class="col-md-9">--}}
@@ -102,14 +97,13 @@
 {{--                                            </p>--}}
 {{--                                        </div>--}}
 {{--                                    </div>--}}
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ลายเซ็นอิเล็กทรอนิกส์</label>
-                                        <div class="col-md-9">
-                                            <a href="" class="form-control-plaintext" style="color: #3949ab;" data-target="#modalSignature" data-toggle="modal">เพิ่มรูปภาพ</a>
-                                        </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ลายเซ็นอิเล็กทรอนิกส์</label>
+                                    <div class="col-md-9">
+                                        <a href="" class="form-control-plaintext" style="color: #3949ab;" data-target="#modalSignature" data-toggle="modal">เพิ่มรูปภาพ</a>
                                     </div>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                         <div class="panel-footer">
                             <button type="button" class="btn btn-round btn-primary btn-lg">บันทึก</button>
@@ -122,9 +116,7 @@
                             </h3>
                         </div>
                         <div class="panel-body">
-                            <div class="example">
-                                <input type="file" id="input-file-now" data-plugin="dropify" data-default-file="" />
-                            </div>
+                            <input type="file" id="input-file-now" data-plugin="dropify" data-default-file="" />
                         </div>
                     </div>
                 </div>

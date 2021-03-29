@@ -192,33 +192,30 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="panel-body pt-0">
-                            <div class="example">
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">ช่องทางจัดส่ง</label>
-                                        <div class="col-md-9">
-                                            <select class="form-control mt-5">
-                                                <option></option>
-                                                <option>ไปรษณีย์ไทย</option>
-                                                <option>Kerry</option>
-                                                <option>LINE MAN</option>
-                                            </select>
-                                        </div>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ช่องทางจัดส่ง</label>
+                                    <div class="col-md-9">
+                                        <select class="form-control mt-5">
+                                            <option></option>
+                                            <option>ไปรษณีย์ไทย</option>
+                                            <option>Kerry</option>
+                                            <option>LINE MAN</option>
+                                        </select>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">หมายเหตุ</label>
-                                        <div class="col-md-9">
-                                            <textarea class="form-control" id="textareaDefault" rows="3"></textarea>
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">หมายเหตุ</label>
+                                    <div class="col-md-9">
+                                        <textarea class="form-control" id="textareaDefault" rows="3"></textarea>
                                     </div>
-                                </form>
-                            </div>
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="panel-body pt-0">
-                            <div class="example">
-                                <form class="text-md-right">
+                            <form class="text-md-right">
                                     <div class="form-group row">
                                         <label class="col-md-5 col-form-label">ค่าส่ง (ที่ถูกเก็บจากผู้ติดต่อ)
                                             <span class="panel-desc">
@@ -255,7 +252,6 @@
                                         </div>
                                     </div>
                                 </form>
-                            </div>
                         </div>
                     </div>
                 </div>
