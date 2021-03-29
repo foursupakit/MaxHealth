@@ -12,7 +12,7 @@
     <div class="page">
         <div class="page-header">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/product"><i class="icon md-chevron-left" aria-hidden="true">ผู้ติดต่อ</i></a></li>
+                <li class="breadcrumb-item"><a href="/contact"><i class="icon md-chevron-left" aria-hidden="true">ผู้ติดต่อ</i></a></li>
             </ol>
             <h1 class="page-title">แก้ไขผู้ติดต่อ</h1>
         </div>
@@ -251,7 +251,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-accounts white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สื่ออนไลน์</span>
+                                <i class="icon icon-circle md-accounts white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สื่อออนไลน์</span>
                             </h3>
                         </div>
                         <div class="panel-body">

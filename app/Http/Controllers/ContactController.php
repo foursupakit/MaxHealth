@@ -20,4 +20,18 @@ class ContactController extends Controller
     {
         return view('contact.contact-detail');
     }
+
+    public function agentList(Request $request)
+    {
+        return view('contact.contact-agent-list');
+    }
+    public function agentDetail(Request $request)
+    {
+        return view('contact.contact-agent-detail');
+    }
+
+    public function agentEdit(Request $request)
+    {
+        return view('contact.contact-agent-edit');
+    }
 }

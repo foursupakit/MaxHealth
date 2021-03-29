@@ -7,7 +7,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">เพิ่มผู้ติดต่อใหม่</h4>
+                <h3 class="modal-title">เพิ่มผู้ติดต่อใหม่</h3>
             </div>
             <div class="modal-body">
                 <div class="panel-heading">
@@ -122,7 +122,7 @@
                 </div>
                 <div class="panel-heading">
                     <h5 class="panel-title">
-                        <i class="icon icon-circle md-image white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สื่ออนไลน์</span>
+                        <i class="icon icon-circle md-image white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สื่อออนไลน์</span>
                     </h5>
                 </div>
                 <div class="panel-body">
@@ -169,7 +169,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">ลบผู้ติดต่อ</h4>
+                <h3 class="modal-title">ลบผู้ติดต่อ</h3>
             </div>
             <div class="modal-body">
                 <p>ยืนยันการลบผู้ติดต่อใช่หรือไม่ ?</p>
@@ -177,6 +177,125 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-pure" data-dismiss="modal">ยกเลิก</button>
                 <button type="button" class="btn btn-primary">ยืนยัน</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
+
+<!-- Modal Create Agent -->
+<div class="modal fade" id="modalCreateAgent" aria-hidden="true" aria-labelledby="modalCreateAgent"
+     role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-simple modal-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h3 class="modal-title">เพิ่มตัวแทนจำหน่ายใหม่</h3>
+            </div>
+            <div class="modal-body">
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">ชื่อตัวแทนจำหน่าย<span class="required">*</span></label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control w-200" autocomplete="off" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">เบอร์โทรศัพท์</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control w-200" autocomplete="off" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">อีเมล</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control w-200" autocomplete="off" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">ที่อยู่</label>
+                    <div class="col-md-8">
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-round">บันทึก</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
+
+<!-- Modal Edit Agent -->
+<div class="modal fade" id="modalEditAgent" aria-hidden="true" aria-labelledby="modalEditAgent"
+     role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-simple modal-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h3 class="modal-title">แก้ไขตัวแทนจำหน่าย</h3>
+            </div>
+            <div class="modal-body">
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">ชื่อตัวแทนจำหน่าย<span class="required">*</span></label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control w-200" autocomplete="off" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">เบอร์โทรศัพท์</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control w-200" autocomplete="off" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">อีเมล<span class="required">*</span></label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control w-200" autocomplete="off" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">ที่อยู่</label>
+                    <div class="col-md-8">
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">ที่อยู่</label>
+                    <div class="col-md-8">
+                        <textarea class="form-control" rows="3"></textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-round">บันทึก</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
+
+<!-- Modal Delete Agent -->
+<div class="modal fade" id="modalDeleteAgent" aria-hidden="true" aria-labelledby="modalDeleteAgent"
+     role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-simple modal-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h3 class="modal-title">ลบตัวแทนจำหน่าย</h3>
+            </div>
+            <div class="modal-body">
+                <p>ยืนยันการลบตัวแทนจำหน่าย ข้อมูลตัวอย่าง 1 ใช่หรือไม่ ?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default btn-pure btn-round" data-dismiss="modal">ยกเลิก</button>
+                <button type="button" class="btn btn-primary btn-round">ยืนยัน</button>
             </div>
         </div>
     </div>

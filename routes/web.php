@@ -43,6 +43,9 @@ Route::group([ 'prefix' => 'contact'], function () {
     Route::get('/', 'ContactController@index')->name('contact.index');
     Route::get('/detail', 'ContactController@detail')->name('contact.detail');
     Route::get('/edit', 'ContactController@edit')->name('contact.edit');
+    Route::get('/agent/list', 'ContactController@agentList')->name('contact.agent-list');
+    Route::get('/agent/detail', 'ContactController@agentDetail')->name('contact.agent-detail');
+    Route::get('/agent/edit', 'ContactController@agentEdit')->name('contact.agent-edit');
 });
 
 // Product

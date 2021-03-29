@@ -90,6 +90,11 @@
                                     <span class="site-menu-title">ผู้ติดต่อ/คู่ค้า</span>
                                 </a>
                             </li>
+                            <li class="site-menu-item {{ Request::is('contact/agent/list')?'active':''}}">
+                                <a class="animsition-link" href="/contact/agent/list">
+                                    <span class="site-menu-title">ตัวแทนจำหน่าย</span>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li class="site-menu-item has-sub {{ Request::is('setting/*','setting')?'active open':''}}">

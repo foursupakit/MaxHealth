@@ -139,7 +139,7 @@
                                 <div class="form-group row">
                                     <label class="col-md-3 col-form-label">ที่อยู่บริษัท</label>
                                     <div class="col-md-9">
-                                        <textarea class="form-control" id="textareaDefault" rows="3">234 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220</textarea>
+                                        <textarea class="form-control" rows="3">234 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220</textarea>
                                     </div>
                                 </div>
                             </form>
@@ -215,7 +215,7 @@
                                 <div class="form-group row">
                                     <label class="col-md-3 col-form-label">หมายเหตุ</label>
                                     <div class="col-md-9">
-                                        <textarea class="form-control" id="textareaDefault" rows="3"></textarea>
+                                        <textarea class="form-control" rows="3"></textarea>
                                     </div>
                                 </div>
                             </form>
@@ -298,7 +298,7 @@
                                 <div class="form-group row">
                                     <label class="col-md-3 col-form-label">ที่อยู่/จัดส่ง</label>
                                     <div class="col-md-9">
-                                        <textarea class="form-control" id="textareaDefault" rows="3">123 วัดชลอ บางกรวย นนทบุรี 11130</textarea>
+                                        <textarea class="form-control" rows="3">123 วัดชลอ บางกรวย นนทบุรี 11130</textarea>
                                     </div>
                                 </div>
                             </div>

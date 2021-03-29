@@ -131,7 +131,7 @@
                                 <div class="form-group row">
                                     <label class="col-md-3 col-form-label">ที่อยู่บริษัท</label>
                                     <div class="col-md-9">
-                                        <textarea class="form-control" id="textareaDefault" rows="3"></textarea>
+                                        <textarea class="form-control rows="3"></textarea>
                                     </div>
                                 </div>
                             </form>
@@ -207,7 +207,7 @@
                                 <div class="form-group row">
                                     <label class="col-md-3 col-form-label">หมายเหตุ</label>
                                     <div class="col-md-9">
-                                        <textarea class="form-control" id="textareaDefault" rows="3"></textarea>
+                                        <textarea class="form-control" rows="3"></textarea>
                                     </div>
                                 </div>
                             </form>
