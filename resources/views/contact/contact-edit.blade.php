@@ -30,7 +30,7 @@
                                 <form>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addpicture" class="col-md-4 pt-md-2">รูปภาพ</label>
+                                            <label for="addpicture" class="col-md-4 col-form-label">รูปภาพ</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addpicture" class="form-control w-200" autocomplete="off" />
                                             </div>
@@ -38,7 +38,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addcode" class="col-md-4 pt-md-2">รหัส<span class="required-field">*</span></label>
+                                            <label for="addcode" class="col-md-4 col-form-label">รหัส<span class="required">*</span></label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addcode" class="form-control w-200" autocomplete="off" />
                                             </div>
@@ -46,7 +46,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addname" class="col-md-4 pt-md-2">ชื่อ<span class="required-field">*</span></label>
+                                            <label for="addname" class="col-md-4 col-form-label">ชื่อ<span class="required">*</span></label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addname" class="form-control" autocomplete="off" />
                                             </div>
@@ -54,7 +54,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addnumtag" class="col-md-4 pt-md-2">เลขผู้เสียภาษี</label>
+                                            <label for="addnumtag" class="col-md-4 col-form-label">เลขผู้เสียภาษี</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addnumtag" class="form-control" autocomplete="off" />
                                             </div>
@@ -62,7 +62,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addnamecompany" class="col-md-4 pt-md-2">ชื่อสาขา</label>
+                                            <label for="addnamecompany" class="col-md-4 pcol-form-label">ชื่อสาขา</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addnamecompany" class="form-control" autocomplete="off" />
                                             </div>
@@ -70,7 +70,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addnumcompany" class="col-md-4 pt-md-2">เลขที่สาขา</label>
+                                            <label for="addnumcompany" class="col-md-4 col-form-label">เลขที่สาขา</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addnumcompany" class="form-control" autocomplete="off" />
                                             </div>
@@ -78,7 +78,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addDetail" class="col-md-4 pt-md-2">คำอธิบาย</label>
+                                            <label for="addDetail" class="col-md-4 col-form-label">คำอธิบาย</label>
                                             <div class="col-md-8">
                                                 <textarea type="text" id="addDetail" class="form-control" autocomplete="off"></textarea>
                                             </div>
@@ -86,7 +86,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addtag" class="col-md-4 pt-md-2">Tag ผู้ติดต่อ</label>
+                                            <label for="addtag" class="col-md-4 col-form-label">Tag ผู้ติดต่อ</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addtag" class="form-control" autocomplete="off" />
                                                 <div class="text-muted mt-2">ใช้เแบ่งประเภทของผู้ติดต่อ เพื่อเพิ่มประสิทธิภาพในการค้นหาอย่างรวดเร็ว</div>
@@ -112,7 +112,7 @@
                                 <form>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addphone" class="col-md-4 pt-md-2">เบอร์โทรศัพท์</label>
+                                            <label for="addphone" class="col-md-4 col-form-label">เบอร์โทรศัพท์</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addphone" class="form-control w-200" autocomplete="off" />
                                             </div>
@@ -120,7 +120,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addphone1" class="col-md-4 pt-md-2">เบอร์โทรศัพท์มือถือ</label>
+                                            <label for="addphone1" class="col-md-4 col-form-label">เบอร์โทรศัพท์มือถือ</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addphone1" class="form-control w-200" autocomplete="off" />
                                             </div>
@@ -128,7 +128,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addphone2" class="col-md-4 pt-md-2">เบอร์โทรสาร</label>
+                                            <label for="addphone2" class="col-md-4 col-form-label">เบอร์โทรสาร</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addphone2" class="form-control w-200" autocomplete="off" />
                                             </div>
@@ -136,7 +136,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addemail" class="col-md-4 pt-md-2">อีเมล</label>
+                                            <label for="addemail" class="col-md-4 col-form-label">อีเมล</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addemail" class="form-control" autocomplete="off" placeholder="you@email.com" />
                                             </div>
@@ -144,7 +144,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addAddress" class="col-md-4 pt-md-2">ที่อยู่</label>
+                                            <label for="addAddress" class="col-md-4 col-form-label">ที่อยู่</label>
                                             <div class="col-md-8">
                                                 <textarea type="text" id="addAddress" class="form-control" autocomplete="off"></textarea>
                                             </div>
@@ -152,7 +152,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addcontactname" class="col-md-4 pt-md-2">ชื่อผู้ติดต่อ</label>
+                                            <label for="addcontactname" class="col-md-4 col-form-label">ชื่อผู้ติดต่อ</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addcontactname" class="form-control" autocomplete="off">
                                             </div>
@@ -177,7 +177,7 @@
                                 <form>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="namerecipient" class="col-md-4 pt-md-2">ชื่อผู้รับ</label>
+                                            <label for="namerecipient" class="col-md-4 col-form-label">ชื่อผู้รับ</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="namerecipient" class="form-control" autocomplete="off" />
                                             </div>
@@ -185,7 +185,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="phonerecipient" class="col-md-4 pt-md-2">เบอร์โทรศัพท์ผู้รับ</label>
+                                            <label for="phonerecipient" class="col-md-4 col-form-label">เบอร์โทรศัพท์ผู้รับ</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="phonerecipient" class="form-control" autocomplete="off" />
                                             </div>
@@ -193,7 +193,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="emailrecipient" class="col-md-4 pt-md-2">อีเมลผู้รับ</label>
+                                            <label for="emailrecipient" class="col-md-4 col-form-label">อีเมลผู้รับ</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="emailrecipient" class="form-control" autocomplete="off" placeholder="you@email.com" />
                                             </div>
@@ -201,7 +201,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addresssrecipient" class="col-md-4 pt-md-2">ที่อยู่/จัดส่ง</label>
+                                            <label for="addresssrecipient" class="col-md-4 col-form-label">ที่อยู่/จัดส่ง</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addresssrecipient" class="form-control" autocomplete="off" />
                                             </div>
@@ -226,7 +226,7 @@
                                 <form>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="bankname" class="col-md-4 pt-md-2">ชื่อธนาคาร</label>
+                                            <label for="bankname" class="col-md-4 col-form-label">ชื่อธนาคาร</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="bankname" class="form-control" autocomplete="off" />
                                             </div>
@@ -234,7 +234,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="bankaccountname" class="col-md-4 pt-md-2">ชื่อบัญชีธนาคาร</label>
+                                            <label for="bankaccountname" class="col-md-4 col-form-label">ชื่อบัญชีธนาคาร</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="bankaccountname" class="form-control" autocomplete="off" />
                                             </div>
@@ -242,7 +242,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="bankaccountnumber" class="col-md-4 pt-md-2">เลขที่บัญชีธนาคาร</label>
+                                            <label for="bankaccountnumber" class="col-md-4 col-form-label">เลขที่บัญชีธนาคาร</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="bankaccountnumber" class="form-control" autocomplete="off" />
                                             </div>
@@ -267,7 +267,7 @@
                                 <form>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addfacebook" class="col-md-4 pt-md-2"><i class="icon bd-facebook mr-10"></i>Facebook</label>
+                                            <label for="addfacebook" class="col-md-4 col-form-label"><i class="icon bd-facebook mr-10"></i>Facebook</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addfacebook" class="form-control" autocomplete="off" placeholder="https://www.facebook.com/xxx" />
                                             </div>
@@ -275,7 +275,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addline" class="col-md-4 pt-md-2"><img src="/assets/images/line.png" width="15" class="mr-10">Line</label>
+                                            <label for="addline" class="col-md-4 col-form-label"><img src="/assets/images/line.png" width="15" class="mr-10">Line</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addline" class="form-control" autocomplete="off" placeholder="http://line.me/ti/p/xxx" />
                                             </div>
@@ -283,7 +283,7 @@
                                     </div>
                                     <div class="form-group">
                                         <div class="row">
-                                            <label for="addig" class="col-md-4 pt-md-2"><i class="icon bd-instagram mr-10"></i>Instagram</label>
+                                            <label for="addig" class="col-md-4 col-form-label"><i class="icon bd-instagram mr-10"></i>Instagram</label>
                                             <div class="col-md-8">
                                                 <input type="text" id="addig" class="form-control" autocomplete="off" placeholder="https://www.instagram.com/xxx" />
                                             </div>

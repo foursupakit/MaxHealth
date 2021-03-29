@@ -34,7 +34,7 @@
                             <form>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label for="editcategory" class="col-md-4 pt-md-2">รหัสคลัง/สาขา</label>
+                                        <label for="editcategory" class="col-md-4 col-form-label">รหัสคลัง/สาขา</label>
                                         <div class="col-md-8">
                                             <select class="form-control mt-5" id="editcategory" disabled>
                                                 <option>ทั่วไป</option>
@@ -48,7 +48,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label for="editwarehouse" class="col-md-4 pt-md-2">รหัสคลัง/สาขา</label>
+                                        <label for="editwarehouse" class="col-md-4 col-form-label">รหัสคลัง/สาขา</label>
                                         <div class="col-md-8">
                                             <input type="text" id="editwarehouse" class="form-control" autocomplete="off" value="W0001" />
                                         </div>
@@ -56,7 +56,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label for="editbranch" class="col-md-4 pt-md-2">ชื่อคลัง/สาขา</label>
+                                        <label for="editbranch" class="col-md-4 col-form-label">ชื่อคลัง/สาขา</label>
                                         <div class="col-md-8">
                                             <input type="text" id="editbranch" class="form-control" autocomplete="off" value="คลังสินค้าหลัก" />
                                         </div>
@@ -64,7 +64,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label for="editprovince" class="col-md-4 pt-md-2">จังหวัด</label>
+                                        <label for="editprovince" class="col-md-4 col-form-label">จังหวัด</label>
                                         <div class="col-md-8">
                                             <select class="form-control mt-5 w-200" id="editprovince">
                                                 <option>ไม่ระบุ</option>
@@ -78,7 +78,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label for="editDistrict" class="col-md-4 pt-md-2">อำเภอ/เขต</label>
+                                        <label for="editDistrict" class="col-md-4 col-form-label">อำเภอ/เขต</label>
                                         <div class="col-md-8">
                                             <select class="form-control mt-5 w-200" id="editDistrict">
                                                 <option>ไม่ระบุ</option>
@@ -92,7 +92,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label for="editAddress" class="col-md-4 pt-md-2">ที่อยู่</label>
+                                        <label for="editAddress" class="col-md-4 col-form-label">ที่อยู่</label>
                                         <div class="col-md-8">
                                             <textarea class="form-control" id="editAddress" rows="3"></textarea>
                                         </div>

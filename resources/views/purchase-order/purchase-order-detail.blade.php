@@ -27,7 +27,7 @@
     <div class="page">
         <div class="page-header">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/sale-order"><i class="icon md-chevron-left" aria-hidden="true">รายการซื้อ</i></a></li>
+                <li class="breadcrumb-item"><a href="/purchase-order"><i class="icon md-chevron-left" aria-hidden="true">รายการซื้อ</i></a></li>
             </ol>
             <h1 class="page-title">รายละเอียดรายการซื้อ</h1>
         </div>
@@ -180,9 +180,9 @@
                                                         <span title="cloth" >เสื้อ(M)</span>
                                                     </p>
                                                 </td>
-                                                <td>1 ตัว</td>
+                                                <td>20 ตัว</td>
                                                 <td>300</td>
-                                                <td>1,500.00</td>
+                                                <td>6,000.00</td>
                                             </tr>
                                             </tbody>
                                         </table>
@@ -221,13 +221,13 @@
                                     <div class="form-group row">
                                         <label class="col-md-5 col-form-label">มูลค่ารวม</label>
                                         <div class="col-md-7">
-                                            <p class="form-control-plaintext">300.00</p>
+                                            <p class="form-control-plaintext">6,000.00</p>
                                         </div>
                                     </div>
                                     <div class="form-group row bg-grey-100 p-10">
                                         <label class="col-md-5 col-form-label" style="font-weight: 700;">มูลค่ารวมสุทธิ</label>
                                         <div class="col-md-7">
-                                            <p class="form-control-plaintext" style="font-weight: 700;">300.00</p>
+                                            <p class="form-control-plaintext" style="font-weight: 700;">6,000.00</p>
                                         </div>
                                     </div>
                                 </form>
@@ -261,7 +261,7 @@
                                 <div class="form-group row mb-0">
                                     <label class="col-md-4 col-form-label">ยอดคงเหลือที่ต้องชำระ</label>
                                     <div class="col-md-8 text-right">
-                                        <p class="form-control-plaintext">300</p>
+                                        <p class="form-control-plaintext">6,000</p>
                                     </div>
                                 </div>
                             @elseif($id == '2')
@@ -301,7 +301,7 @@
                                 <div class="form-group row">
                                     <label class="col-md-4 col-form-label">จำนวนเงินที่ชำระ</label>
                                     <div class="col-md-8 text-right">
-                                        <p class="form-control-plaintext">300</p>
+                                        <p class="form-control-plaintext">6,000</p>
                                     </div>
                                 </div>
                                 <div class="form-group row bg-grey-100 p-10">
@@ -312,7 +312,7 @@
                                         <span class="panel-desc">27 ม.ค. 2564</span>
                                     </label>
                                     <div class="col-md-7 d-flex align-items-center text-right">
-                                        <p class="form-control-plaintext">300 บาท</p>
+                                        <p class="form-control-plaintext">6,000 บาท</p>
                                     </div>
                                 </div>
                             @endif

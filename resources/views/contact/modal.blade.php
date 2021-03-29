@@ -18,7 +18,7 @@
                 <div class="panel-body">
                     <div class="form-group">
                         <div class="row">
-                            <label for="addcode" class="col-md-4 pt-md-2">รหัส<span class="required-field">*</span></label>
+                            <label for="addcode" class="col-md-4 col-form-label">รหัส<span class="required">*</span></label>
                             <div class="col-md-8">
                                 <input type="text" id="addcode" class="form-control w-200" autocomplete="off" />
                             </div>
@@ -26,7 +26,7 @@
                     </div>
                     <div class="form-group">
                         <div class="row">
-                            <label for="addname" class="col-md-4 pt-md-2">ชื่อ<span class="required-field">*</span></label>
+                            <label for="addname" class="col-md-4 col-form-label">ชื่อ<span class="required">*</span></label>
                             <div class="col-md-8">
                                 <input type="text" id="addname" class="form-control" autocomplete="off" />
                             </div>
@@ -42,7 +42,7 @@
                     </div>
                     {{--                <div class="form-group">--}}
                     {{--                    <div class="row">--}}
-                    {{--                        <label for="addnumtag" class="col-md-4 pt-md-2">เลขผู้เสียภาษี</label>--}}
+                    {{--                        <label for="addnumtag" class="col-md-4 col-form-label">เลขผู้เสียภาษี</label>--}}
                     {{--                        <div class="col-md-8">--}}
                     {{--                            <input type="text" id="addnumtag" class="form-control" autocomplete="off" />--}}
                     {{--                        </div>--}}
@@ -50,7 +50,7 @@
                     {{--                </div>--}}
                     {{--                <div class="form-group">--}}
                     {{--                    <div class="row">--}}
-                    {{--                        <label for="addnamecompany" class="col-md-4 pt-md-2">ชื่อสาขา</label>--}}
+                    {{--                        <label for="addnamecompany" class="col-md-4 col-form-label">ชื่อสาขา</label>--}}
                     {{--                        <div class="col-md-8">--}}
                     {{--                            <input type="text" id="addnamecompany" class="form-control" autocomplete="off" />--}}
                     {{--                        </div>--}}
@@ -58,7 +58,7 @@
                     {{--                </div>--}}
                     {{--                <div class="form-group">--}}
                     {{--                    <div class="row">--}}
-                    {{--                        <label for="addnumcompany" class="col-md-4 pt-md-2">เลขที่สาขา</label>--}}
+                    {{--                        <label for="addnumcompany" class="col-md-4 col-form-label">เลขที่สาขา</label>--}}
                     {{--                        <div class="col-md-8">--}}
                     {{--                            <input type="text" id="addnumcompany" class="form-control" autocomplete="off" />--}}
                     {{--                        </div>--}}
@@ -66,7 +66,7 @@
                     {{--                </div>--}}
                     <div class="form-group">
                         <div class="row">
-                            <label for="addtag" class="col-md-4 pt-md-2">Tag ผู้ติดต่อ</label>
+                            <label for="addtag" class="col-md-4 col-form-label">Tag ผู้ติดต่อ</label>
                             <div class="col-md-8">
                                 <input type="text" id="addtag" class="form-control" autocomplete="off" />
                             </div>
@@ -81,7 +81,7 @@
                 <div class="panel-body">
                     <div class="form-group">
                         <div class="row">
-                            <label for="addphone" class="col-md-4 pt-md-2">เบอร์โทรศัพท์</label>
+                            <label for="addphone" class="col-md-4 col-form-label">เบอร์โทรศัพท์</label>
                             <div class="col-md-8">
                                 <input type="text" id="addphone" class="form-control w-200" autocomplete="off" />
                             </div>
@@ -89,7 +89,7 @@
                     </div>
                     <div class="form-group">
                         <div class="row">
-                            <label for="addphone1" class="col-md-4 pt-md-2">เบอร์โทรศัพท์มือถือ</label>
+                            <label for="addphone1" class="col-md-4 col-form-label">เบอร์โทรศัพท์มือถือ</label>
                             <div class="col-md-8">
                                 <input type="text" id="addphone1" class="form-control w-200" autocomplete="off" />
                             </div>
@@ -97,7 +97,7 @@
                     </div>
                     <div class="form-group">
                         <div class="row">
-                            <label for="addphone2" class="col-md-4 pt-md-2">เบอร์โทรสาร</label>
+                            <label for="addphone2" class="col-md-4 col-form-label">เบอร์โทรสาร</label>
                             <div class="col-md-8">
                                 <input type="text" id="addphone2" class="form-control w-200" autocomplete="off" />
                             </div>
@@ -105,7 +105,7 @@
                     </div>
                     <div class="form-group">
                         <div class="row">
-                            <label for="addemail" class="col-md-4 pt-md-2">อีเมล</label>
+                            <label for="addemail" class="col-md-4 col-form-label">อีเมล</label>
                             <div class="col-md-8">
                                 <input type="text" id="addemail" class="form-control" autocomplete="off" placeholder="you@email.com" />
                             </div>
@@ -113,7 +113,7 @@
                     </div>
                     <div class="form-group">
                         <div class="row">
-                            <label for="addAddress" class="col-md-4 pt-md-2">ที่อยู่</label>
+                            <label for="addAddress" class="col-md-4 col-form-label">ที่อยู่</label>
                             <div class="col-md-8">
                                 <textarea type="text" id="addAddress" class="form-control" autocomplete="off"></textarea>
                             </div>
@@ -128,7 +128,7 @@
                 <div class="panel-body">
                     <div class="form-group">
                         <div class="row">
-                            <label for="addfacebook" class="col-md-4 pt-md-2"><i class="icon bd-facebook mr-10"></i>Facebook</label>
+                            <label for="addfacebook" class="col-md-4 col-form-label"><i class="icon bd-facebook mr-10"></i>Facebook</label>
                             <div class="col-md-8">
                                 <input type="text" id="addfacebook" class="form-control" autocomplete="off" placeholder="https://www.facebook.com/xxx" />
                             </div>
@@ -136,7 +136,7 @@
                     </div>
                     <div class="form-group">
                         <div class="row">
-                            <label for="addline" class="col-md-4 pt-md-2"><img src="/assets/images/line.png" width="15" class="mr-10">Line</label>
+                            <label for="addline" class="col-md-4 col-form-label"><img src="/assets/images/line.png" width="15" class="mr-10">Line</label>
                             <div class="col-md-8">
                                 <input type="text" id="addline" class="form-control" autocomplete="off" placeholder="http://line.me/ti/p/xxx" />
                             </div>
@@ -144,7 +144,7 @@
                     </div>
                     <div class="form-group">
                         <div class="row">
-                            <label for="addig" class="col-md-4 pt-md-2"><i class="icon bd-instagram mr-10"></i>Instagram</label>
+                            <label for="addig" class="col-md-4 col-form-label"><i class="icon bd-instagram mr-10"></i>Instagram</label>
                             <div class="col-md-8">
                                 <input type="text" id="addig" class="form-control" autocomplete="off" placeholder="https://www.instagram.com/xxx" />
                             </div>

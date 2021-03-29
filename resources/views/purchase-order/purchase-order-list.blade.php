@@ -3,6 +3,7 @@
 @section('style')
     <!-- Plugins -->
     <link rel="stylesheet" href="../../assets/examples/css/tables/basic.css">
+    <link rel="stylesheet" href="../../../global/vendor/bootstrap-datepicker/bootstrap-datepicker.css">
 
     <style>
         .icon-wrap > .icon {
@@ -74,10 +75,10 @@
                                             <td><a href="/contact/detail">บริษัท Shippop จำกัด</a></td>
                                             <td>6,000</td>
                                             <td>
-                                                <span class="badge badge-warning">รอโอน</span>
+                                                <a href="" class="badge badge-warning" data-target="#modalStatus" data-toggle="modal">รอโอน</a>
                                             </td>
                                             <td>
-                                                <span class="badge badge-warning">รอชำระ</span>
+                                                <a href="" class="badge badge-warning" data-target="#modalPayment" data-toggle="modal">รอชำระ</a>
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
@@ -96,7 +97,7 @@
                                             <td>-</td>
                                             <td>30,000</td>
                                             <td>
-                                                <span class="badge badge-warning">รอโอน</span>
+                                                <a href="" class="badge badge-warning" data-target="#modalStatus" data-toggle="modal">รอโอน</a>
                                             </td>
                                             <td>
                                                 <span class="badge badge-info">ชำระบางส่วน</span>
@@ -247,10 +248,10 @@
                                             <td><a href="/contact/detail">ร้านค้า บางเขน</a></td>
                                             <td>6,000</td>
                                             <td>
-                                                <span class="badge badge-warning">รอโอน</span>
+                                                <a href="" class="badge badge-warning" data-target="#modalStatus" data-toggle="modal">รอโอน</a>
                                             </td>
                                             <td>
-                                                <span class="badge badge-warning">รอชำระ</span>
+                                                <a href="" class="badge badge-warning" data-target="#modalPayment" data-toggle="modal">รอชำระ</a>
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
@@ -269,7 +270,7 @@
                                             <td>-</td>
                                             <td>30,000</td>
                                             <td>
-                                                <span class="badge badge-warning">รอโอน</span>
+                                                <a href="" class="badge badge-warning" data-target="#modalStatus" data-toggle="modal">รอโอน</a>
                                             </td>
                                             <td>
                                                 <span class="badge badge-info">ชำระบางส่วน</span>
@@ -310,10 +311,10 @@
                                             <td><a href="/contact/detail">ร้านค้า บางเขน</a></td>
                                             <td>6,000</td>
                                             <td>
-                                                <span class="badge badge-warning">รอโอน</span>
+                                                <a href="" class="badge badge-warning" data-target="#modalStatus" data-toggle="modal">รอโอน</a>
                                             </td>
                                             <td>
-                                                <span class="badge badge-warning">รอชำระ</span>
+                                                <a href="" class="badge badge-warning" data-target="#modalPayment" data-toggle="modal">รอชำระ</a>
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
@@ -476,4 +477,19 @@
     <script src="../../../global/js/Plugin/table.js"></script>
 
     <script src="../../assets/examples/js/charts/peity.js"></script>
+
+    <script src="../../../global/js/Plugin/peity.js"></script>
+    <script src="../../../global/js/Plugin/asselectable.js"></script>
+    <script src="../../../global/js/Plugin/selectable.js"></script>
+    <script src="../../../global/js/Plugin/table.js"></script>
+
+    <!-- datepicker -->
+    <script src="../../../global/vendor/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+    <script src="../../../global/js/Plugin/bootstrap-datepicker.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.datepicker').datepicker('setDate', new Date());
+        });
+    </script>
 @endsection

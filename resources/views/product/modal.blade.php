@@ -12,7 +12,7 @@
             <div class="modal-body">
                 <div class="form-group">
                     <div class="row">
-                        <label for="addcategoryname" class="col-md-4 pt-md-2">ชื่อหมวดหมู่<span class="required-field">*</span></label>
+                        <label for="addcategoryname" class="col-md-4 col-form-label">ชื่อหมวดหมู่<span class="required">*</span></label>
                         <div class="col-md-8">
                             <input type="text" id="addcategoryname" class="form-control" autocomplete="off" />
                         </div>
@@ -41,7 +41,7 @@
             <div class="modal-body">
                 <div class="form-group">
                     <div class="row">
-                        <label for="editcategoryname" class="col-md-4 pt-md-2">ชื่อหมวดหมู่<span class="required-field">*</span></label>
+                        <label for="editcategoryname" class="col-md-4 col-form-label">ชื่อหมวดหมู่<span class="required">*</span></label>
                         <div class="col-md-8">
                             <input type="text" id="editcategoryname" class="form-control" autocomplete="off" value="เครื่องแต่งกาย" />
                         </div>
@@ -93,7 +93,7 @@
             <div class="modal-body">
                 <div class="form-group">
                     <div class="row">
-                        <label for="addwarehouse" class="col-md-4 pt-md-2">รหัสคลัง/สาขา</label>
+                        <label for="addwarehouse" class="col-md-4 col-form-label">รหัสคลัง/สาขา</label>
                         <div class="col-md-8">
                             <input type="text" id="addwarehouse" class="form-control w-200" autocomplete="off" value="W0004" />
                         </div>
@@ -101,7 +101,7 @@
                 </div>
                 <div class="form-group">
                     <div class="row">
-                        <label for="addbranch" class="col-md-4 pt-md-2">ชื่อคลัง/สาขา<span class="required-field">*</span></label>
+                        <label for="addbranch" class="col-md-4 col-form-label">ชื่อคลัง/สาขา<span class="required">*</span></label>
                         <div class="col-md-8">
                             <input type="text" id="addbranch" class="form-control" autocomplete="off" />
                         </div>
@@ -109,7 +109,7 @@
                 </div>
                 <div class="form-group">
                     <div class="row">
-                        <label for="addprovince" class="col-md-4 pt-md-2">จังหวัด</label>
+                        <label for="addprovince" class="col-md-4 col-form-label">จังหวัด</label>
                         <div class="col-md-8">
                             <select class="form-control mt-5 w-200" id="addprovince">
                                 <option>ไม่ระบุ</option>
@@ -123,7 +123,7 @@
                 </div>
                 <div class="form-group">
                     <div class="row">
-                        <label for="addDistrict" class="col-md-4 pt-md-2">อำเภอ/เขต</label>
+                        <label for="addDistrict" class="col-md-4 col-form-label">อำเภอ/เขต</label>
                         <div class="col-md-8">
                             <select class="form-control mt-5 w-200" id="addDistrict">
                                 <option>ไม่ระบุ</option>
@@ -137,7 +137,7 @@
                 </div>
                 <div class="form-group">
                     <div class="row">
-                        <label for="addAddress" class="col-md-4 pt-md-2">ที่อยู่</label>
+                        <label for="addAddress" class="col-md-4 col-form-label">ที่อยู่</label>
                         <div class="col-md-8">
                             <textarea class="form-control" id="addAddress" rows="3"></textarea>
                         </div>
@@ -189,7 +189,7 @@
             <div class="modal-body">
                 <div class="form-group">
                     <div class="row">
-                        <label class="col-md-4 pt-md-2">สินค้า</label>
+                        <label class="col-md-4 col-form-label">สินค้า</label>
                         <div class="col-md-8">
                             <p class="form-control-plaintext">เสื้อ(s)</p>
                         </div>
@@ -197,7 +197,7 @@
                 </div>
                 <div class="form-group">
                     <div class="row">
-                        <label class="col-md-4 pt-md-2">คลังสินค้า</label>
+                        <label class="col-md-4 col-form-label">คลังสินค้า</label>
                         <div class="col-md-8">
                             <p class="form-control-plaintext">คลังสินค้าหลัก</p>
                         </div>
@@ -205,7 +205,7 @@
                 </div>
                 <div class="form-group">
                     <div class="row">
-                        <label class="col-md-4 pt-md-2">จำนวนคงเหลือปัจจุบัน</label>
+                        <label class="col-md-4 col-form-label">จำนวนคงเหลือปัจจุบัน</label>
                         <div class="col-md-8">
                             <p class="form-control-plaintext">19</p>
                         </div>
@@ -213,7 +213,7 @@
                 </div>
                 <div class="form-group">
                     <div class="row">
-                        <label class="col-md-4 pt-md-2">จำนวนคงเหลือที่ปรับ <span class="required-field">*</span></label>
+                        <label class="col-md-4 col-form-label">จำนวนคงเหลือที่ปรับ <span class="required">*</span></label>
                         <div class="col-md-8">
                             <input type="text" class="form-control" autocomplete="off" />
                         </div>
@@ -242,7 +242,7 @@
                 </div>
                 <div class="form-group">
                     <div class="row">
-                        <label class="col-md-4 pt-md-2">หมายเหตุ</label>
+                        <label class="col-md-4 col-form-label">หมายเหตุ</label>
                         <div class="col-md-8">
                             <textarea class="form-control" rows="3"></textarea>
                         </div>

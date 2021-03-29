@@ -206,61 +206,6 @@
 </div>
 <!-- End Modal -->
 
-<!-- Modal Payment -->
-<div class="modal fade" id="modalPayment" aria-hidden="true" aria-labelledby="modalPayment"
-     role="dialog" tabindex="-1">
-    <div class="modal-dialog modal-simple modal-center">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">×</span>
-                </button>
-                <h4 class="modal-title">ชำระเงิน</h4>
-            </div>
-            <div class="modal-body">
-                <div class="form-group row">
-                    <label class="col-md-4 col-form-label">จำนวนเงิน
-                        <span class="required">*</span>
-                    </label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" value="0.00"
-                               autocomplete="off" />
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label class="col-md-4 col-form-label">ช่องทางการชำระเงิน
-                        <span class="required">*</span>
-                    </label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control" value="เงินสด"
-                               autocomplete="off" />
-                    </div>
-                </div>
-                <div class="form-group row">
-                    <label class="col-md-4 col-form-label">วันที่ชำระเงิน</label>
-                    <div class="col-md-8">
-                        <div class="input-group input-group-icon">
-                            <input type="text" class="form-control" value="9/2/2564 20:16">
-                            <div class="input-group-append">
-                                <span class="input-group-text">
-                                  <i class="icon md-close" aria-hidden="true"></i>
-                                </span>
-                                <span class="input-group-text">
-                                  <i class="icon md-calendar" aria-hidden="true"></i>
-                                </span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-primary btn-round">ตกลง</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- End Modal -->
-
 <!-- Modal Delete -->
 <div class="modal fade" id="modalDelete" aria-hidden="true" aria-labelledby="modalDelete"
      role="dialog" tabindex="-1">
@@ -301,6 +246,161 @@
             <div class="modal-footer">
                 <button type="button" class="btn btn-default btn-pure" data-dismiss="modal">ยกเลิก</button>
                 <button type="button" class="btn btn-primary">ยืนยัน</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
+
+<!-- Modal Status -->
+<div class="modal fade" id="modalStatus" aria-hidden="true" aria-labelledby="modalStatus"
+     role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-simple modal-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">โอนสินค้าเข้าคลัง</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-md-4 col-form-label">คลังสินค้า</label>
+                        <div class="col-md-8">
+                            <select class="form-control">
+                                <option>คลังสินค้าหลัก</option>
+                                <option>สาขาพระราม 9</option>
+                                <option>สาขานนทบุรี</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-md-4 col-form-label">ตั้งค่า</label>
+                        <div class="col-md-8 mt-5">
+                            <input type="checkbox" id="setting" name="setting" checked >
+                            <label for="setting"> กำหนดวันที่โอนสินค้า</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">วันที่โอน</label>
+                    <div class="col-md-8">
+                        <div class="input-group input-group-icon">
+                            <input type="text" class="form-control datepicker" data-plugin="datepicker" data-date-format="d/m/yyyy" readonly>
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                  <i class="icon md-close" aria-hidden="true"></i>
+                                </span>
+                                <span class="input-group-text">
+                                  <i class="icon md-calendar" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-round">บันทึก</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
+
+<!-- Modal Payment -->
+<div class="modal fade" id="modalPayment" aria-hidden="true" aria-labelledby="modalPayment"
+     role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-simple modal-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h4 class="modal-title">ชำระเงิน</h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">จำนวนเงิน
+                        <span class="required">*</span>
+                    </label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" value="6000.00"
+                               autocomplete="off" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">ช่องทางการชำระเงิน
+                        <span class="required">*</span>
+                    </label>
+                    <div class="col-md-8">
+                        <select class="form-control">
+                            <option>เงินสด</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">วันที่ชำระเงิน</label>
+                    <div class="col-md-8">
+                        <div class="input-group input-group-icon">
+                            <input type="text" class="form-control datepicker" data-plugin="datepicker" data-date-format="d/m/yyyy" readonly>
+                            <div class="input-group-append">
+                                <span class="input-group-text">
+                                  <i class="icon md-close" aria-hidden="true"></i>
+                                </span>
+                                <span class="input-group-text">
+                                  <i class="icon md-calendar" aria-hidden="true"></i>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="row">
+                        <label class="col-md-4 col-form-label">ตั้งค่า</label>
+                        <div class="col-md-8 mt-5">
+                            <input type="checkbox" id="settingTax" name="settingTax" checked >
+                            <label for="settingTax"> ภาษีหัก ณ ที่จ่าย</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">ช่องทางการชำระเงิน</label>
+                    <div class="col-md-8">
+                        <select class="form-control">
+                            <option>1%</option>
+                            <option>1.5%</option>
+                            <option>2%</option>
+                            <option selected>3%</option>
+                            <option>4%</option>
+                            <option>5%</option>
+                            <option>6%</option>
+                            <option>7%</option>
+                            <option>8%</option>
+                            <option>9%</option>
+                            <option>10%</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">จำนวนเงิน</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control text-right" value="180.00"
+                               autocomplete="off" disabled />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label class="col-md-4 col-form-label">ภาษีหัก ณ ที่จ่าย</label>
+                    <div class="col-md-8">
+                        <input type="text" class="form-control text-right" value="5,820.00"
+                               autocomplete="off" disabled />
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-round">ตกลง</button>
             </div>
         </div>
     </div>

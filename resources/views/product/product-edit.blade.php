@@ -33,7 +33,7 @@
                             <form>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label class="col-md-4 pt-md-2">รหัสสินค้า</label>
+                                        <label class="col-md-4 col-form-label">รหัสสินค้า</label>
                                         <div class="col-md-8">
                                             <input type="text" class="form-control" autocomplete="off" value="P0001-1" />
                                         </div>
@@ -41,7 +41,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label class="col-md-4 pt-md-2">ชื่อสินค้า<span class="required-field">*</span></label>
+                                        <label class="col-md-4 col-form-label">ชื่อสินค้า<span class="required">*</span></label>
                                         <div class="col-md-8">
                                             <input type="text" class="form-control" autocomplete="off" value="เสื้อ(s)" />
                                         </div>
@@ -49,19 +49,19 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label class="col-md-4 pt-md-2">หมวดหมู่</label>
+                                        <label class="col-md-4 col-form-label">หมวดหมู่</label>
                                         <div class="col-md-8">
                                             <select class="form-control mt-5">
                                                 <option>ไม่มีหมวดหมู่</option>
                                                 <option>เครื่องใช้ในบ้าน</option>
-                                                <option selected>เครื่องแต่งกาย</optionselected>
+                                                <option selected>เครื่องแต่งกาย</option>
                                             </select>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label class="col-md-4 pt-md-2">ราคาซื้อ</label>
+                                        <label class="col-md-4 col-form-label">ราคาซื้อ</label>
                                         <div class="col-md-8">
                                             <input type="text" class="form-control w-200" autocomplete="off" value="300.00" />
                                         </div>
@@ -69,7 +69,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label class="col-md-4 pt-md-2">ราคาขาย</label>
+                                        <label class="col-md-4 col-form-label">ราคาขาย</label>
                                         <div class="col-md-8">
                                             <input type="text" class="form-control w-200" autocomplete="off" value="600.00" />
                                         </div>
@@ -77,7 +77,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label for="addnumcompany" class="col-md-4 pt-md-2">น้ำหนัก (กรัม)</label>
+                                        <label for="addnumcompany" class="col-md-4 col-form-label">น้ำหนัก (กรัม)</label>
                                         <div class="col-md-8">
                                             <input type="text" id="addnumcompany" class="form-control w-200" autocomplete="off" value="0.00" />
                                         </div>
@@ -85,7 +85,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label for="addnumcompany" class="col-md-4 pt-md-2">ขนาด (ซม.)</label>
+                                        <label for="addnumcompany" class="col-md-4 col-form-label">ขนาด (ซม.)</label>
                                         <div class="col-md-8">
                                             <div class="row">
                                                 <div class="col-md-4">
@@ -103,7 +103,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label  class="col-md-4 pt-md-2">หน่วย</label>
+                                        <label  class="col-md-4 col-form-label">หน่วย</label>
                                         <div class="col-md-8">
                                             <input type="text" class="form-control" autocomplete="off" value="ตัว" />
                                         </div>
@@ -111,7 +111,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label class="col-md-4 pt-md-2">คำอธิบาย</label>
+                                        <label class="col-md-4 col-form-label">คำอธิบาย</label>
                                         <div class="col-md-8">
                                             <textarea type="text" class="form-control" autocomplete="off"></textarea>
                                         </div>
@@ -119,7 +119,7 @@
                                 </div>
                                 <div class="form-group">
                                     <div class="row">
-                                        <label class="col-md-4 pt-md-2">Tag ผู้ติดต่อ</label>
+                                        <label class="col-md-4 col-form-label">Tag ผู้ติดต่อ</label>
                                         <div class="col-md-8">
                                             <input type="text" class="form-control" autocomplete="off" />
                                             <div class="text-muted mt-2">ใช้เแบ่งประเภทของผู้ติดต่อ เพื่อเพิ่มประสิทธิภาพในการค้นหาอย่างรวดเร็ว</div>
