@@ -29,6 +29,15 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
+                                    <label class="col-md-4 col-form-label">ประเภทตัวแทนจำหน่าย</label>
+                                    <div class="col-md-8">
+                                        <select class="form-control">
+                                            <option selected>Dealer</option>
+                                            <option>Distributor</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
                                     <label class="col-md-4 col-form-label">เบอร์โทรศัพท์</label>
                                     <div class="col-md-8">
                                         <input type="text" class="form-control" autocomplete="off" value="0812345678" />

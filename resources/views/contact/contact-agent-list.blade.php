@@ -43,7 +43,8 @@
                                     <thead>
                                     <tr>
                                         <th>#</th>
-                                        <th width="40%">ชื่อ</th>
+                                        <th width="30%">ชื่อ</th>
+                                        <th>ประเภทตัวแทนจำหน่าย</th>
                                         <th>เบอร์โทรศัพท์</th>
                                         <th>อีเมล</th>
                                         <th></th>
@@ -55,6 +56,7 @@
                                         <td>
                                             <a href="/contact/agent/detail">ข้อมูลตัวอย่าง 1</a>
                                         </td>
+                                        <td>Dealer</td>
                                         <td>0812345678</td>
                                         <td>you@zortshop.com</td>
                                         <td>
@@ -73,6 +75,7 @@
                                         <td>
                                             <a href="/contact/agent/detail">ข้อมูลตัวอย่าง 2</a>
                                         </td>
+                                        <td>Distributor</td>
                                         <td>0812345678</td>
                                         <td>you@zortshop.com</td>
                                         <td>
