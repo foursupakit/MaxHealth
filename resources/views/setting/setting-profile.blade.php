@@ -20,16 +20,24 @@
 @section('content')
     <div class="page page-profile">
         <div class="page-header">
-            <h1 class="page-title">ข้อมูลบริษัท</h1>
+            <h1 class="page-title">ข้อมูลส่วนตัว</h1>
         </div>
         <div class="page-content container-fluid">
             <div class="panel">
                 @include('setting.modal')
                 <div class="row">
-                    <div class="col-md-7">
+                    <div class="col-md-7 mr-auto ml-auto">
+                        <div class="card text-center">
+                            <div class="card-block pb-0">
+                                <a class="avatar avatar-lg" href="javascript:void(0)">
+                                    <img src="../../../global/portraits/5.jpg" alt="...">
+                                </a>
+                                <p class="profile-job"><a href="" data-target="#modalSignature" data-toggle="modal"><i class="icon md-comment-edit"></i>  เปลี่ยนรูปภาพประจำตัว</a></p>
+                            </div>
+                        </div>
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-assignment white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลบริษัท</span>
+                                <i class="icon icon-circle md-account white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลส่วนตัว</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -41,64 +49,39 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label class="col-md-3 col-form-label">เลขผู้เสียภาษี</label>
+                                    <label class="col-md-3 col-form-label">Email</label>
                                     <div class="col-md-9">
-                                        <input type="text" class="form-control" autocomplete="off" />
+                                        <p class="form-control-plaintext">your@email.com</p>
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label class="col-md-3 col-form-label">ที่อยู่</label>
+                                    <label class="col-md-3 col-form-label">Password</label>
                                     <div class="col-md-9">
-                                        <textarea class="form-control" rows="3"></textarea>
+                                        <p class="form-control-plaintext">
+                                            ********
+                                            <a href="/setting/change-password" class="mt-1 float-right"><i class="icon md-comment-edit"></i> เปลี่ยนรหัสผ่าน</a>
+                                        </p>
                                     </div>
                                 </div>
                             </form>
                         </div>
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-assignment white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลติดต่อ</span>
+                                <i class="icon icon-circle md-settings white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ตั้งค่าอื่นๆ</span>
                             </h3>
                         </div>
                         <div class="panel-body">
                             <form>
                                 <div class="form-group row">
-                                    <label class="col-md-3 col-form-label">เบอร์โทรศัพท์</label>
+                                    <label class="col-md-3 col-form-label">ลายเซ็นอิเล็กทรอนิกส์</label>
                                     <div class="col-md-9">
-                                        <input type="text" class="form-control" autocomplete="off" value="0812345678" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-form-label">อีเมล</label>
-                                    <div class="col-md-9">
-                                        <input type="text" class="form-control" autocomplete="off" value="test@gmail.com" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-form-label">โทรสาร(Fax)</label>
-                                    <div class="col-md-9">
-                                        <input type="text" class="form-control" autocomplete="off" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-form-label">Website</label>
-                                    <div class="col-md-9">
-                                        <input type="text" class="form-control" autocomplete="off" />
+                                        <a href="" class="form-control-plaintext" style="color: #3949ab;" data-target="#modalSignature" data-toggle="modal">เพิ่มรูปภาพ</a>
                                     </div>
                                 </div>
                             </form>
                         </div>
-                        <div class="panel-footer">
+                        <div class="panel-footer text-center">
                             <button type="button" class="btn btn-round btn-primary btn-lg">บันทึก</button>
-                        </div>
-                    </div>
-                    <div class="col-md-5 text-center">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">
-                                <i class="icon icon-circle md-image white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รูปโลโก้บริษัท</span>
-                            </h3>
-                        </div>
-                        <div class="panel-body">
-                            <input type="file" id="input-file-now" data-plugin="dropify" data-default-file="" />
                         </div>
                     </div>
                 </div>

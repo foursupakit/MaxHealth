@@ -63,6 +63,7 @@ Route::group([ 'prefix' => 'product'], function () {
 Route::group([ 'prefix' => 'setting'], function () {
     Route::get('/', 'SettingController@index')->name('setting.index');
     Route::get('/company', 'SettingController@index')->name('setting.company');
+    Route::get('/profile', 'SettingController@profile')->name('setting.profile');
     Route::get('/transport', 'SettingController@transport')->name('setting.transport');
     Route::get('/change-password', 'SettingController@changePassword')->name('setting.change-password');
 });

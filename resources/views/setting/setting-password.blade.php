@@ -21,7 +21,7 @@
     <div class="page page-profile">
         <div class="page-header">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/setting"><i class="icon md-chevron-left" aria-hidden="true">กลับ</i></a></li>
+                <li class="breadcrumb-item"><a href="/setting/profile"><i class="icon md-chevron-left" aria-hidden="true">กลับ</i></a></li>
             </ol>
             <h1 class="page-title">เปลี่ยนรหัสผ่าน</h1>
         </div>

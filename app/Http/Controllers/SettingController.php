@@ -11,6 +11,11 @@ class SettingController extends Controller
         return view('setting.setting-company');
     }
 
+    public function profile(Request $request)
+    {
+        return view('setting.setting-profile');
+    }
+
     public function changePassword(Request $request)
     {
         return view('setting.setting-password');
