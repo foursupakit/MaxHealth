@@ -98,7 +98,7 @@
                                 <div class="form-group row">
                                     <label class="col-md-3 col-form-label">ประเภทภาษี</label>
                                     <div class="col-md-9">
-                                        <select class="form-control example mt-5">
+                                        <select class="form-control mt-5">
                                             <option>ไม่มีภาษี</option>
                                             <option>แยกภาษีมูลค่าเพิ่ม 7%</option>
                                             <option>รวมภาษีมูลค่าเพิ่ม 7%</option>

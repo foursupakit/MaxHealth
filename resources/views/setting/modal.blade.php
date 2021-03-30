@@ -146,3 +146,58 @@
 </div>
 <!-- End Modal -->
 
+<!-- Modal Create User -->
+<div class="modal fade" id="modalCreateUser" aria-hidden="true" aria-labelledby="modalCreateUser"
+     role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-simple modal-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h3 class="modal-title">เพิ่มผู้ใช้งาน</h3>
+            </div>
+            <div class="modal-body pb-0">
+                <div class="form-group row">
+                    <label for="img" class="col-md-3 col-form-label">อีเมล<span class="required">*</span></label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" autocomplete="off" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="img" class="col-md-3 col-form-label">รหัสผ่าน<span class="required">*</span></label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" autocomplete="off" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="img" class="col-md-3 col-form-label">ยืนยันรหัสผ่าน<span class="required">*</span></label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" autocomplete="off" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="img" class="col-md-3 col-form-label">ชื่อ<span class="required">*</span></label>
+                    <div class="col-md-9">
+                        <input type="text" class="form-control" autocomplete="off" />
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <label for="img" class="col-md-3 col-form-label">สิทธิ์การใช้งาน<span class="required">*</span></label>
+                    <div class="col-md-9">
+                        <select class="form-control mt-5">
+                            <option>Admin</option>
+                            <option>User</option>
+                            <option>Staff</option>
+                        </select>
+                        <a href="/setting/role/create" class="d-block pt-3">+เพิ่มสิทธิ์การใช้งาน</a>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-lg btn-primary btn-round">บันทึก</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->

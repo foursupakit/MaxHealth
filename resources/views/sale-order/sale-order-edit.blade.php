@@ -224,42 +224,42 @@
                     <div class="col-md-6">
                         <div class="panel-body pt-0">
                             <form class="text-md-right">
-                                    <div class="form-group row">
-                                        <label class="col-md-5 col-form-label">ค่าส่ง (ที่ถูกเก็บจากผู้ติดต่อ)
-                                            <span class="panel-desc">
-                                                <input type="checkbox">ภาษีมูลค่าเพิ่ม
-                                            </span>
-                                        </label>
-                                        <div class="col-md-7 d-flex align-items-center">
-                                            <input type="text" class="form-control text-md-right" placeholder="0.00"
-                                                   autocomplete="off" />
-                                        </div>
+                                <div class="form-group row">
+                                    <label class="col-md-5 col-form-label">ค่าส่ง (ที่ถูกเก็บจากผู้ติดต่อ)
+                                        <span class="panel-desc">
+                                            <input type="checkbox">ภาษีมูลค่าเพิ่ม
+                                        </span>
+                                    </label>
+                                    <div class="col-md-7 d-flex align-items-center">
+                                        <input type="text" class="form-control text-md-right" placeholder="0.00"
+                                               autocomplete="off" />
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-5 col-form-label">มูลค่ารวมก่อนภาษี</label>
-                                        <div class="col-md-7">
-                                            <p class="form-control-plaintext">1,500.00</p>
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-5 col-form-label">มูลค่ารวมก่อนภาษี</label>
+                                    <div class="col-md-7">
+                                        <p class="form-control-plaintext">1,500.00</p>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-5 col-form-label">ภาษีมูลค่าเพิ่ม(7%)</label>
-                                        <div class="col-md-7">
-                                            <p class="form-control-plaintext">0.00</p>
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-5 col-form-label">ภาษีมูลค่าเพิ่ม(7%)</label>
+                                    <div class="col-md-7">
+                                        <p class="form-control-plaintext">0.00</p>
                                     </div>
-                                    <div class="form-group row">
-                                        <label class="col-md-5 col-form-label">มูลค่ารวม</label>
-                                        <div class="col-md-7">
-                                            <p class="form-control-plaintext">1,500.00</p>
-                                        </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-5 col-form-label">มูลค่ารวม</label>
+                                    <div class="col-md-7">
+                                        <p class="form-control-plaintext">1,500.00</p>
                                     </div>
-                                    <div class="form-group row bg-grey-100">
-                                        <label class="col-md-5 col-form-label" style="font-weight: 700;">มูลค่ารวมสุทธิ</label>
-                                        <div class="col-md-7">
-                                            <p class="form-control-plaintext" style="font-weight: 700;">1,500.00</p>
-                                        </div>
+                                </div>
+                                <div class="form-group row bg-grey-100">
+                                    <label class="col-md-5 col-form-label" style="font-weight: 700;">มูลค่ารวมสุทธิ</label>
+                                    <div class="col-md-7">
+                                        <p class="form-control-plaintext" style="font-weight: 700;">1,500.00</p>
                                     </div>
-                                </form>
+                                </div>
+                            </form>
                         </div>
                     </div>
                 </div>

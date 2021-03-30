@@ -119,8 +119,8 @@
                                     <span class="site-menu-title">ช่องทางขนส่ง</span>
                                 </a>
                             </li>
-                            <li class="site-menu-item {{ Request::is('setting/user')?'active':''}}">
-                                <a class="animsition-link" href="/setting/user">
+                            <li class="site-menu-item {{ Request::is('setting/user/list','setting/user/detail')?'active':''}}">
+                                <a class="animsition-link" href="/setting/user/list">
                                     <span class="site-menu-title">ผู้ใช้งาน</span>
                                 </a>
                             </li>

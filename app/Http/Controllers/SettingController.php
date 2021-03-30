@@ -25,4 +25,24 @@ class SettingController extends Controller
     {
         return view('setting.setting-transport');
     }
+
+    public function userList(Request $request)
+    {
+        return view('setting.setting-user-list');
+    }
+
+    public function userDetail(Request $request)
+    {
+        return view('setting.setting-user-detail');
+    }
+
+    public function roleList(Request $request)
+    {
+        return view('setting.setting-role-list');
+    }
+
+    public function general(Request $request)
+    {
+        return view('setting.setting-general');
+    }
 }
