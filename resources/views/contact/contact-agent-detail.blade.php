@@ -2,7 +2,10 @@
 
 @section('style')
     <!-- Plugins -->
-    <link rel="stylesheet" href="../../assets/examples/css/tables/basic.css">
+    <link rel="stylesheet" href="{{asset('assets/examples/css/tables/basic.css')}}">
+
+    <link rel="stylesheet" href="{{asset('global/vendor/chartist/chartist.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/examples/css/widgets/chart.css')}}">
 
     <style>
         .icon-wrap > .icon {
@@ -96,7 +99,41 @@
                             </div>
                         </div>
                         <div class="panel-body">
-
+                            <!-- Panel Bar Withfooter -->
+                            <div class="card card-shadow" id="chartBarWithfooter">
+                                <div class="card-block p-0">
+                                    <div class="p-30">
+                                        <div class="font-size-20 mb-20">
+                                            ยอดขายรวม
+                                            <span class="float-right"><i class="icon md-caret-up red-600 mr-10" aria-hidden="true"></i>2,250</span>
+                                        </div>
+                                        <div class="ct-chart h-100"></div>
+                                    </div>
+                                    <div class="text-center px-30 py-15" style="border-top:1px solid #e9eaeb">
+                                        <div class="row">
+                                            <div class="col-4">
+                                                <div class="counter">
+{{--                                                        <span class="counter-number">1,230</span>--}}
+                                                    <div class="counter-bottom text-uppercase">ธ.ค./2563</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="counter">
+{{--                                                        <span class="counter-number">470</span>--}}
+                                                    <div class="counter-bottom text-uppercase">ม.ค./2564</div>
+                                                </div>
+                                            </div>
+                                            <div class="col-4">
+                                                <div class="counter">
+{{--                                                        <span class="counter-number">50</span>--}}
+                                                    <div class="counter-bottom text-uppercase">ก.พ./2564</div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Panel Bar Withfooter -->
                         </div>
                     </div>
                 </div>
@@ -139,7 +176,17 @@
                                             </tr>
                                             <tr>
                                                 <td>2</td>
-                                                <a href="#">ข้อมูลตัวอย่าง 7(M)</a>
+                                                <td>
+                                                    <a href="#">ข้อมูลตัวอย่าง 7(M)</a>
+                                                </td>
+                                                <td class="text-right">0</td>
+                                                <td class="text-right">0</td>
+                                            </tr>
+                                            <tr>
+                                                <td>3</td>
+                                                <td>
+                                                    <a href="#">ข้อมูลตัวอย่าง 7(S)</a>
+                                                </td>
                                                 <td class="text-right">0</td>
                                                 <td class="text-right">0</td>
                                             </tr>
@@ -165,7 +212,48 @@
                             </div>
                         </div>
                         <div class="panel-body">
-
+                            <!-- Panel Pie -->
+                            <div class="card" id="chartPie">
+                                <div class="card-block p-0 p-30 h-full">
+                                    <div class="ct-chart h-250"></div>
+                                    <div class="row no-space mt-40">
+                                        <div class="col-4">
+                                            <div class="counter">
+                                                <div class="counter-number-group font-size-14">
+                                                    <span class="counter-number-related">
+                                                      <span class="icon md-circle purple-600"></span>
+                                                    </span>
+                                                    <span class="counter-number font-size-24">35%</span>
+                                                </div>
+                                                <div class="counter-label text-uppercase">ข้อมูลตัวอย่าง 6</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="counter">
+                                                <div class="counter-number-group font-size-14">
+                                                    <span class="counter-number-related">
+                                                      <span class="icon md-circle red-600"></span>
+                                                    </span>
+                                                    <span class="counter-number font-size-24">20%</span>
+                                                </div>
+                                                <div class="counter-label text-uppercase">ข้อมูลตัวอย่าง 7(M)</div>
+                                            </div>
+                                        </div>
+                                        <div class="col-4">
+                                            <div class="counter text-center">
+                                                <div class="counter-number-group font-size-14">
+                                                    <span class="counter-number-related">
+                                                      <span class="icon md-circle blue-600"></span>
+                                                    </span>
+                                                    <span class="counter-number font-size-24">45%</span>
+                                                </div>
+                                                <div class="counter-label text-uppercase">ข้อมูลตัวอย่าง 7(S)</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- End Panel Pie -->
                         </div>
                     </div>
                 </div>
@@ -233,15 +321,64 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-12">
+                    <div class="panel">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                บิลการชำระเงิน
+                            </h3>
+                            <div class="panel-actions panel-actions-keep">
+                                <div class="input-search input-group-sm" style="width: 100%;">
+                                    <button type="submit" class="input-search-btn">
+                                        <i class="icon md-search" aria-hidden="true"></i>
+                                    </button>
+                                    <input type="text" class="form-control" name="" placeholder="พิมพ์คำค้นหา...">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel-body container-fluid p-0">
+                            <div class="example-wrap">
+                                <div class="table-responsive">
+                                    <table class="table table-hover mb-0" data-role="content" data-plugin="selectable" data-row-selectable="true">
+                                        <thead class="bg-grey-100">
+                                        <tr>
+                                            <th>#</th>
+                                            <th>รายการ</th>
+                                            <th>วันที่เริ่มต้น</th>
+                                            <th>วันที่สิ้นสุด</th>
+                                            <th>ยอดขาย</th>
+                                            <th>คอมมิชชั่น</th>
+                                            <th>สถานะ</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                        <td colspan="100%" class="text-center">
+                                            ไม่มีข้อมูล
+                                        </td>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
 @endsection
 
 @section('script')
+    <!-- Plugins -->
+    <script src="{{asset('global/vendor/sparkline/jquery.sparkline.min.js')}}"></script>
+    <script src="{{asset('global/vendor/chartist/chartist.min.js')}}"></script>
+    <script src="{{asset('global/vendor/matchheight/jquery.matchHeight-min.js')}}"></script>
+
     <!-- Page -->
-    <script src="../../../global/js/Plugin/peity.js"></script>
-    <script src="../../../global/js/Plugin/asselectable.js"></script>
-    <script src="../../../global/js/Plugin/selectable.js"></script>
-    <script src="../../../global/js/Plugin/table.js"></script>
+    <script src="{{asset('global/js/Plugin/peity.js')}}"></script>
+    <script src="{{asset('global/js/Plugin/asselectable.js')}}"></script>
+    <script src="{{asset('global/js/Plugin/selectable.js')}}"></script>
+    <script src="{{asset('global/js/Plugin/table.js')}}"></script>
+
+    <script src="{{asset('global/js/Plugin/matchheight.js')}}"></script>
+    <script src="{{asset('assets/examples/js/widgets/chart.js')}}"></script>
 @endsection

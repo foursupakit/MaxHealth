@@ -1,6 +1,12 @@
 @extends('layout.main')
 
 @section('style')
+    <!-- Plugins -->
+    <link rel="stylesheet" href="../../../global/vendor/blueimp-file-upload/jquery.fileupload.css">
+    <link rel="stylesheet" href="../../../global/vendor/dropify/dropify.css">
+
+    <link rel="stylesheet" href="../../assets/examples/css/pages/profile.css">
+
     <style>
         .pointer {
             cursor: pointer;
@@ -31,7 +37,7 @@
                                     <div class="row">
                                         <label for="addpicture" class="col-md-4 col-form-label">รูปภาพ</label>
                                         <div class="col-md-8">
-                                            <input type="text" id="addpicture" class="form-control w-200" autocomplete="off" />
+                                            <input type="file" id="addpicture" data-plugin="dropify" data-default-file="" />
                                         </div>
                                     </div>
                                 </div>
@@ -39,7 +45,7 @@
                                     <div class="row">
                                         <label for="addcode" class="col-md-4 col-form-label">รหัส<span class="required">*</span></label>
                                         <div class="col-md-8">
-                                            <input type="text" id="addcode" class="form-control w-200" autocomplete="off" />
+                                            <input type="text" id="addcode" class="form-control w-200" autocomplete="off" value="C0008" />
                                         </div>
                                     </div>
                                 </div>
@@ -47,7 +53,7 @@
                                     <div class="row">
                                         <label for="addname" class="col-md-4 col-form-label">ชื่อ<span class="required">*</span></label>
                                         <div class="col-md-8">
-                                            <input type="text" id="addname" class="form-control" autocomplete="off" />
+                                            <input type="text" id="addname" class="form-control" autocomplete="off" value="บริษัท ABC จำกัด" />
                                         </div>
                                     </div>
                                 </div>
@@ -55,7 +61,7 @@
                                     <div class="row">
                                         <label for="addnumtag" class="col-md-4 col-form-label">เลขผู้เสียภาษี</label>
                                         <div class="col-md-8">
-                                            <input type="text" id="addnumtag" class="form-control" autocomplete="off" />
+                                            <input type="text" id="addnumtag" class="form-control" autocomplete="off" value="2345678901234" />
                                         </div>
                                     </div>
                                 </div>
@@ -111,7 +117,7 @@
                                     <div class="row">
                                         <label for="addphone" class="col-md-4 col-form-label">เบอร์โทรศัพท์</label>
                                         <div class="col-md-8">
-                                            <input type="text" id="addphone" class="form-control w-200" autocomplete="off" />
+                                            <input type="text" id="addphone" class="form-control" autocomplete="off" value="034567890" />
                                         </div>
                                     </div>
                                 </div>
@@ -119,7 +125,7 @@
                                     <div class="row">
                                         <label for="addphone1" class="col-md-4 col-form-label">เบอร์โทรศัพท์มือถือ</label>
                                         <div class="col-md-8">
-                                            <input type="text" id="addphone1" class="form-control w-200" autocomplete="off" />
+                                            <input type="text" id="addphone1" class="form-control" autocomplete="off" placeholder="0819213443" />
                                         </div>
                                     </div>
                                 </div>
@@ -127,7 +133,7 @@
                                     <div class="row">
                                         <label for="addphone2" class="col-md-4 col-form-label">เบอร์โทรสาร</label>
                                         <div class="col-md-8">
-                                            <input type="text" id="addphone2" class="form-control w-200" autocomplete="off" />
+                                            <input type="text" id="addphone2" class="form-control w-200" autocomplete="off" placeholder="025451133" />
                                         </div>
                                     </div>
                                 </div>
@@ -135,7 +141,7 @@
                                     <div class="row">
                                         <label for="addemail" class="col-md-4 col-form-label">อีเมล</label>
                                         <div class="col-md-8">
-                                            <input type="text" id="addemail" class="form-control" autocomplete="off" placeholder="you@email.com" />
+                                            <input type="text" id="addemail" class="form-control" autocomplete="off" value="you@email.com" />
                                         </div>
                                     </div>
                                 </div>
@@ -143,7 +149,7 @@
                                     <div class="row">
                                         <label for="addAddress" class="col-md-4 col-form-label">ที่อยู่</label>
                                         <div class="col-md-8">
-                                            <textarea type="text" id="addAddress" class="form-control" autocomplete="off"></textarea>
+                                            <textarea type="text" id="addAddress" class="form-control" autocomplete="off">123 วัดชลอ บางกรวย นนทบุรี 11130</textarea>
                                         </div>
                                     </div>
                                 </div>
@@ -182,7 +188,7 @@
                                     <div class="row">
                                         <label for="phonerecipient" class="col-md-4 col-form-label">เบอร์โทรศัพท์ผู้รับ</label>
                                         <div class="col-md-8">
-                                            <input type="text" id="phonerecipient" class="form-control" autocomplete="off" />
+                                            <input type="text" id="phonerecipient" class="form-control" autocomplete="off" placeholder="0819213443" />
                                         </div>
                                     </div>
                                 </div>
@@ -198,7 +204,7 @@
                                     <div class="row">
                                         <label for="addresssrecipient" class="col-md-4 col-form-label">ที่อยู่/จัดส่ง</label>
                                         <div class="col-md-8">
-                                            <input type="text" id="addresssrecipient" class="form-control" autocomplete="off" />
+                                            <input type="text" id="addresssrecipient" class="form-control" autocomplete="off" placeholder="you@email.com" />
                                         </div>
                                     </div>
                                 </div>
@@ -260,7 +266,7 @@
                                     <div class="row">
                                         <label for="addfacebook" class="col-md-4 col-form-label"><i class="icon bd-facebook mr-10"></i>Facebook</label>
                                         <div class="col-md-8">
-                                            <input type="text" id="addfacebook" class="form-control" autocomplete="off" placeholder="https://www.facebook.com/xxx" />
+                                            <input type="text" id="addfacebook" class="form-control" autocomplete="off" value="your_facebook" />
                                         </div>
                                     </div>
                                 </div>
@@ -268,7 +274,7 @@
                                     <div class="row">
                                         <label for="addline" class="col-md-4 col-form-label"><img src="/assets/images/line.png" width="15" class="mr-10">Line</label>
                                         <div class="col-md-8">
-                                            <input type="text" id="addline" class="form-control" autocomplete="off" placeholder="http://line.me/ti/p/xxx" />
+                                            <input type="text" id="addline" class="form-control" autocomplete="off" value="your_line_id" />
                                         </div>
                                     </div>
                                 </div>
@@ -296,8 +302,20 @@
 
 @section('script')
     <!-- Page -->
-    <script src="../../../global/js/Plugin/peity.js"></script>
-    <script src="../../../global/js/Plugin/asselectable.js"></script>
-    <script src="../../../global/js/Plugin/selectable.js"></script>
-    <script src="../../../global/js/Plugin/table.js"></script>
+    <script src="../../../global/js/Plugin/dropify.js"></script>
+    <script src="../../assets/examples/js/forms/uploads.js"></script>
+
+    <!-- Plugins -->
+    <script src="../../../global/vendor/jquery-ui/jquery-ui.js"></script>
+    <script src="../../../global/vendor/blueimp-tmpl/tmpl.js"></script>
+    <script src="../../../global/vendor/blueimp-canvas-to-blob/canvas-to-blob.js"></script>
+    <script src="../../../global/vendor/blueimp-load-image/load-image.all.min.js"></script>
+    <script src="../../../global/vendor/blueimp-file-upload/jquery.fileupload.js"></script>
+    <script src="../../../global/vendor/blueimp-file-upload/jquery.fileupload-process.js"></script>
+    <script src="../../../global/vendor/blueimp-file-upload/jquery.fileupload-image.js"></script>
+    <script src="../../../global/vendor/blueimp-file-upload/jquery.fileupload-audio.js"></script>
+    <script src="../../../global/vendor/blueimp-file-upload/jquery.fileupload-video.js"></script>
+    <script src="../../../global/vendor/blueimp-file-upload/jquery.fileupload-validate.js"></script>
+    <script src="../../../global/vendor/blueimp-file-upload/jquery.fileupload-ui.js"></script>
+    <script src="../../../global/vendor/dropify/dropify.min.js"></script>
 @endsection
