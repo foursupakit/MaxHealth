@@ -28,7 +28,7 @@
                         <div class="panel-body container-fluid p-0">
                             <div class="example-wrap">
                                 <div class="tab-content">
-                                    <div class="tab-pane active animation-slide-left" id="modalList" role="tabpanel">
+                                    <div class="tab-pane active" id="modalList" role="tabpanel">
                                         <div class="table-responsive">
                                             <table class="table table-striped table-hover responsive mb-0" data-role="content" data-plugin="selectable" data-row-selectable="true">
                                                 <thead class="bg-grey-100">
@@ -72,7 +72,7 @@
                                             </table>
                                         </div>
                                     </div>
-                                    <div class="tab-pane animation-slide-left" id="modalCustomer" role="tabpanel">
+                                    <div class="tab-pane" id="modalCustomer" role="tabpanel">
                                         <div class="table-responsive">
                                             <table class="table table-hover mb-0" data-role="content" data-plugin="selectable" data-row-selectable="true">
                                                 <thead class="bg-grey-100">

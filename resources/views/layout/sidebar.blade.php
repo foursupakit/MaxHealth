@@ -119,6 +119,21 @@
                                     <span class="site-menu-title">ช่องทางขนส่ง</span>
                                 </a>
                             </li>
+                            <li class="site-menu-item {{ Request::is('setting/user')?'active':''}}">
+                                <a class="animsition-link" href="/setting/user">
+                                    <span class="site-menu-title">ผู้ใช้งาน</span>
+                                </a>
+                            </li>
+                            <li class="site-menu-item {{ Request::is('setting/role/list')?'active':''}}">
+                                <a class="animsition-link" href="/setting/role/list">
+                                    <span class="site-menu-title">สิทธิ์การใช้งาน</span>
+                                </a>
+                            </li>
+                            <li class="site-menu-item {{ Request::is('setting/general')?'active':''}}">
+                                <a class="animsition-link" href="/setting/general">
+                                    <span class="site-menu-title">ตั้งค่าทั้วไป</span>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                 </ul>

@@ -54,7 +54,7 @@
                 <div class="panel-body container-fluid p-0">
                     <div class="example-wrap">
                         <div class="tab-content">
-                            <div class="tab-pane active animation-slide-left" id="list" role="tabpanel">
+                            <div class="tab-pane active" id="list" role="tabpanel">
                                 <div class="table-responsive">
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
@@ -227,7 +227,7 @@
                                     </table>
                                 </div>
                             </div>
-                            <div class="tab-pane animation-slide-left" id="wait-transfer" role="tabpanel">
+                            <div class="tab-pane" id="wait-transfer" role="tabpanel">
                                 <div class="table-responsive">
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
@@ -290,7 +290,7 @@
                                     </table>
                                 </div>
                             </div>
-                            <div class="tab-pane animation-slide-left" id="wait-pay" role="tabpanel">
+                            <div class="tab-pane" id="wait-pay" role="tabpanel">
                                 <div class="table-responsive">
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
@@ -331,7 +331,7 @@
                                     </table>
                                 </div>
                             </div>
-                            <div class="tab-pane animation-slide-left" id="success" role="tabpanel">
+                            <div class="tab-pane" id="success" role="tabpanel">
                                 <div class="table-responsive">
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">

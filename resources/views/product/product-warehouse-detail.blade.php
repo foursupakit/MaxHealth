@@ -54,7 +54,7 @@
                 <div class="panel-body container-fluid p-0">
                     <div class="example-wrap">
                         <div class="tab-content">
-                            <div class="tab-pane active animation-slide-left" id="list" role="tabpanel">
+                            <div class="tab-pane active" id="list" role="tabpanel">
                                 <div class="table-responsive">
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
@@ -129,7 +129,7 @@
                                     </table>
                                 </div>
                             </div>
-                            <div class="tab-pane animation-slide-left" id="out-of-stock" role="tabpanel">
+                            <div class="tab-pane" id="out-of-stock" role="tabpanel">
                                 <div class="table-responsive">
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
@@ -176,7 +176,7 @@
                                     </table>
                                 </div>
                             </div>
-                            <div class="tab-pane animation-slide-left" id="expired-product" role="tabpanel">
+                            <div class="tab-pane" id="expired-product" role="tabpanel">
                                 <div class="table-responsive">
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
