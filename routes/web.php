@@ -69,5 +69,6 @@ Route::group([ 'prefix' => 'setting'], function () {
     Route::get('/user/list', 'SettingController@userList')->name('setting.user-list');
     Route::get('/user/detail', 'SettingController@userDetail')->name('setting.user-detail');
     Route::get('/role/list', 'SettingController@roleList')->name('setting.role-list');
+    Route::get('/role/create', 'SettingController@roleCreate')->name('setting.role-create');
     Route::get('/general', 'SettingController@general')->name('setting.general');
 });

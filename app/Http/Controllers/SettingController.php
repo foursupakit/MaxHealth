@@ -41,6 +41,12 @@ class SettingController extends Controller
         return view('setting.setting-role-list');
     }
 
+    public function roleCreate(Request $request)
+    {
+        return view('setting.setting-role-create');
+    }
+
+
     public function general(Request $request)
     {
         return view('setting.setting-general');

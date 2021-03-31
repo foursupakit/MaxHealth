@@ -179,10 +179,10 @@
                                     <div class="col-md-8">
                                         <div class="d-flex">
                                             <div class="mr-3">
-                                                <input type="checkbox" id="female" name="gender" value="">
+                                                <input type="checkbox" id="inventory" name="inventory" value="">
                                             </div>
                                             <div>
-                                                <label for="female">แจ้งเตือนสินค้าคงเหลือน้อยกว่า</label><br>
+                                                <label for="inventory">แจ้งเตือนสินค้าคงเหลือน้อยกว่า</label><br>
                                                 <input type="text" class="form-control d-inline-block w-100 mr-1" autocomplete="off" value="5" disabled /> ชิ้น
                                             </div>
                                         </div>
