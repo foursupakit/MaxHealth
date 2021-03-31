@@ -58,7 +58,7 @@
             <div class="modal-body">
                 <div class="form-group row">
                     <label class="col-md-3 col-form-label">ขนาด</label>
-                    <div class="col-md-9">
+                    <div class="col-md-9 mt-10 mb-10">
                         <div class="radio-custom radio-default radio-inline">
                             <input type="radio" id="inputRadiosPaperA4" name="inputRadiosPaper" checked />
                             <label for="inputRadiosPaperA4">A4</label>
@@ -101,7 +101,10 @@
                 <div class="form-group row">
                     <label class="col-md-3"></label>
                     <div class="col-md-9">
-                        <input type="checkbox" checked> กำหนดหมายเลขรายการเอง
+                        <div class="checkbox-custom checkbox-primary">
+                            <input type="checkbox" checked id="inputChecked">
+                            <label for="inputChecked">กำหนดหมายเลขรายการเอง</label>
+                        </div>
                     </div>
                 </div>
                 <div class="form-group row">

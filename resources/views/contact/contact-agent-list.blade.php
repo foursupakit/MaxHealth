@@ -59,7 +59,7 @@
                                         <td>Dealer</td>
                                         <td>0812345678</td>
                                         <td>you@zortshop.com</td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
                                                     onclick="location.href='/contact/agent/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
@@ -78,7 +78,7 @@
                                         <td>Distributor</td>
                                         <td>0812345678</td>
                                         <td>you@zortshop.com</td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
                                                     onclick="location.href='/contact/agent/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>

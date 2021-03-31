@@ -63,7 +63,7 @@
                                         <td>
                                             <span class="badge badge-warning">รอโอน</span>
                                         </td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
                                                     onclick="location.href='/sale-order/return-product/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
@@ -84,7 +84,7 @@
                                         <td>
                                             <span class="badge badge-success">สำเร็จ</span>
                                         </td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
                                                     onclick="location.href='/sale-order/return-product/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>

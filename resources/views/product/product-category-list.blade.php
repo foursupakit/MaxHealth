@@ -55,7 +55,7 @@
                                         <td>เครื่องแต่งกาย</td>
                                         <td>30,300</td>
                                         <td>27,300</td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
                                                     data-target="#modalEditCategory" data-toggle="modal">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
@@ -71,7 +71,7 @@
                                         <td>เครื่องใช้ในบ้าน</td>
                                         <td>308,100</td>
                                         <td>293,100</td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
                                                     data-target="#modalEditCategory" data-toggle="modal">
                                                 <i class="icon md-edit" aria-hidden="true"></i>

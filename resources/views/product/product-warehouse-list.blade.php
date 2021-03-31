@@ -59,7 +59,7 @@
                                         <td>ทั่วไป</td>
                                         <td>96,600</td>
                                         <td>27 ม.ค. 2564 16:35</td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="แก้ไข" onclick="location.href='/product/warehouse/edit/1'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
@@ -77,7 +77,7 @@
                                         <td>ทั่วไป</td>
                                         <td>20,900</td>
                                         <td>27 ม.ค. 2564 16:39</td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="แก้ไข" onclick="location.href='/product/warehouse/edit/1'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
@@ -95,7 +95,7 @@
                                         <td>ทั่วไป</td>
                                         <td>220,900</td>
                                         <td>27 ม.ค. 2564 16:39</td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="แก้ไข" onclick="location.href='/product/warehouse/edit/1'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>

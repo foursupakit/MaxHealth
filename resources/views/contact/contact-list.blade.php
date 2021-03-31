@@ -75,7 +75,7 @@
                                         <td>1234567890123</td>
                                         <td>024567890</td>
                                         <td>you@maxheathshop.com</td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="แก้ไข" onclick="location.href='/contact/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
@@ -101,7 +101,7 @@
                                         <td>1234567890123</td>
                                         <td>034567890</td>
                                         <td>you@maxheathshop.com</td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="แก้ไข" onclick="location.href='/contact/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>

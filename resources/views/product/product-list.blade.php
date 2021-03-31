@@ -68,7 +68,7 @@
                                         <td>400 บาท</td>
                                         <td>60 ตัว</td>
                                         <td>50 ตัว</td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="Preview">
                                                 <i class="icon md-eye text-success" aria-hidden="true"></i>
@@ -99,7 +99,7 @@
                                         <td>400 บาท</td>
                                         <td>60 ตัว</td>
                                         <td>50 ตัว</td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="Not Preview">
                                                 <i class="icon md-eye-off text-danger" aria-hidden="true"></i>
@@ -114,7 +114,7 @@
                                             </button>
                                         </td>
                                     </tr>
-                                    <tr>
+                                    <tr class="text-nowrap">
                                         <td>3</td>
                                         <td>P0001-3</td>
                                         <td class="d-flex">
@@ -161,7 +161,7 @@
                                         <td>400 บาท</td>
                                         <td>60 ตัว</td>
                                         <td>50 ตัว</td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="Preview">
                                                 <i class="icon md-eye text-success" aria-hidden="true"></i>
@@ -192,7 +192,7 @@
                                         <td>400 บาท</td>
                                         <td>60 ตัว</td>
                                         <td>50 ตัว</td>
-                                        <td>
+                                        <td class="text-nowrap">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                     data-original-title="Preview">
                                                 <i class="icon md-eye text-success" aria-hidden="true"></i>
