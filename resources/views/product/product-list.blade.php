@@ -15,7 +15,8 @@
     <div class="page">
         <div class="page-header">
             <h1 class="page-title">สินค้า</h1>
-            <span class="panel-desc">จัดการรูปภาพสินค้า</span>
+            <span class="panel-desc d-inline-block">จำนวน 5 รายการ</span>
+            <span class="panel-desc d-inline-block">| <a href="">จัดการรูปภาพสินค้า</a></span>
             <div class="page-header-actions">
                 <button type="button" class="btn btn-primary btn-round btn-lg" data-toggle="tooltip" data-original-title="create" onclick="location.href='/product/create'">
                     เพิ่มสินค้าใหม่

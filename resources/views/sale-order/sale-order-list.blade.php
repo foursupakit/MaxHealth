@@ -17,6 +17,7 @@
     <div class="page">
         <div class="page-header">
             <h1 class="page-title">รายการขาย</h1>
+            <span class="panel-desc">จำนวน 7 รายการ</span>
             <div class="row no-gutters mt-20">
                 <div class="col-md-6 col-lg-4">
                     <div class="input-search">
@@ -506,6 +507,40 @@
     <script>
         $(document).ready(function() {
             $('.datepicker').datepicker('setDate', new Date());
+
+            $('.adjestheading2').css('display', 'none');
+            $('.adjusttransactionnumberarea').css('display', 'none');
+            $('.adjustdate').css('display', 'none');
+        });
+
+        $(function() {
+            $('input[type=radio][name=inputRadiosPaper]').change(function() {
+                var radioValue = $(this).val();
+                if(radioValue === 'a4'){
+                    $('.adjustformatpaper').css('display', 'flex');
+                    $('.adjestheading1').css('display', 'flex');
+                    $('.adjestheading2').css('display', 'none');
+                } else if(radioValue === 'a5'){
+                    $('.adjustformatpaper').css('display', 'none');
+                    $('.adjestheading1').css('display', 'flex');
+                    $('.adjestheading2').css('display', 'none');
+                } else if(radioValue === 'recript'){
+                    $('.adjustformatpaper').css('display', 'none');
+                    $('.adjestheading1').css('display', 'none');
+                    $('.adjestheading2').css('display', 'flex');
+                }
+            });
+
+            $('#inputChecked').change(function() {
+                var radioValue = $("#inputChecked:checked").val();
+                if(radioValue){
+                    $('.adjusttransactionnumberarea').css('display', 'flex');
+                    $('.adjustdate').css('display', 'flex');
+                } else {
+                    $('.adjusttransactionnumberarea').css('display', 'none');
+                    $('.adjustdate').css('display', 'none');
+                }
+            });
         });
     </script>
 @endsection

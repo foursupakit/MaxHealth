@@ -20,6 +20,7 @@
     <div class="page">
         <div class="page-header">
             <h1 class="page-title">รายการซื้อ</h1>
+            <span class="panel-desc">จำนวน 7 รายการ</span>
             <div class="page-header-actions">
                 <button type="button" class="btn btn-primary btn-round btn-lg" data-toggle="tooltip" data-original-title="create" onclick="location.href='/purchase-order/create'">
                     สร้าง
@@ -77,6 +78,10 @@
                                                 <a href="" class="badge badge-warning" data-target="#modalPayment" data-toggle="modal">รอชำระ</a>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit/1'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -99,6 +104,10 @@
                                                 <span class="badge badge-info">ชำระบางส่วน</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit/2'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -121,6 +130,10 @@
                                                 <span class="badge badge-success">ชำระครบ</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit/3'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -143,6 +156,10 @@
                                                 <span class="badge badge-success">ชำระครบ</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -165,6 +182,10 @@
                                                 <span class="badge badge-success">ชำระครบ</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -187,6 +208,10 @@
                                                 <span class="badge badge-success">ชำระครบ</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -209,6 +234,10 @@
                                                 <span class="badge badge-success">ชำระครบ</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -250,6 +279,10 @@
                                                 <a href="" class="badge badge-warning" data-target="#modalPayment" data-toggle="modal">รอชำระ</a>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -272,6 +305,10 @@
                                                 <span class="badge badge-info">ชำระบางส่วน</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit/2'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -313,6 +350,10 @@
                                                 <a href="" class="badge badge-warning" data-target="#modalPayment" data-toggle="modal">รอชำระ</a>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -354,6 +395,10 @@
                                                 <span class="badge badge-success">ชำระครบ</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit/3'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -376,6 +421,10 @@
                                                 <span class="badge badge-success">ชำระครบ</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -398,6 +447,10 @@
                                                 <span class="badge badge-success">ชำระครบ</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -420,6 +473,10 @@
                                                 <span class="badge badge-success">ชำระครบ</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -442,6 +499,10 @@
                                                 <span class="badge badge-success">ชำระครบ</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
                                                         data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
@@ -486,6 +547,40 @@
     <script>
         $(document).ready(function() {
             $('.datepicker').datepicker('setDate', new Date());
+
+            $('.adjestheading2').css('display', 'none');
+            $('.adjusttransactionnumberarea').css('display', 'none');
+            $('.adjustdate').css('display', 'none');
+        });
+
+        $(function() {
+            $('input[type=radio][name=inputRadiosPaper]').change(function() {
+                var radioValue = $(this).val();
+                if(radioValue === 'a4'){
+                    $('.adjustformatpaper').css('display', 'flex');
+                    $('.adjestheading1').css('display', 'flex');
+                    $('.adjestheading2').css('display', 'none');
+                } else if(radioValue === 'a5'){
+                    $('.adjustformatpaper').css('display', 'none');
+                    $('.adjestheading1').css('display', 'flex');
+                    $('.adjestheading2').css('display', 'none');
+                } else if(radioValue === 'recript'){
+                    $('.adjustformatpaper').css('display', 'none');
+                    $('.adjestheading1').css('display', 'none');
+                    $('.adjestheading2').css('display', 'flex');
+                }
+            });
+
+            $('#inputChecked').change(function() {
+                var radioValue = $("#inputChecked:checked").val();
+                if(radioValue){
+                    $('.adjusttransactionnumberarea').css('display', 'flex');
+                    $('.adjustdate').css('display', 'flex');
+                } else {
+                    $('.adjusttransactionnumberarea').css('display', 'none');
+                    $('.adjustdate').css('display', 'none');
+                }
+            });
         });
     </script>
 @endsection

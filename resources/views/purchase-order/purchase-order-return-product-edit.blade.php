@@ -88,7 +88,7 @@
                                     <label class="col-md-3 col-form-label">ช่องทางการขาย</label>
                                     <div class="col-md-9">
                                         <select class="form-control">
-                                            <option></option>
+                                            <option class="d-none"></option>
                                             <option>Facebook</option>
                                             <option>Line</option>
                                             <option>Instagram</option>
@@ -214,7 +214,7 @@
                                     <label class="col-md-3 col-form-label">ช่องทางจัดส่ง</label>
                                     <div class="col-md-9">
                                         <select class="form-control mt-5">
-                                            <option></option>
+                                            <option class="d-none"></option>
                                             <option>ไปรษณีย์ไทย</option>
                                             <option>Kerry</option>
                                             <option>LINE MAN</option>
