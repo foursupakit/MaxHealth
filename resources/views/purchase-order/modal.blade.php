@@ -7,7 +7,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">เลือกผู้ติดต่อ</h4>
+                <h3 class="modal-title">เลือกผู้ติดต่อ</h3>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -136,7 +136,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">เลือกสินค้าหลายรายการ</h4>
+                <h3 class="modal-title">เลือกสินค้าหลายรายการ</h3>
             </div>
             <div class="modal-body">
                 <div class="row">
@@ -215,7 +215,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">ลบรายการซื้อ</h4>
+                <h3 class="modal-title">ลบรายการซื้อ</h3>
             </div>
             <div class="modal-body">
                 <p>ยืนยันการลบรายการซื้อ ?</p>
@@ -238,7 +238,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">ลบรายการคืนสินค้า</h4>
+                <h3 class="modal-title">ลบรายการคืนสินค้า</h3>
             </div>
             <div class="modal-body">
                 <p>ยืนยันการลบรายการคืนสินค้า ?</p>
@@ -261,7 +261,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">โอนสินค้าเข้าคลัง</h4>
+                <h3 class="modal-title">โอนสินค้าเข้าคลัง</h3>
             </div>
             <div class="modal-body">
                 <div class="form-group">
@@ -319,7 +319,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">ชำระเงิน</h4>
+                <h3 class="modal-title">ชำระเงิน</h3>
             </div>
             <div class="modal-body">
                 <div class="form-group row">

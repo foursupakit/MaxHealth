@@ -4,6 +4,8 @@
     <!-- Plugins -->
     <link rel="stylesheet" href="../../assets/examples/css/tables/basic.css">
 
+    <link rel="stylesheet" href="../../../global/vendor/bootstrap-datepicker/bootstrap-datepicker.css">
+
     <style>
         .icon-wrap > .icon {
             font-size: 65px;
@@ -37,10 +39,6 @@
                         <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#send" aria-controls="send" role="tab">จัดส่งแล้ว</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#success" aria-controls="success" role="tab">เสร็จสิ้น</a></li>
                     </ul>
-{{--                    <div class="panel-actions">--}}
-{{--                        <a class="panel-action icon md-delete" data-toggle="tooltip" data-original-title="move to trash"--}}
-{{--                           data-container="body" title=""></a>--}}
-{{--                    </div>--}}
                 </div>
                 <div class="panel-body container-fluid p-0">
                     <div class="example-wrap">
@@ -70,11 +68,15 @@
                                                 <span class="badge badge-warning">รอแพ็ค</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
-                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-original-title="ลบ"
                                                         data-target="#modalDelete" data-toggle="modal">
                                                     <i class="icon md-delete" aria-hidden="true"></i>
                                                 </button>
@@ -90,8 +92,12 @@
                                                 <span class="badge badge-warning">รอแพ็ค</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -110,8 +116,12 @@
                                                 <span class="badge badge-warning">รอจัดส่ง</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -130,8 +140,12 @@
                                                 <span class="badge badge-warning">จัดส่งแล้ว</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -150,8 +164,12 @@
                                                 <span class="badge badge-warning">จัดส่งแล้ว</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -170,8 +188,12 @@
                                                 <span class="badge badge-success">เสร็จสิ้น</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -190,8 +212,12 @@
                                                 <span class="badge badge-success">เสร็จสิ้น</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -229,8 +255,12 @@
                                                 <span class="badge badge-warning">รอแพ็ค</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -249,8 +279,12 @@
                                                 <span class="badge badge-warning">รอแพ็ค</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -288,8 +322,12 @@
                                                 <span class="badge badge-warning">รอจัดส่ง</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -327,8 +365,12 @@
                                                 <span class="badge badge-warning">จัดส่งแล้ว</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -347,8 +389,12 @@
                                                 <span class="badge badge-warning">จัดส่งแล้ว</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -386,8 +432,12 @@
                                                 <span class="badge badge-success">เสร็จสิ้น</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -406,8 +456,12 @@
                                                 <span class="badge badge-success">เสร็จสิ้น</span>
                                             </td>
                                             <td class="text-nowrap">
+                                                <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
+                                                        data-target="#modalPrint" data-toggle="modal">
+                                                    <i class="icon md-file" aria-hidden="true"></i>
+                                                </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/sale-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/sale-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -439,4 +493,19 @@
     <script src="../../../global/js/Plugin/table.js"></script>
 
     <script src="../../assets/examples/js/charts/peity.js"></script>
+
+    <script src="../../../global/js/Plugin/peity.js"></script>
+    <script src="../../../global/js/Plugin/asselectable.js"></script>
+    <script src="../../../global/js/Plugin/selectable.js"></script>
+    <script src="../../../global/js/Plugin/table.js"></script>
+
+    <!-- datepicker -->
+    <script src="../../../global/vendor/bootstrap-datepicker/bootstrap-datepicker.js"></script>
+    <script src="../../../global/js/Plugin/bootstrap-datepicker.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('.datepicker').datepicker('setDate', new Date());
+        });
+    </script>
 @endsection

@@ -182,14 +182,14 @@
                                 <div class="row">
                                     <label class="col-md-4">การตั้งค่า</label>
                                     <div class="col-md-8">
-                                        <input type="checkbox" id="vehicle1" name="vehicle1" value="">
-                                        <label for="vehicle1"> แสดงในหน้าสั่งซื้อ</label><br>
+                                        <input type="checkbox" id="showOrder" name="showOrder" value="">
+                                        <label for="showOrder"> แสดงในหน้าสั่งซื้อ</label><br>
                                         <div class="d-flex">
                                             <div class="mr-3">
-                                                <input type="checkbox" id="vehicle3" name="vehicle3" value="">
+                                                <input type="checkbox" id="expirationDate" name="expirationDate" value="">
                                             </div>
                                             <div>
-                                                <label for="vehicle3"> ล็อต/วันหมดอายุ</label><br>
+                                                <label for="expirationDate"> ล็อต/วันหมดอายุ</label><br>
                                                 <input type="text" class="form-control d-inline-block w-50 mr-1" autocomplete="off" value="90" /> วัน
                                             </div>
                                         </div>

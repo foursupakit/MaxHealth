@@ -132,7 +132,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">ลบช่องทางจัดส่ง</h4>
+                <h3 class="modal-title">ลบช่องทางจัดส่ง</h3>
             </div>
             <div class="modal-body">
                 <p>ยืนยันการลบช่องทางจัดส่ง ?</p>

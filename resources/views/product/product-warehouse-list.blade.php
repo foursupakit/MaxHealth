@@ -61,7 +61,7 @@
                                         <td>27 ม.ค. 2564 16:35</td>
                                         <td>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                    data-original-title="Edit" onclick="location.href='/product/warehouse/edit/1'">
+                                                    data-original-title="แก้ไข" onclick="location.href='/product/warehouse/edit/1'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -79,7 +79,7 @@
                                         <td>27 ม.ค. 2564 16:39</td>
                                         <td>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                    data-original-title="Edit" onclick="location.href='/product/warehouse/edit/1'">
+                                                    data-original-title="แก้ไข" onclick="location.href='/product/warehouse/edit/1'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -97,7 +97,7 @@
                                         <td>27 ม.ค. 2564 16:39</td>
                                         <td>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                    data-original-title="Edit" onclick="location.href='/product/warehouse/edit/1'">
+                                                    data-original-title="แก้ไข" onclick="location.href='/product/warehouse/edit/1'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"

@@ -77,7 +77,7 @@
                                         <td>you@maxheathshop.com</td>
                                         <td>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                    data-original-title="Edit" onclick="location.href='/contact/edit'">
+                                                    data-original-title="แก้ไข" onclick="location.href='/contact/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -103,7 +103,7 @@
                                         <td>you@maxheathshop.com</td>
                                         <td>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                    data-original-title="Edit" onclick="location.href='/contact/edit'">
+                                                    data-original-title="แก้ไข" onclick="location.href='/contact/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"

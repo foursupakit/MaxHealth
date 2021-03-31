@@ -74,7 +74,7 @@
                                                 <i class="icon md-eye text-success" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                    data-original-title="Edit" onclick="location.href='/product/edit'">
+                                                    data-original-title="แก้ไข" onclick="location.href='/product/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -105,7 +105,7 @@
                                                 <i class="icon md-eye-off text-danger" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                    data-original-title="Edit" onclick="location.href='/product/edit'">
+                                                    data-original-title="แก้ไข" onclick="location.href='/product/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -136,7 +136,7 @@
                                                 <i class="icon md-eye text-success" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                    data-original-title="Edit" onclick="location.href='/product/edit'">
+                                                    data-original-title="แก้ไข" onclick="location.href='/product/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -167,7 +167,7 @@
                                                 <i class="icon md-eye text-success" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                    data-original-title="Edit" onclick="location.href='/product/edit'">
+                                                    data-original-title="แก้ไข" onclick="location.href='/product/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -198,7 +198,7 @@
                                                 <i class="icon md-eye text-success" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                    data-original-title="Edit" onclick="location.href='/product/edit'">
+                                                    data-original-title="แก้ไข" onclick="location.href='/product/edit'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -226,7 +226,7 @@
                     <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                         <span aria-hidden="true">×</span>
                     </button>
-                    <h4 class="modal-title">ลบสินค้า</h4>
+                    <h3 class="modal-title">ลบสินค้า</h3>
                 </div>
                 <div class="modal-body">
                     <p>ยืนยันการลบสินค้าใช่หรือไม่ ?</p>

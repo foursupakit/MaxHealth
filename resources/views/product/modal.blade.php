@@ -7,15 +7,13 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">เพิ่มหมวดหมู่</h4>
+                <h3 class="modal-title">เพิ่มหมวดหมู่</h3>
             </div>
             <div class="modal-body">
-                <div class="form-group">
-                    <div class="row">
-                        <label for="addcategoryname" class="col-md-4 col-form-label">ชื่อหมวดหมู่<span class="required">*</span></label>
-                        <div class="col-md-8">
-                            <input type="text" id="addcategoryname" class="form-control" autocomplete="off" />
-                        </div>
+                <div class="form-group row">
+                    <label for="addcategoryname" class="col-md-4 col-form-label">ชื่อหมวดหมู่<span class="required">*</span></label>
+                    <div class="col-md-8">
+                        <input type="text" id="addcategoryname" class="form-control" autocomplete="off" />
                     </div>
                 </div>
             </div>
@@ -36,7 +34,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">แก้ไขหมวดหมู่</h4>
+                <h3 class="modal-title">แก้ไขหมวดหมู่</h3>
             </div>
             <div class="modal-body">
                 <div class="form-group">
@@ -65,7 +63,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">ลบหมวดหมู่</h4>
+                <h3 class="modal-title">ลบหมวดหมู่</h3>
             </div>
             <div class="modal-body">
                 <p>ยืนยันการลบหมวดหมู่ใช่หรือไม่ ?</p>
@@ -88,7 +86,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">เพิ่มคลังสินค้า/สาขา</h4>
+                <h3 class="modal-title">เพิ่มคลังสินค้า/สาขา</h3>
             </div>
             <div class="modal-body">
                 <div class="form-group">
@@ -161,7 +159,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">ลบคลังสินค้า/สาขา</h4>
+                <h3 class="modal-title">ลบคลังสินค้า/สาขา</h3>
             </div>
             <div class="modal-body">
                 <p>ยืนยันการลบข้อมูลคลังสินค้า/สาขา ?</p>
@@ -184,7 +182,7 @@
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
-                <h4 class="modal-title">ปรับจำนวนคงเหลือในคลัง</h4>
+                <h3 class="modal-title">ปรับจำนวนคงเหลือในคลัง</h3>
             </div>
             <div class="modal-body">
                 <div class="form-group">

@@ -46,10 +46,6 @@
                         <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#wait-pay" aria-controls="wait-pay" role="tab">รอชำระ (1)</a></li>
                         <li class="nav-item" role="presentation"><a class="nav-link" data-toggle="tab" href="#success" aria-controls="success" role="tab">สำเร็จ</a></li>
                     </ul>
-                    {{--                    <div class="panel-actions">--}}
-                    {{--                        <a class="panel-action icon md-delete" data-toggle="tooltip" data-original-title="move to trash"--}}
-                    {{--                           data-container="body" title=""></a>--}}
-                    {{--                    </div>--}}
                 </div>
                 <div class="panel-body container-fluid p-0">
                     <div class="example-wrap">
@@ -82,7 +78,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit/1'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit/1'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -104,7 +100,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit/2'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit/2'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -126,7 +122,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit/3'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit/3'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -148,7 +144,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -170,7 +166,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -192,7 +188,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -214,7 +210,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -255,7 +251,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -277,7 +273,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit/2'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit/2'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -318,7 +314,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -359,7 +355,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit/3'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit/3'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -381,7 +377,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -403,7 +399,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -425,7 +421,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
@@ -447,7 +443,7 @@
                                             </td>
                                             <td class="text-nowrap">
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                        data-original-title="Edit" onclick="location.href='/purchase-order/edit'">
+                                                        data-original-title="แก้ไข" onclick="location.href='/purchase-order/edit'">
                                                     <i class="icon md-edit" aria-hidden="true"></i>
                                                 </button>
                                                 <button type="button" class="btn btn-sm btn-icon btn-pure btn-default"
