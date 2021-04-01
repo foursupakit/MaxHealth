@@ -320,19 +320,25 @@
                             <div class="form-group row">
                                 <label class="col-md-5 col-form-label">การโอนสินค้า</label>
                                 <div class="col-md-7">
-                                    <input type="radio" name="transfer" checked> รอโอนสินค้า
-                                    <select class="form-control example mt-5">
-                                        <option>ไม่ระบุ</option>
-                                        <option>คลังสินค้าหลัก</option>
-                                        <option>สาขาพระราม 9</option>
-                                        <option>สาขานนทบุรี</option>
-                                    </select>
-                                    <input class="mt-5" name="transfer" type="radio"> โอนทันทีเข้าคลังสินค้า
-                                    <select class="form-control example mt-5">
-                                        <option>คลังสินค้าหลัก</option>
-                                        <option>สาขาพระราม 9</option>
-                                        <option>สาขานนทบุรี</option>
-                                    </select>
+                                    <div class="radio-custom radio-default">
+                                        <input type="radio" id="transfer1" name="transfer" value="wait" checked>
+                                        <label for="transfer1">รอโอนสินค้า</label>
+                                        <select class="form-control example ml-10 mt-5 radio-transfer-1">
+                                            <option>ไม่ระบุ</option>
+                                            <option>คลังสินค้าหลัก</option>
+                                            <option>สาขาพระราม 9</option>
+                                            <option>สาขานนทบุรี</option>
+                                        </select>
+                                    </div>
+                                    <div class="radio-custom radio-default">
+                                        <input class="mt-5" id="transfer2" name="transfer" value="immediate" type="radio">
+                                        <label for="transfer2">โอนทันทีเข้าคลังสินค้า</label>
+                                        <select class="form-control example ml-10 mt-5 radio-transfer-2">
+                                            <option>คลังสินค้าหลัก</option>
+                                            <option>สาขาพระราม 9</option>
+                                            <option>สาขานนทบุรี</option>
+                                        </select>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -363,6 +369,21 @@
     <script>
         $(document).ready(function() {
             $('.datepicker').datepicker('setDate', new Date());
+
+            $('select.radio-transfer-2').css('display', 'none');
+        });
+
+        $(function() {
+            $('input[type=radio][name=transfer]').change(function() {
+                var radioValue = $(this).val();
+                if(radioValue === 'wait'){
+                    $('select.radio-transfer-1').css('display', 'block');
+                    $('select.radio-transfer-2').css('display', 'none');
+                } else if(radioValue === 'immediate'){
+                    $('select.radio-transfer-1').css('display', 'none');
+                    $('select.radio-transfer-2').css('display', 'block');
+                }
+            });
         });
     </script>
 @endsection
