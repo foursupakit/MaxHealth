@@ -234,13 +234,6 @@
                         <div class="panel-body pt-0">
                             <form class="text-md-right">
                                 <div class="form-group row">
-                                    <label class="col-md-5 col-form-label">ส่วนลด</label>
-                                    <div class="col-md-7 d-flex align-items-center">
-                                        <input type="text" class="form-control text-md-right" placeholder="จำนวนเงิน หรือ %"
-                                               autocomplete="off" />
-                                    </div>
-                                </div>
-                                <div class="form-group row">
                                     <label class="col-md-5 col-form-label">ค่าส่ง (ที่ถูกเก็บจากผู้ติดต่อ)
                                         <span class="panel-desc">
                                             <input type="checkbox">ภาษีมูลค่าเพิ่ม

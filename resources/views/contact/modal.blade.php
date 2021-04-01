@@ -32,38 +32,38 @@
                             </div>
                         </div>
                     </div>
-                    <div class="form-group">
-                        <div class="row">
-                            <label class="col-md-4"></label>
-                            <div class="col-md-8">
-                                <input type="checkbox"> กำหนดเลขผู้เสียภาษี, ชื่อสาขา, เลขที่สาขา
-                            </div>
-                        </div>
-                    </div>
-                    {{--                <div class="form-group">--}}
-                    {{--                    <div class="row">--}}
-                    {{--                        <label for="addnumtag" class="col-md-4 col-form-label">เลขผู้เสียภาษี</label>--}}
-                    {{--                        <div class="col-md-8">--}}
-                    {{--                            <input type="text" id="addnumtag" class="form-control" autocomplete="off" />--}}
-                    {{--                        </div>--}}
-                    {{--                    </div>--}}
-                    {{--                </div>--}}
-                    {{--                <div class="form-group">--}}
-                    {{--                    <div class="row">--}}
-                    {{--                        <label for="addnamecompany" class="col-md-4 col-form-label">ชื่อสาขา</label>--}}
-                    {{--                        <div class="col-md-8">--}}
-                    {{--                            <input type="text" id="addnamecompany" class="form-control" autocomplete="off" />--}}
-                    {{--                        </div>--}}
-                    {{--                    </div>--}}
-                    {{--                </div>--}}
-                    {{--                <div class="form-group">--}}
-                    {{--                    <div class="row">--}}
-                    {{--                        <label for="addnumcompany" class="col-md-4 col-form-label">เลขที่สาขา</label>--}}
-                    {{--                        <div class="col-md-8">--}}
-                    {{--                            <input type="text" id="addnumcompany" class="form-control" autocomplete="off" />--}}
-                    {{--                        </div>--}}
-                    {{--                    </div>--}}
-                    {{--                </div>--}}
+{{--                    <div class="form-group">--}}
+{{--                        <div class="row">--}}
+{{--                            <label class="col-md-4"></label>--}}
+{{--                            <div class="col-md-8">--}}
+{{--                                <input type="checkbox"> กำหนดเลขผู้เสียภาษี, ชื่อสาขา, เลขที่สาขา--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="form-group">--}}
+{{--                        <div class="row">--}}
+{{--                            <label for="addnumtag" class="col-md-4 col-form-label">เลขผู้เสียภาษี</label>--}}
+{{--                            <div class="col-md-8">--}}
+{{--                                <input type="text" id="addnumtag" class="form-control" autocomplete="off" />--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="form-group">--}}
+{{--                        <div class="row">--}}
+{{--                            <label for="addnamecompany" class="col-md-4 col-form-label">ชื่อสาขา</label>--}}
+{{--                            <div class="col-md-8">--}}
+{{--                                <input type="text" id="addnamecompany" class="form-control" autocomplete="off" />--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
+{{--                    <div class="form-group">--}}
+{{--                        <div class="row">--}}
+{{--                            <label for="addnumcompany" class="col-md-4 col-form-label">เลขที่สาขา</label>--}}
+{{--                            <div class="col-md-8">--}}
+{{--                                <input type="text" id="addnumcompany" class="form-control" autocomplete="off" />--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                     <div class="form-group">
                         <div class="row">
                             <label for="addtag" class="col-md-4 col-form-label">Tag ผู้ติดต่อ</label>
