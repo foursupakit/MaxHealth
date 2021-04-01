@@ -46,6 +46,11 @@ class SettingController extends Controller
         return view('setting.setting-role-create');
     }
 
+    public function roleEdit(Request $request, $id)
+    {
+        return view('setting.setting-role-edit')
+            ->with('id', $id);
+    }
 
     public function general(Request $request)
     {

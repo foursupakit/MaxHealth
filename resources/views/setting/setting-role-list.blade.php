@@ -42,7 +42,7 @@
                                         <td>Admin</td>
                                         <td class="text-center">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                    data-original-title="แก้ไข" onclick="location.href='/setting/role/edit'">
+                                                    data-original-title="แก้ไข" onclick="location.href='/setting/role/edit/1'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                         </td>
@@ -51,7 +51,7 @@
                                         <td>User</td>
                                         <td class="text-center">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                    data-original-title="แก้ไข" onclick="location.href='/setting/role/edit'">
+                                                    data-original-title="แก้ไข" onclick="location.href='/setting/role/edit/2'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                         </td>
@@ -60,7 +60,7 @@
                                         <td>Staff</td>
                                         <td class="text-center">
                                             <button type="button" class="btn btn-sm btn-icon btn-pure btn-default" data-toggle="tooltip"
-                                                    data-original-title="แก้ไข" onclick="location.href='/setting/role/edit'">
+                                                    data-original-title="แก้ไข" onclick="location.href='/setting/role/edit/3'">
                                                 <i class="icon md-edit" aria-hidden="true"></i>
                                             </button>
                                         </td>

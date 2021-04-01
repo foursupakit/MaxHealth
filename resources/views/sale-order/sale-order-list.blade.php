@@ -236,7 +236,7 @@
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
                                         <tr>
-                                            <th>วันที่</th>
+                                            <th>วันที่สั่งสินค้า</th>
                                             <th>รายการ</th>
                                             <th>ลูกค้า</th>
                                             <th>วันที่ส่งสินค้า</th>
@@ -303,7 +303,7 @@
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
                                         <tr>
-                                            <th>วันที่</th>
+                                            <th>วันที่สั่งสินค้า</th>
                                             <th>รายการ</th>
                                             <th>ลูกค้า</th>
                                             <th>วันที่ส่งสินค้า</th>
@@ -346,7 +346,7 @@
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
                                         <tr>
-                                            <th>วันที่</th>
+                                            <th>วันที่สั่งสินค้า</th>
                                             <th>รายการ</th>
                                             <th>ลูกค้า</th>
                                             <th>วันที่ส่งสินค้า</th>
@@ -413,7 +413,7 @@
                                     <table class="table table-hover mb-0">
                                         <thead class="bg-grey-100">
                                         <tr>
-                                            <th>วันที่</th>
+                                            <th>วันที่สั่งสินค้า</th>
                                             <th>รายการ</th>
                                             <th>ลูกค้า</th>
                                             <th>วันที่ส่งสินค้า</th>

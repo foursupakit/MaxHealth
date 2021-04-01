@@ -124,7 +124,7 @@
                                     <span class="site-menu-title">ผู้ใช้งาน</span>
                                 </a>
                             </li>
-                            <li class="site-menu-item {{ Request::is('setting/role/list')?'active':''}}">
+                            <li class="site-menu-item {{ Request::is('setting/role/list','setting/role/edit/*','setting/role/create')?'active':''}}">
                                 <a class="animsition-link" href="/setting/role/list">
                                     <span class="site-menu-title">สิทธิ์การใช้งาน</span>
                                 </a>
