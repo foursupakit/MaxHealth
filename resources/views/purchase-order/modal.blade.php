@@ -361,41 +361,43 @@
                     <div class="row">
                         <label class="col-md-4 col-form-label">ตั้งค่า</label>
                         <div class="col-md-8 mt-5">
-                            <input type="checkbox" id="settingTax" name="settingTax" checked >
+                            <input type="checkbox" id="settingTax" name="settingTax" value="tax" >
                             <label for="settingTax"> ภาษีหัก ณ ที่จ่าย</label>
                         </div>
                     </div>
                 </div>
-                <div class="form-group row">
-                    <label class="col-md-4 col-form-label">ช่องทางการชำระเงิน</label>
-                    <div class="col-md-8">
-                        <select class="form-control">
-                            <option>1%</option>
-                            <option>1.5%</option>
-                            <option>2%</option>
-                            <option selected>3%</option>
-                            <option>4%</option>
-                            <option>5%</option>
-                            <option>6%</option>
-                            <option>7%</option>
-                            <option>8%</option>
-                            <option>9%</option>
-                            <option>10%</option>
-                        </select>
+                <div class="adjustTax">
+                    <div class="form-group row">
+                        <label class="col-md-4 col-form-label">ช่องทางการชำระเงิน</label>
+                        <div class="col-md-8">
+                            <select class="form-control">
+                                <option>1%</option>
+                                <option>1.5%</option>
+                                <option>2%</option>
+                                <option selected>3%</option>
+                                <option>4%</option>
+                                <option>5%</option>
+                                <option>6%</option>
+                                <option>7%</option>
+                                <option>8%</option>
+                                <option>9%</option>
+                                <option>10%</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <label class="col-md-4 col-form-label">จำนวนเงิน</label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control text-right" value="180.00"
-                               autocomplete="off" disabled />
+                    <div class="form-group row">
+                        <label class="col-md-4 col-form-label">จำนวนเงิน</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control text-right" value="180.00"
+                                   autocomplete="off" disabled />
+                        </div>
                     </div>
-                </div>
-                <div class="form-group row">
-                    <label class="col-md-4 col-form-label">ภาษีหัก ณ ที่จ่าย</label>
-                    <div class="col-md-8">
-                        <input type="text" class="form-control text-right" value="5,820.00"
-                               autocomplete="off" disabled />
+                    <div class="form-group row">
+                        <label class="col-md-4 col-form-label">ภาษีหัก ณ ที่จ่าย</label>
+                        <div class="col-md-8">
+                            <input type="text" class="form-control text-right" value="5,820.00"
+                                   autocomplete="off" disabled />
+                        </div>
                     </div>
                 </div>
             </div>
