@@ -57,7 +57,7 @@
                                     <tr>
                                         <td>1</td>
                                         <td>31 ม.ค. 2564</td>
-                                        <td>DN-202103001</td>
+                                        <td><a href="/purchase-order/return-product/detail/1">DN-202103001</a></td>
                                         <td>-</td>
                                         <td>บริษัท ABC จำกัด</td>
                                         <td>

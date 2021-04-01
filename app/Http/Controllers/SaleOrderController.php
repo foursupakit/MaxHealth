@@ -36,4 +36,10 @@ class SaleOrderController extends Controller
     {
         return view('sale-order.sale-order-return-product-edit');
     }
+
+    public function returnProductDetail(Request $request, $id)
+    {
+        return view('sale-order.sale-order-return-product-detail')
+            ->with('id', $id);
+    }
 }

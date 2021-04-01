@@ -27,7 +27,7 @@
     <div class="page">
         <div class="page-header">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/sale-order/return-product"><i class="icon md-chevron-left" aria-hidden="true">กลับ</i></a></li>
+                <li class="breadcrumb-item"><a href="/sale-order/return-product/list"><i class="icon md-chevron-left" aria-hidden="true">กลับ</i></a></li>
             </ol>
             <h1 class="page-title">แก้ไขรายการรับคืนสินค้า</h1>
         </div>

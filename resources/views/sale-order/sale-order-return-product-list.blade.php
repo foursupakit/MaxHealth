@@ -56,7 +56,7 @@
                                     <tr>
                                         <td>1</td>
                                         <td>31 ม.ค. 2564</td>
-                                        <td>CN-202103001</td>
+                                        <td><a href="/sale-order/return-product/detail/1">CN-202103001</a></td>
                                         <td>-</td>
                                         <td>บริษัท ABC จำกัด</td>
                                         <td>800</td>
@@ -77,7 +77,7 @@
                                     <tr>
                                         <td>2</td>
                                         <td>31 ม.ค. 2564</td>
-                                        <td>CN-202103002</td>
+                                        <td><a href="/sale-order/return-product/detail/2">CN-202103002</a></td>
                                         <td>-</td>
                                         <td>-</td>
                                         <td>800</td>

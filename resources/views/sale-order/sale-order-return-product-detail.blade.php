@@ -27,9 +27,9 @@
     <div class="page">
         <div class="page-header">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/purchase-order"><i class="icon md-chevron-left" aria-hidden="true">รายการซื้อ</i></a></li>
+                <li class="breadcrumb-item"><a href="/sale-order/return-product/list"><i class="icon md-chevron-left" aria-hidden="true">รายการรับคืนสินค้าเข้า</i></a></li>
             </ol>
-            <h1 class="page-title">รายละเอียดรายการซื้อ</h1>
+            <h1 class="page-title">รายละเอียดรายการรับคืนสินค้าเข้า</h1>
         </div>
         <div class="page-content container-fluid">
             <div class="row">
@@ -88,13 +88,13 @@
                                 <div class="form-group row">
                                     <label class="col-md-3 col-form-label">รายการ</label>
                                     <div class="col-md-9">
-                                        <p class="form-control-plaintext">PO-202102001</p>
+                                        <p class="form-control-plaintext">CN-202103001</p>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label class="col-md-3 col-form-label">ประเภทรายการ</label>
                                     <div class="col-md-9">
-                                        <p class="form-control-plaintext">ซื้อสินค้าเข้า</p>
+                                        <p class="form-control-plaintext">รับคืนสินค้า</p>
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -109,33 +109,15 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-account white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ผู้ติดต่อ</span>
+                                <i class="icon icon-circle md-account white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ลูกค้า</span>
                             </h3>
                         </div>
                         <div class="panel-body">
                             <form>
                                 <div class="form-group row">
-                                    <label class="col-md-3 col-form-label">ชื่อบริษัท</label>
+                                    <label class="col-md-3 col-form-label">ผู้สร้างรายการ</label>
                                     <div class="col-md-9 col-form-label">
-                                        <a href="/contact/detail">บริษัท Shippop จำกัด</a>
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-form-label">เบอร์โทรศัพท์</label>
-                                    <div class="col-md-9">
-                                        <p class="form-control-plaintext">024567890</p>
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-form-label">อีเมล</label>
-                                    <div class="col-md-9">
-                                        <p class="form-control-plaintext">you@zortshop.com</p>
-                                    </div>
-                                </div>
-                                <div class="form-group row">
-                                    <label class="col-md-3 col-form-label">ที่อยู่บริษัท</label>
-                                    <div class="col-md-9">
-                                        <p class="form-control-plaintext">234 แขวงอนุสาวรีย์ เขตบางเขน กรุงเทพมหานคร 10220</p>
+                                        บริษัท ABC จำกัด
                                     </div>
                                 </div>
                             </form>
@@ -266,13 +248,13 @@
                                 <div class="form-group row mb-0">
                                     <label class="col-md-4 col-form-label">จำนวนเงินที่ชำระ</label>
                                     <div class="col-md-8 text-right">
-                                        <p class="form-control-plaintext">150</p>
+                                        <p class="form-control-plaintext">3,000</p>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-0">
                                     <label class="col-md-4 col-form-label">ยอดคงเหลือที่ต้องชำระ</label>
                                     <div class="col-md-8 text-right">
-                                        <p class="form-control-plaintext">150</p>
+                                        <p class="form-control-plaintext">3,000</p>
                                     </div>
                                 </div>
                                 <div class="form-group row bg-grey-100 p-10">
@@ -283,7 +265,7 @@
                                         <span class="panel-desc">27 ม.ค. 2564</span>
                                     </label>
                                     <div class="col-md-7 d-flex align-items-center text-right">
-                                        <p class="form-control-plaintext">150 บาท</p>
+                                        <p class="form-control-plaintext">6,000 บาท</p>
                                     </div>
                                 </div>
                             @elseif($id == '3')

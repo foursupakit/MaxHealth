@@ -27,13 +27,13 @@
     <div class="page">
         <div class="page-header">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/purchase-order"><i class="icon md-chevron-left" aria-hidden="true">รายการซื้อ</i></a></li>
+                <li class="breadcrumb-item"><a href="/purchase-order/return-product/list"><i class="icon md-chevron-left" aria-hidden="true">รายการคืนสินค้า</i></a></li>
             </ol>
-            <h1 class="page-title">รายละเอียดรายการซื้อ</h1>
+            <h1 class="page-title">รายละเอียดรายการคืนสินค้า</h1>
         </div>
         <div class="page-content container-fluid">
             <div class="row">
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="panel">
                         <div class="panel-body">
                             <div class="d-flex justify-content-between">
@@ -54,7 +54,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-4">
                     <div class="panel">
                         <div class="panel-body">
                             <div class="d-flex justify-content-between">
@@ -68,6 +68,21 @@
                                     @elseif($id == '3')
                                         <span class="float-right badge badge-success" style="font-size: 100%;">สำเร็จ</span>
                                     @endif
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="panel">
+                        <div class="panel-body">
+                            <div class="d-flex justify-content-between">
+                                <div class="white">
+                                    <i class="icon icon-circle icon-2x md-truck bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
+                                </div>
+                                <div>
+                                    <div>การจัดส่งสินค้า</div>
+                                    <span class="float-right">-</span>
                                 </div>
                             </div>
                         </div>
@@ -88,13 +103,13 @@
                                 <div class="form-group row">
                                     <label class="col-md-3 col-form-label">รายการ</label>
                                     <div class="col-md-9">
-                                        <p class="form-control-plaintext">PO-202102001</p>
+                                        <p class="form-control-plaintext">DN-202103001</p>
                                     </div>
                                 </div>
                                 <div class="form-group row">
                                     <label class="col-md-3 col-form-label">ประเภทรายการ</label>
                                     <div class="col-md-9">
-                                        <p class="form-control-plaintext">ซื้อสินค้าเข้า</p>
+                                        <p class="form-control-plaintext">คืนสินค้าซื้อ</p>
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -115,7 +130,13 @@
                         <div class="panel-body">
                             <form>
                                 <div class="form-group row">
-                                    <label class="col-md-3 col-form-label">ชื่อบริษัท</label>
+                                    <label class="col-md-3 col-form-label">ผู้สร้างรายการ</label>
+                                    <div class="col-md-9 col-form-label">
+                                        บริษัท Shippop จำกัด
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ชื่อผู้ติดต่อ</label>
                                     <div class="col-md-9 col-form-label">
                                         <a href="/contact/detail">บริษัท Shippop จำกัด</a>
                                     </div>
@@ -233,6 +254,68 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
+                                <i class="icon icon-circle md-assignment white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลที่อยู่ผู้รับ</span>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ชื่อผู้รับ</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-plaintext">บริษัท Shippop จำกัด</p>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">เบอร์โทรศัพท์ผู้รับ</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-plaintext">034567890</p>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">อีเมลผู้รับ</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-plaintext">you@zortshop.com</p>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">ที่อยู่/จัดส่ง</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-plaintext">123 วัดชลอ บางกรวย นนทบุรี 11130</p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="icon icon-circle md-assignment white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลการจัดส่งสินค้า</span>
+                            </h3>
+                        </div>
+                        <div class="panel-body">
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">วันส่งสินค้า</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-plaintext">13 กุมภาพันธ์ 2564 05:45</p>
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">Tracking No.</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-plaintext">123456789</p>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
                                 <i class="icon icon-circle md-money white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การชำระเงิน</span>
                             </h3>
                         </div>
@@ -266,13 +349,13 @@
                                 <div class="form-group row mb-0">
                                     <label class="col-md-4 col-form-label">จำนวนเงินที่ชำระ</label>
                                     <div class="col-md-8 text-right">
-                                        <p class="form-control-plaintext">150</p>
+                                        <p class="form-control-plaintext">3,000</p>
                                     </div>
                                 </div>
                                 <div class="form-group row mb-0">
                                     <label class="col-md-4 col-form-label">ยอดคงเหลือที่ต้องชำระ</label>
                                     <div class="col-md-8 text-right">
-                                        <p class="form-control-plaintext">150</p>
+                                        <p class="form-control-plaintext">3,000</p>
                                     </div>
                                 </div>
                                 <div class="form-group row bg-grey-100 p-10">
@@ -283,7 +366,7 @@
                                         <span class="panel-desc">27 ม.ค. 2564</span>
                                     </label>
                                     <div class="col-md-7 d-flex align-items-center text-right">
-                                        <p class="form-control-plaintext">150 บาท</p>
+                                        <p class="form-control-plaintext">6,000 บาท</p>
                                     </div>
                                 </div>
                             @elseif($id == '3')

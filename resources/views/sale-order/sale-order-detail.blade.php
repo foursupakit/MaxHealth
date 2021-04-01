@@ -174,16 +174,14 @@
                 <div class="row">
                     <div class="col-md-6">
                         <div class="panel-body pt-0">
-
-                                <form>
-                                    <div class="form-group row">
-                                        <label class="col-md-3 col-form-label">หมายเหตุ</label>
-                                        <div class="col-md-9">
-                                            <p class="form-control-plaintext">-</p>
-                                        </div>
+                            <form>
+                                <div class="form-group row">
+                                    <label class="col-md-3 col-form-label">หมายเหตุ</label>
+                                    <div class="col-md-9">
+                                        <p class="form-control-plaintext">-</p>
                                     </div>
-                                </form>
-
+                                </div>
+                            </form>
                         </div>
                     </div>
                     <div class="col-md-6">

@@ -42,4 +42,10 @@ class PurchaseOrderController extends Controller
     {
         return view('purchase-order.purchase-order-return-product-edit');
     }
+
+    public function returnProductDetail(Request $request, $id)
+    {
+        return view('purchase-order.purchase-order-return-product-detail')
+            ->with('id', $id);
+    }
 }
