@@ -34,4 +34,9 @@ class ContactController extends Controller
     {
         return view('contact.contact-agent-edit');
     }
+
+    public function agentApproveWithdrawal(Request $request)
+    {
+        return view('contact.contact-agent-approve-withdrawal');
+    }
 }

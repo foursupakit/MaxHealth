@@ -95,6 +95,11 @@
                                     <span class="site-menu-title">ตัวแทนจำหน่าย</span>
                                 </a>
                             </li>
+                            <li class="site-menu-item {{ Request::is('contact/agent/approve-withdrawal')?'active':''}}">
+                                <a class="animsition-link" href="/contact/agent/approve-withdrawal">
+                                    <span class="site-menu-title">อนุมัติการถอดเงิน</span>
+                                </a>
+                            </li>
                         </ul>
                     </li>
                     <li class="site-menu-item has-sub {{ Request::is('setting/*','setting')?'active open':''}}">
