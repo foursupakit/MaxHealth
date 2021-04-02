@@ -18,7 +18,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary">บันทึก</button>
+                <button type="button" class="btn btn-primary btn-round btn-lg">บันทึก</button>
             </div>
         </div>
     </div>
@@ -47,7 +47,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary">บันทึก</button>
+                <button type="button" class="btn btn-primary btn-round btn-lg">บันทึก</button>
             </div>
         </div>
     </div>
@@ -69,8 +69,8 @@
                 <p>ยืนยันการลบหมวดหมู่ใช่หรือไม่ ?</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default btn-pure" data-dismiss="modal">ยกเลิก</button>
-                <button type="button" class="btn btn-primary">ยืนยัน</button>
+                <button type="button" class="btn btn-default btn-pure btn-round btn-lg" data-dismiss="modal">ยกเลิก</button>
+                <button type="button" class="btn btn-primary btn-round btn-lg">ยืนยัน</button>
             </div>
         </div>
     </div>
@@ -143,7 +143,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary btn-round">บันทึก</button>
+                <button type="button" class="btn btn-primary btn-round btn-lg">บันทึก</button>
             </div>
         </div>
     </div>
@@ -165,8 +165,8 @@
                 <p>ยืนยันการลบข้อมูลคลังสินค้า/สาขา ?</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default btn-pure" data-dismiss="modal">ยกเลิก</button>
-                <button type="button" class="btn btn-primary">ยืนยัน</button>
+                <button type="button" class="btn btn-default btn-pure btn-round btn-lg" data-dismiss="modal">ยกเลิก</button>
+                <button type="button" class="btn btn-primary btn-round btn-lg">ยืนยัน</button>
             </div>
         </div>
     </div>
@@ -248,7 +248,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary btn-round">บันทึก</button>
+                <button type="button" class="btn btn-primary btn-round btn-lg">บันทึก</button>
             </div>
         </div>
     </div>

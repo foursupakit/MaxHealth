@@ -27,7 +27,7 @@
     <div class="page">
         <div class="page-header">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/sale-order"><i class="icon md-chevron-left" aria-hidden="true">กลับ</i></a></li>
+                <li class="breadcrumb-item"><a href="/purchase-order"><i class="icon md-chevron-left" aria-hidden="true">กลับ</i></a></li>
             </ol>
             <h1 class="page-title">แก้ไขรายการซื้อ</h1>
         </div>
@@ -388,8 +388,8 @@
                                 <div class="form-group row">
                                     <label class="col-md-4 col-form-label"><span class="badge badge-warning" style="font-size: 100%;">รอโอนสินค้า</span></label>
                                     <div class="col-md-8 text-right">
-                                        <button type="button" class="btn btn-outline-secondary"><i class="icon md-swap mr-5" aria-hidden="true"></i>โอนสินค้าบางส่วน</button>
-                                        <button type="button" class="btn btn-primary"><i class="icon md-swap" aria-hidden="true"></i>โอนสินค้าเข้าคลัง</button>
+                                        <button type="button" class="btn btn-outline-secondary" data-target="#modalPartialTransfer" data-toggle="modal"><i class="icon md-swap mr-5" aria-hidden="true"></i>โอนสินค้าบางส่วน</button>
+                                        <button type="button" class="btn btn-primary" data-target="#modalStatus" data-toggle="modal"><i class="icon md-swap" aria-hidden="true"></i>โอนสินค้าเข้าคลัง</button>
                                     </div>
                                 </div>
                             @elseif($id == '3')
@@ -427,6 +427,8 @@
     <!-- datepicker -->
     <script src="../../../global/vendor/bootstrap-datepicker/bootstrap-datepicker.js"></script>
     <script src="../../../global/js/Plugin/bootstrap-datepicker.js"></script>
+
+    @yield('script-modal')
 
     <script>
         $(document).ready(function() {

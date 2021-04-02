@@ -15,8 +15,8 @@
     <div class="page">
         <div class="page-header">
             <h1 class="page-title">สินค้า</h1>
-            <span class="panel-desc d-inline-block">จำนวน 5 รายการ</span>
-            <span class="panel-desc d-inline-block">| <a href="">จัดการรูปภาพสินค้า</a></span>
+            <span class="panel-desc">จำนวน 5 รายการ</span>
+{{--            <span class="panel-desc d-inline-block">| <a href="">จัดการรูปภาพสินค้า</a></span>--}}
             <div class="page-header-actions">
                 <button type="button" class="btn btn-primary btn-round btn-lg" data-toggle="tooltip" data-original-title="create" onclick="location.href='/product/create'">
                     เพิ่มสินค้าใหม่
@@ -233,8 +233,8 @@
                     <p>ยืนยันการลบสินค้าใช่หรือไม่ ?</p>
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default btn-pure" data-dismiss="modal">ยกเลิก</button>
-                    <button type="button" class="btn btn-primary">ยืนยัน</button>
+                    <button type="button" class="btn btn-default btn-pure btn-round btn-lg" data-dismiss="modal">ยกเลิก</button>
+                    <button type="button" class="btn btn-primary btn-round btn-lg">ยืนยัน</button>
                 </div>
             </div>
         </div>

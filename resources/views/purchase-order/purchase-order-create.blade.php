@@ -27,7 +27,7 @@
     <div class="page">
         <div class="page-header">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/sale-order"><i class="icon md-chevron-left" aria-hidden="true">รายการซื้อ</i></a></li>
+                <li class="breadcrumb-item"><a href="/purchase-order"><i class="icon md-chevron-left" aria-hidden="true">รายการซื้อ</i></a></li>
             </ol>
             <h1 class="page-title">สร้างรายการซื้อ</h1>
         </div>
@@ -387,8 +387,8 @@
             });
 
             $('input[type=checkbox][name=settingTax]').change(function() {
-                var radioValue = $(this).is(':checked');
-                if(radioValue){
+                var checkboxValue = $(this).is(':checked');
+                if(checkboxValue){
                     $('.adjustTax').css('display', 'block');
                 } else {
                     $('.adjustTax').css('display', 'none');

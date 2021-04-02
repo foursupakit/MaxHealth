@@ -221,8 +221,8 @@
                 <p>ยืนยันการลบรายการซื้อ ?</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default btn-pure" data-dismiss="modal">ยกเลิก</button>
-                <button type="button" class="btn btn-primary">ยืนยัน</button>
+                <button type="button" class="btn btn-default btn-pure btn-round btn-lg" data-dismiss="modal">ยกเลิก</button>
+                <button type="button" class="btn btn-primary btn-round btn-lg">ยืนยัน</button>
             </div>
         </div>
     </div>
@@ -244,8 +244,8 @@
                 <p>ยืนยันการลบรายการคืนสินค้า ?</p>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-default btn-pure" data-dismiss="modal">ยกเลิก</button>
-                <button type="button" class="btn btn-primary">ยืนยัน</button>
+                <button type="button" class="btn btn-default btn-pure btn-round btn-lg" data-dismiss="modal">ยกเลิก</button>
+                <button type="button" class="btn btn-primary btn-round btn-lg">ยืนยัน</button>
             </div>
         </div>
     </div>
@@ -280,12 +280,12 @@
                     <div class="row">
                         <label class="col-md-4 col-form-label">ตั้งค่า</label>
                         <div class="col-md-8 mt-5">
-                            <input type="checkbox" id="setting" name="setting" checked >
-                            <label for="setting"> กำหนดวันที่โอนสินค้า</label>
+                            <input type="checkbox" id="setProductTransfer1" name="setProductTransfer1" >
+                            <label for="setProductTransfer1"> กำหนดวันที่โอนสินค้า</label>
                         </div>
                     </div>
                 </div>
-                <div class="form-group row">
+                <div class="form-group row adjustSetProductTransfer1">
                     <label class="col-md-4 col-form-label">วันที่โอน</label>
                     <div class="col-md-8">
                         <div class="input-group input-group-icon">
@@ -303,7 +303,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary btn-round">บันทึก</button>
+                <button type="button" class="btn btn-primary btn-round btn-lg">บันทึก</button>
             </div>
         </div>
     </div>
@@ -338,6 +338,7 @@
                     <div class="col-md-8">
                         <select class="form-control">
                             <option>เงินสด</option>
+                            <option>บัตรเครดิต</option>
                         </select>
                     </div>
                 </div>
@@ -368,7 +369,7 @@
                 </div>
                 <div class="adjustTax">
                     <div class="form-group row">
-                        <label class="col-md-4 col-form-label">ช่องทางการชำระเงิน</label>
+                        <label class="col-md-4 col-form-label">ภาษีหัก ณ ที่จ่าย</label>
                         <div class="col-md-8">
                             <select class="form-control">
                                 <option>1%</option>
@@ -386,14 +387,14 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-4 col-form-label">จำนวนเงิน</label>
+                        <label class="col-md-4 col-form-label">ภาษีหัก ณ ที่จ่าย</label>
                         <div class="col-md-8">
                             <input type="text" class="form-control text-right" value="180.00"
                                    autocomplete="off" disabled />
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label class="col-md-4 col-form-label">ภาษีหัก ณ ที่จ่าย</label>
+                        <label class="col-md-4 col-form-label">ยอดเงินสุทธิ</label>
                         <div class="col-md-8">
                             <input type="text" class="form-control text-right" value="5,820.00"
                                    autocomplete="off" disabled />
@@ -402,7 +403,7 @@
                 </div>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-primary btn-round">ตกลง</button>
+                <button type="button" class="btn btn-primary btn-round btn-lg">ตกลง</button>
             </div>
         </div>
     </div>
@@ -516,3 +517,123 @@
     </div>
 </div>
 <!-- End Modal -->
+
+<!-- Modal Partial Transfer -->
+<div class="modal fade" id="modalPartialTransfer" aria-hidden="true" aria-labelledby="modalPartialTransfer"
+     role="dialog" tabindex="-1">
+    <div class="modal-dialog modal-simple modal-center">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">×</span>
+                </button>
+                <h3 class="modal-title">โอนสินค้าบางส่วน</h3>
+            </div>
+            <div class="modal-body">
+                <div class="panel-body container-fluid p-0">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="table-responsive">
+                                <table class="table">
+                                    <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>รหัสสินค้า</th>
+                                        <th>ชื่อสินค้า</th>
+                                        <th>จำนวน</th>
+                                        <th>ราคาต่อหน่วย</th>
+                                        <th>จำนวนที่โอน</th>
+                                    </tr>
+                                    </thead>
+                                    <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>P0007</td>
+                                        <td>เสื้อ(M)</td>
+                                        <td>20</td>
+                                        <td>300</td>
+                                        <td>
+                                            <input type="number" class="form-control text-right" autocomplete="off" value="20">
+                                        </td>
+                                    </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="col-md-7">
+                            <div class="mb-20">
+                                <label class="example-title">คลังสินค้า</label>
+                                <select class="form-control">
+                                    <option>คลังสินค้าหลัก</option>
+                                    <option>สาขาพระราม 9</option>
+                                    <option>สาขาธนบุรี</option>
+                                </select>
+                            </div>
+                            <div class="checkbox-custom checkbox-primary">
+                                <input type="checkbox" id="setProductTransfer2" name="setProductTransfer2" >
+                                <label for="setProductTransfer2"> กำหนดวันที่โอนสินค้า</label>
+                            </div>
+                            <div class="adjustSetProductTransfer2">
+                                <label class="example-title">วันที่โอน</label>
+                                <div class="input-group input-group-icon">
+                                    <input type="text" class="form-control datepicker" data-plugin="datepicker" data-date-format="d/m/yyyy" readonly>
+                                    <div class="input-group-append">
+                                    <span class="input-group-text">
+                                      <i class="icon md-close" aria-hidden="true"></i>
+                                    </span>
+                                        <span class="input-group-text">
+                                      <i class="icon md-calendar" aria-hidden="true"></i>
+                                    </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary btn-round btn-lg">บันทึก</button>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- End Modal -->
+
+@section('script-modal')
+    <script>
+        $(document).ready(function() {
+            $('.adjustSetProductTransfer1').css('display', 'none');
+            $('.adjustSetProductTransfer2').css('display', 'none');
+            $('.adjustTax').css('display', 'none');
+        });
+
+        $(function() {
+            $('input[type=checkbox][name=setProductTransfer1]').change(function() {
+                var checkboxValue = $(this).is(':checked');
+                if(checkboxValue){
+                    $('.adjustSetProductTransfer1').css('display', 'flex');
+                } else {
+                    $('.adjustSetProductTransfer1').css('display', 'none');
+                }
+            });
+
+            $('input[type=checkbox][name=setProductTransfer2]').change(function() {
+                var checkboxValue = $(this).is(':checked');
+                if(checkboxValue){
+                    $('.adjustSetProductTransfer2').css('display', 'block');
+                } else {
+                    $('.adjustSetProductTransfer2').css('display', 'none');
+                }
+            });
+
+            $('input[type=checkbox][name=settingTax]').change(function() {
+                var checkboxValue = $(this).is(':checked');
+                if(checkboxValue){
+                    $('.adjustTax').css('display', 'block');
+                } else {
+                    $('.adjustTax').css('display', 'none');
+                }
+            });
+        });
+    </script>
+@endsection

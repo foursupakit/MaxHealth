@@ -33,7 +33,7 @@
         </div>
         <div class="page-content container-fluid">
             <div class="panel">
-                @include('purchase-order.modal')
+                @include('sale-order.modal')
                 <div class="row">
                     <div class="col-md-6">
                         <div class="panel-heading">
@@ -46,7 +46,7 @@
                                 <div class="form-group row">
                                     <label class="col-md-3 col-form-label">ประเภท</label>
                                     <div class="col-md-9">
-                                        <p class="form-control-plaintext">ซื้อสินค้าเข้า</p>
+                                        <p class="form-control-plaintext">ขายสินค้าออก</p>
                                     </div>
                                 </div>
                                 <div class="form-group row">

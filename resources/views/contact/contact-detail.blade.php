@@ -31,7 +31,7 @@
     <div class="page">
         <div class="page-header">
             <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="/sale-order"><i class="icon md-chevron-left" aria-hidden="true">ผู้ติดต่อ</i></a></li>
+                <li class="breadcrumb-item"><a href="/contact"><i class="icon md-chevron-left" aria-hidden="true">ผู้ติดต่อ</i></a></li>
             </ol>
             <h1 class="page-title">รายละเอียดผู้ติดต่อ (รหัส : C0007)</h1>
         </div>

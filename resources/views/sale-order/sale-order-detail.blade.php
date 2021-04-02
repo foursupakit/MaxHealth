@@ -25,7 +25,6 @@
 
 @section('content')
     <div class="page">
-        @include('purchase-order.modal')
         <div class="page-header">
             <ol class="breadcrumb">
                 <li class="breadcrumb-item"><a href="/sale-order"><i class="icon md-chevron-left" aria-hidden="true">รายการขาย</i></a></li>

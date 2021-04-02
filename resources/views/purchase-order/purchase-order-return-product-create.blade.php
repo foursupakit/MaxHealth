@@ -428,6 +428,7 @@
             $('.datepicker').datepicker('setDate', new Date());
 
             $('select.radio-transfer-2').css('display', 'none');
+            $('.adjustTax').css('display', 'none');
         });
 
         $(function() {
@@ -439,6 +440,15 @@
                 } else if(radioValue === 'immediate'){
                     $('select.radio-transfer-1').css('display', 'none');
                     $('select.radio-transfer-2').css('display', 'block');
+                }
+            });
+
+            $('input[type=checkbox][name=settingTax]').change(function() {
+                var checkboxValue = $(this).is(':checked');
+                if(checkboxValue){
+                    $('.adjustTax').css('display', 'block');
+                } else {
+                    $('.adjustTax').css('display', 'none');
                 }
             });
         });

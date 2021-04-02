@@ -551,6 +551,9 @@
             $('.adjestheading2').css('display', 'none');
             $('.adjusttransactionnumberarea').css('display', 'none');
             $('.adjustdate').css('display', 'none');
+
+            $('.adjustTax').css('display', 'none');
+            $('.adjustSetProductTransfer1').css('display', 'none');
         });
 
         $(function() {
@@ -579,6 +582,24 @@
                 } else {
                     $('.adjusttransactionnumberarea').css('display', 'none');
                     $('.adjustdate').css('display', 'none');
+                }
+            });
+
+            $('#setProductTransfer1').change(function() {
+                var checkboxValue = $('input[type=checkbox][name=setProductTransfer1]:checked').val();
+                if(checkboxValue){
+                    $('.adjustSetProductTransfer1').css('display', 'flex');
+                } else {
+                    $('.adjustSetProductTransfer1').css('display', 'none');
+                }
+            });
+
+            $('input[type=checkbox][name=settingTax]').change(function() {
+                var checkboxValue = $(this).is(':checked');
+                if(checkboxValue){
+                    $('.adjustTax').css('display', 'block');
+                } else {
+                    $('.adjustTax').css('display', 'none');
                 }
             });
         });

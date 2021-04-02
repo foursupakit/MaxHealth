@@ -33,7 +33,7 @@
         </div>
         <div class="page-content container-fluid">
             <div class="panel">
-                @include('purchase-order.modal')
+                @include('sale-order.modal')
                 <div class="row">
                     <div class="col-md-6">
                         <div class="panel-heading">
