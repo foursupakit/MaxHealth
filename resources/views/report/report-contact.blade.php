@@ -147,7 +147,6 @@
                                                     <div class="progress-bar progress-bar-primary" style="width: 84.07%;" role="progressbar">84.07%</div>
                                                 </div>
                                             </td>
-                                            </td>
                                         </tr>
                                         <tr>
                                             <td>P0005</td>
@@ -156,7 +155,6 @@
                                                 <div class="progress progress-lg">
                                                     <div class="progress-bar progress-bar-primary" style="width: 15.93%;" role="progressbar">15.93%</div>
                                                 </div>
-                                            </td>
                                             </td>
                                         </tr>
                                         </tbody>
