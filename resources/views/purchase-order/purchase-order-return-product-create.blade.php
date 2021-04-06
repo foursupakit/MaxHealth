@@ -89,9 +89,9 @@
                                     <div class="col-md-9">
                                         <select class="form-control">
                                             <option class="d-none"></option>
-                                            <option>Facebook</option>
-                                            <option>Line</option>
-                                            <option>Instagram</option>
+                                            <option value="1">Facebook</option>
+                                            <option value="2">Line</option>
+                                            <option value="3">Instagram</option>
                                         </select>
                                     </div>
                                 </div>
@@ -99,9 +99,9 @@
                                     <label class="col-md-3 col-form-label">ประเภทภาษี</label>
                                     <div class="col-md-9">
                                         <select class="form-control mt-5">
-                                            <option>ไม่มีภาษี</option>
-                                            <option>แยกภาษีมูลค่าเพิ่ม 7%</option>
-                                            <option>รวมภาษีมูลค่าเพิ่ม 7%</option>
+                                            <option value="1" selected>ไม่มีภาษี</option>
+                                            <option value="2">แยกภาษีมูลค่าเพิ่ม 7%</option>
+                                            <option value="3">รวมภาษีมูลค่าเพิ่ม 7%</option>
                                         </select>
                                     </div>
                                 </div>

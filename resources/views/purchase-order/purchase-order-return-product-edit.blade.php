@@ -89,9 +89,9 @@
                                     <div class="col-md-9">
                                         <select class="form-control">
                                             <option class="d-none"></option>
-                                            <option>Facebook</option>
-                                            <option>Line</option>
-                                            <option>Instagram</option>
+                                            <option value="1">Facebook</option>
+                                            <option value="2">Line</option>
+                                            <option value="3">Instagram</option>
                                         </select>
                                     </div>
                                 </div>

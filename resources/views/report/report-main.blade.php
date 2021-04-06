@@ -117,10 +117,10 @@
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">
-                                    <option>กำไรจากการขาย</option>
-                                    <option>กำไรรวม</option>
-                                    <option selected>ยอดขายรวม</option>
-                                    <option>ยอดขายตามหมวดหมู่</option>
+                                    <option value="1">กำไรจากการขาย</option>
+                                    <option value="2">กำไรรวม</option>
+                                    <option value="3" selected>ยอดขายรวม</option>
+                                    <option value="4">ยอดขายตามหมวดหมู่</option>
                                 </select>
                             </div>
                         </div>
@@ -139,8 +139,8 @@
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">
-                                    <option selected>รายคลัง</option>
-                                    <option>รายหมวดหมู่</option>
+                                    <option value="1" selected>รายคลัง</option>
+                                    <option value="2">รายหมวดหมู่</option>
                                 </select>
                             </div>
                         </div>
@@ -157,10 +157,10 @@
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">
-                                    <option>วันนี้</option>
-                                    <option selected>7 วัน</option>
-                                    <option>1 เดือน</option>
-                                    <option>3 เดือน</option>
+                                    <option value="1">วันนี้</option>
+                                    <option value="2" selected>7 วัน</option>
+                                    <option value="3">1 เดือน</option>
+                                    <option value="4">3 เดือน</option>
                                 </select>
                             </div>
                         </div>

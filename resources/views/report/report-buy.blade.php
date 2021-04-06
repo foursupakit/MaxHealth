@@ -60,8 +60,8 @@
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">
-                                    <option selected>รายคลัง</option>
-                                    <option>รายหมวดหมู่</option>
+                                    <option value="1" selected>รายคลัง</option>
+                                    <option value="2">รายหมวดหมู่</option>
                                 </select>
                             </div>
                         </div>

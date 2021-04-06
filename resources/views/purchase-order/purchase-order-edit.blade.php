@@ -82,9 +82,9 @@
                                     <label class="col-md-3 col-form-label">ประเภทภาษี</label>
                                     <div class="col-md-9">
                                         <select class="form-control mt-5">
-                                            <option>ไม่มีภาษี</option>
-                                            <option>แยกภาษีมูลค่าเพิ่ม 7%</option>
-                                            <option>รวมภาษีมูลค่าเพิ่ม 7%</option>
+                                            <option value="1" selected>ไม่มีภาษี</option>
+                                            <option value="2">แยกภาษีมูลค่าเพิ่ม 7%</option>
+                                            <option value="3">รวมภาษีมูลค่าเพิ่ม 7%</option>
                                         </select>
                                     </div>
                                 </div>
@@ -198,9 +198,9 @@
                                     <div class="col-md-9">
                                         <select class="form-control mt-5">
                                             <option class="d-none"></option>
-                                            <option>ไปรษณีย์ไทย</option>
-                                            <option>Kerry</option>
-                                            <option>LINE MAN</option>
+                                            <option value="1">ไปรษณีย์ไทย</option>
+                                            <option value="2">Kerry</option>
+                                            <option value="3">LINE MAN</option>
                                         </select>
                                     </div>
                                 </div>

@@ -269,9 +269,9 @@
                         <label class="col-md-4 col-form-label">คลังสินค้า</label>
                         <div class="col-md-8">
                             <select class="form-control">
-                                <option>คลังสินค้าหลัก</option>
-                                <option>สาขาพระราม 9</option>
-                                <option>สาขานนทบุรี</option>
+                                <option value="1">คลังสินค้าหลัก</option>
+                                <option value="2">สาขาพระราม 9</option>
+                                <option value="3">สาขานนทบุรี</option>
                             </select>
                         </div>
                     </div>
@@ -337,8 +337,8 @@
                     </label>
                     <div class="col-md-8">
                         <select class="form-control">
-                            <option>เงินสด</option>
-                            <option>บัตรเครดิต</option>
+                            <option value="1">เงินสด</option>
+                            <option value="2">บัตรเครดิต</option>
                         </select>
                     </div>
                 </div>
@@ -372,17 +372,17 @@
                         <label class="col-md-4 col-form-label">ภาษีหัก ณ ที่จ่าย</label>
                         <div class="col-md-8">
                             <select class="form-control">
-                                <option>1%</option>
-                                <option>1.5%</option>
-                                <option>2%</option>
-                                <option selected>3%</option>
-                                <option>4%</option>
-                                <option>5%</option>
-                                <option>6%</option>
-                                <option>7%</option>
-                                <option>8%</option>
-                                <option>9%</option>
-                                <option>10%</option>
+                                <option value="1">1%</option>
+                                <option value="2">1.5%</option>
+                                <option value="3">2%</option>
+                                <option value="4" selected>3%</option>
+                                <option value="5">4%</option>
+                                <option value="6">5%</option>
+                                <option value="7">6%</option>
+                                <option value="8">7%</option>
+                                <option value="9">8%</option>
+                                <option value="10">9%</option>
+                                <option value="11">10%</option>
                             </select>
                         </div>
                     </div>
@@ -443,8 +443,8 @@
                     <label class="col-md-3 col-form-label">รูปแบบ</label>
                     <div class="col-md-9">
                         <select class="form-control mt-5 w-200">
-                            <option selected>ทั่วไป</option>
-                            <option>ฟอร์มใบกำกับภาษี</option>
+                            <option value="1" selected>ทั่วไป</option>
+                            <option value="2">ฟอร์มใบกำกับภาษี</option>
                         </select>
                     </div>
                 </div>
@@ -453,13 +453,13 @@
                     <div class="col-md-9">
                         <select class="form-control mt-5">
                             <option class="d-none"></option>
-                            <option>ใบกำกับภาษี</option>
-                            <option>ใบเสร็จรับเงิน</option>
-                            <option>ใบลดหนี้</option>
-                            <option>ใบเพิ่มหนี้</option>
-                            <option>ใบสั่งซื้อสินค้า</option>
-                            <option>ใบแจ้งหนี้/วางบิล</option>
-                            <option>หนังสือหัก ณ ที่จ่าย</option>
+                            <option value="1">ใบกำกับภาษี</option>
+                            <option value="2">ใบเสร็จรับเงิน</option>
+                            <option value="3">ใบลดหนี้</option>
+                            <option value="4">ใบเพิ่มหนี้</option>
+                            <option value="5">ใบสั่งซื้อสินค้า</option>
+                            <option value="6">ใบแจ้งหนี้/วางบิล</option>
+                            <option value="7">หนังสือหัก ณ ที่จ่าย</option>
                         </select>
                         <div class="mt-2">สามารถเว้นวรรค 2 ช่องเพื่อขึ้นบรรทัดใหม่ในเอกสาร</div>
                     </div>
@@ -469,9 +469,9 @@
                     <div class="col-md-9">
                         <select class="form-control mt-5 w-300">
                             <option class="d-none"></option>
-                            <option selected>ใบเสร็จรับเงิน</option>
-                            <option>ใบกำกับภาษีอย่างย่อ</option>
-                            <option>ใบเสร็จรับเงิน/ใบกำกับภาษีอย่างย่อ</option>
+                            <option value="1" selected>ใบเสร็จรับเงิน</option>
+                            <option value="2">ใบกำกับภาษีอย่างย่อ</option>
+                            <option value="3">ใบเสร็จรับเงิน/ใบกำกับภาษีอย่างย่อ</option>
                         </select>
                     </div>
                 </div>
@@ -564,9 +564,9 @@
                             <div class="mb-20">
                                 <label class="example-title">คลังสินค้า</label>
                                 <select class="form-control">
-                                    <option>คลังสินค้าหลัก</option>
-                                    <option>สาขาพระราม 9</option>
-                                    <option>สาขาธนบุรี</option>
+                                    <option value="1" selected>คลังสินค้าหลัก</option>
+                                    <option value="2">สาขาพระราม 9</option>
+                                    <option value="3">สาขาธนบุรี</option>
                                 </select>
                             </div>
                             <div class="checkbox-custom checkbox-primary">
