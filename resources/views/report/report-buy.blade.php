@@ -29,7 +29,7 @@
 @section('content')
     <div class="page">
         <div class="page-header">
-            <h1 class="page-title">ภาพรวม</h1>
+            <h1 class="page-title">ยอดซื้อ</h1>
             <div class="breadcrumb">ย้อนหลัง 3 เดือน (1/1/2564 - 5/4/2564) </div>
         </div>
         <div class="page-content container-fluid">
@@ -37,13 +37,15 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="panel">
-                        <h3 class="panel-title">
-                            <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สรุปยอดซื้อ</span>
-                        </h3>
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สรุปยอดซื้อ</span>
+                            </h3>
+                        </div>
                         <div class="panel-body">
                             <form>
                                 <div class="text-center d-flex justify-content-center align-items-center" style="min-height:370px;">
-                                    <div class="">
+                                    <div>
                                         <h1 href="" class="blue-600 mt-4 mb-5">202,500</h1>
                                         <span class="d-block mt-1">บาท</span>
                                     </div>
@@ -60,8 +62,8 @@
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">
-                                    <option value="1" selected>รายคลัง</option>
-                                    <option value="2">รายหมวดหมู่</option>
+                                    <option value="1" selected>ยอดซื้อรวม</option>
+                                    <option value="2">ยอดซื้อตามหมวดหมู่</option>
                                 </select>
                             </div>
                         </div>
