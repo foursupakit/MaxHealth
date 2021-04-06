@@ -44,7 +44,7 @@
                                 <div class="white">
                                     <i class="icon icon-circle icon-2x md-assignment bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
-                                <div>
+                                <div class="text-right">
                                     <div>ยอดขายเดือนนี้ (บาท)</div>
                                     <span class="blue-500 float-right">-</span>
                                 </div>
@@ -59,7 +59,7 @@
                                 <div class="white">
                                     <i class="icon icon-circle icon-2x icon md-calendar bg-green-600" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
-                                <div>
+                                <div class="text-right">
                                     <div>ยอดขายปีนี้ (บาท)</div>
                                     <span class="green-500 float-right">-</span>
                                 </div>
@@ -74,7 +74,7 @@
                                 <div class="white">
                                     <i class="icon icon-circle icon-2x md-money bg-red-600" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
-                                <div>
+                                <div class="text-right">
                                     <div>ยอดค้างชำระ (บาท)</div>
                                     <span class="red-500 float-right">-</span>
                                 </div>

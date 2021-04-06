@@ -43,7 +43,7 @@
                                 <div class="white">
                                     <i class="icon icon-circle icon-2x md-money bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
-                                <div>
+                                <div class="text-right">
                                     <div>สถานะการชำระเงิน</div>
                                     @if($id == '1')
                                         <span class="float-right badge badge-warning" style="font-size: 100%;">รอการชำระเงิน</span>
@@ -64,7 +64,7 @@
                                 <div class="white">
                                     <i class="icon icon-circle icon-2x icon md-dropbox bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
-                                <div>
+                                <div class="text-right">
                                     <div>สถานะการโอนสินค้า</div>
                                     @if($id == '1' || $id == '2')
                                         <span class="float-right badge badge-warning" style="font-size: 100%;">รอโอนสินค้า</span>
@@ -83,7 +83,7 @@
                                 <div class="white">
                                     <i class="icon icon-circle icon-2x md-truck bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
-                                <div>
+                                <div class="text-right">
                                     <div>การจัดส่งสินค้า</div>
                                     <span class="float-right">-</span>
                                 </div>

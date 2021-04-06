@@ -18,6 +18,16 @@ Route::get('/', function () {
 });
 
 // Sale Order
+Route::group([ 'prefix' => 'report'], function () {
+    Route::get('/', 'ReportController@index')->name('report.index');
+    Route::get('/main', 'ReportController@main')->name('report.main');
+    Route::get('/sell', 'ReportController@sell')->name('report.sell');
+    Route::get('/buy', 'ReportController@buy')->name('report.buy');
+    Route::get('/product', 'ReportController@product')->name('report.product');
+    Route::get('/contact', 'ReportController@contact')->name('report.contact');
+});
+
+// Sale Order
 Route::group([ 'prefix' => 'sale-order'], function () {
     Route::get('/', 'SaleOrderController@index')->name('sale-order.index');
     Route::get('/edit', 'SaleOrderController@edit')->name('sale-order.edit');

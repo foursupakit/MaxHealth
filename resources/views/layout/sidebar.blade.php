@@ -9,6 +9,48 @@
                             <span class="site-menu-title">Dashboard</span>
                         </a>
                     </li>
+                    <li class="site-menu-item has-sub {{ Request::is('report/*','report')?'active open':''}}">
+                        <a href="javascript:void(0)">
+                            <i class="site-menu-icon icon wb-stats-bars" aria-hidden="true"></i>
+                            <span class="site-menu-title">รายงาน</span>
+                            <span class="site-menu-arrow"></span>
+                        </a>
+                        <ul class="site-menu-sub">
+                            <li class="site-menu-item {{ Request::is('report/main')?'active':''}}">
+                                <a class="animsition-link" href="/report/main">
+                                    <span class="site-menu-title">ภาพรวม</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="site-menu-sub">
+                            <li class="site-menu-item {{ Request::is('report/sell')?'active':''}}">
+                                <a class="animsition-link" href="/report/sell">
+                                    <span class="site-menu-title">ยอดขาย</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="site-menu-sub">
+                            <li class="site-menu-item {{ Request::is('report/buy')?'active':''}}">
+                                <a class="animsition-link" href="/report/buy">
+                                    <span class="site-menu-title">ยอดซื้อ</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="site-menu-sub">
+                            <li class="site-menu-item {{ Request::is('report/product')?'active':''}}">
+                                <a class="animsition-link" href="/report/product">
+                                    <span class="site-menu-title">สินค้า</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="site-menu-sub">
+                            <li class="site-menu-item {{ Request::is('report/contact')?'active':''}}">
+                                <a class="animsition-link" href="/report/contact">
+                                    <span class="site-menu-title">ลูกค้า</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
                     <li class="site-menu-item has-sub {{ Request::is('sale-order/*','sale-order')?'active open':''}}">
                         <a href="javascript:void(0)">
                             <i class="site-menu-icon icon wb-clipboard" aria-hidden="true"></i>
@@ -85,12 +127,12 @@
                             <span class="site-menu-arrow"></span>
                         </a>
                         <ul class="site-menu-sub">
-                            <li class="site-menu-item {{ Request::is('contact')?'active':''}}">
+                            <li class="site-menu-item {{ Request::is('contact','/contact/edit')?'active':''}}">
                                 <a class="animsition-link" href="/contact">
                                     <span class="site-menu-title">ผู้ติดต่อ/คู่ค้า</span>
                                 </a>
                             </li>
-                            <li class="site-menu-item {{ Request::is('contact/agent/list')?'active':''}}">
+                            <li class="site-menu-item {{ Request::is('contact/agent/list','contact/agent/*')?'active':''}}">
                                 <a class="animsition-link" href="/contact/agent/list">
                                     <span class="site-menu-title">ตัวแทนจำหน่าย</span>
                                 </a>
