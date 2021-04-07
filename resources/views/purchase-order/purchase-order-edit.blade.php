@@ -219,7 +219,10 @@
                                 <div class="form-group row">
                                     <label class="col-md-5 col-form-label">ค่าส่ง (ที่ถูกเก็บจากผู้ติดต่อ)
                                         <span class="panel-desc">
-                                            <input type="checkbox">ภาษีมูลค่าเพิ่ม
+                                            <div class="checkbox-custom checkbox-primary">
+                                                <input type="checkbox" id="tax" name="tax" value="1">
+                                                <label for="tax">ภาษีมูลค่าเพิ่ม</label>
+                                            </div>
                                         </span>
                                     </label>
                                     <div class="col-md-7 d-flex align-items-center">

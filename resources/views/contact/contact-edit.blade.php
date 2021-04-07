@@ -28,7 +28,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-accounts white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูล</span>
+                                <i class="icon icon-circle md-accounts white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูล</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -108,7 +108,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-accounts white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การติดต่อ</span>
+                                <i class="icon icon-circle md-accounts white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การติดต่อ</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -171,7 +171,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-accounts white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลที่อยู่ผู้รับ</span>
+                                <i class="icon icon-circle md-accounts white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลที่อยู่ผู้รับ</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -218,7 +218,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-accounts white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ธนาคาร</span>
+                                <i class="icon icon-circle md-accounts white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ธนาคาร</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -257,7 +257,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-accounts white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สื่อออนไลน์</span>
+                                <i class="icon icon-circle md-accounts white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สื่อออนไลน์</span>
                             </h3>
                         </div>
                         <div class="panel-body">

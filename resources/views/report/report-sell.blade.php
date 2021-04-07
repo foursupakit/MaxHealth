@@ -33,7 +33,7 @@
             <h1 class="page-title">ยอดขาย</h1>
             <div class="breadcrumb">ย้อนหลัง 3 เดือน (1/1/2564 - 5/4/2564) </div>
         </div>
-        <div class="panel-body nav-tabs-animate nav-tabs-horizontal" data-plugin="tabs">
+        <div class="panel-body nav-tabs-animate nav-tabs-horizontal pt-0" data-plugin="tabs">
             <ul class="nav nav-tabs nav-tabs-line" role="tablist">
                 <li class="nav-item" role="presentation"><a class="active nav-link" data-toggle="tab" href="#all"
                     aria-controls="all" role="tab">ทั้งหมด</a></li>
@@ -51,7 +51,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">
-                                            <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สรุปยอดขายรวม</span>
+                                            <i class="white icon icon-circle md-shopping-cart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สรุปยอดขายรวม</span>
                                         </h3>
                                         <div class="panel-actions panel-actions-keep">
                                             <select class="form-control">
@@ -74,7 +74,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">
-                                            <i class="white icon icon-circle md-chart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รายงาน</span>
+                                            <i class="white icon icon-circle md-chart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รายงาน</span>
                                         </h3>
                                         <div class="panel-actions panel-actions-keep">
                                             <select class="form-control">
@@ -94,7 +94,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">
-                                            <i class="white icon icon-circle md-chart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขาย</span>
+                                            <i class="white icon icon-circle md-chart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขาย</span>
                                         </h3>
                                         <div class="panel-actions panel-actions-keep d-flex">
                                             <select class="form-control mr-2">
@@ -181,7 +181,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">
-                                            <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขายตามคลัง/สาขา</span>
+                                            <i class="white icon icon-circle md-shopping-cart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขายตามคลัง/สาขา</span>
                                         </h3>
                                     </div>
                                     <div class="panel-body">
@@ -193,7 +193,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">
-                                            <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขาย</span>
+                                            <i class="white icon icon-circle md-shopping-cart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขาย</span>
                                         </h3>
                                     </div>
                                     <div class="panel-body p-0">
@@ -232,7 +232,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">
-                                            <i class="white icon icon-circle md-chart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รายงาน</span>
+                                            <i class="white icon icon-circle md-chart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รายงาน</span>
                                         </h3>
                                         <div class="panel-actions panel-actions-keep d-flex">
                                             <select class="form-control mr-2">
@@ -302,7 +302,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">
-                                            <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขายตามช่องทางการขาย</span>
+                                            <i class="white icon icon-circle md-shopping-cart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขายตามช่องทางการขาย</span>
                                         </h3>
                                     </div>
                                     <div class="panel-body">
@@ -314,7 +314,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">
-                                            <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขาย</span>
+                                            <i class="white icon icon-circle md-shopping-cart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขาย</span>
                                         </h3>
                                     </div>
                                     <div class="panel-body p-0">
@@ -353,7 +353,7 @@
                                 <div class="panel">
                                     <div class="panel-heading">
                                         <h3 class="panel-title">
-                                            <i class="white icon icon-circle md-chart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รายงาน</span>
+                                            <i class="white icon icon-circle md-chart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รายงาน</span>
                                         </h3>
                                         <div class="panel-actions panel-actions-keep d-flex">
                                             <select class="form-control mr-2">

@@ -38,7 +38,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-assignment white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูล</span>
+                                <i class="icon icon-circle md-assignment white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูล</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -100,7 +100,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-account white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ลูกค้า</span>
+                                <i class="icon icon-circle md-account white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ลูกค้า</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -150,7 +150,7 @@
                     <div class="col-md-12">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-dropbox white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สินค้า</span>
+                                <i class="icon icon-circle md-dropbox white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สินค้า</span>
                             </h3>
                         </div>
                         <div class="panel-body container-fluid pb-0">
@@ -225,7 +225,10 @@
                                 <div class="form-group row">
                                     <label class="col-md-5 col-form-label">ค่าส่ง (ที่ถูกเก็บจากผู้ติดต่อ)
                                         <span class="panel-desc">
-                                            <input type="checkbox">ภาษีมูลค่าเพิ่ม
+                                            <div class="checkbox-custom checkbox-primary">
+                                                <input type="checkbox" id="tax" name="tax" value="1">
+                                                <label for="tax">ภาษีมูลค่าเพิ่ม</label>
+                                            </div>
                                         </span>
                                     </label>
                                     <div class="col-md-7 d-flex align-items-center">
@@ -267,7 +270,7 @@
                     <div class="col-md-12">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-truck white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลการจัดส่งสินค้า</span>
+                                <i class="icon icon-circle md-truck white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลการจัดส่งสินค้า</span>
                             </h3>
                         </div>
                         <div class="panel-body pb-0">
@@ -302,7 +305,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-money white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การชำระเงิน</span>
+                                <i class="icon icon-circle md-money white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การชำระเงิน</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -319,7 +322,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-dropbox white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">คลังสินค้า/สาขา</span>
+                                <i class="icon icon-circle md-dropbox white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">คลังสินค้า/สาขา</span>
                             </h3>
                         </div>
                         <div class="panel-body">

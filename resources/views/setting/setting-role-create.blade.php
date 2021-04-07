@@ -25,7 +25,7 @@
                     <div class="col-md-12">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-alert-circle-o white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลรายละเอียด</span>
+                                <i class="icon icon-circle md-alert-circle-o white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลรายละเอียด</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -40,7 +40,7 @@
                         </div>
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-eye white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">กำหนดสิทธิ์ต่างๆ</span>
+                                <i class="icon icon-circle md-eye white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">กำหนดสิทธิ์ต่างๆ</span>
                             </h3>
                         </div>
                         <div class="panel-body">

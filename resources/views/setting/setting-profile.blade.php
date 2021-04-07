@@ -37,7 +37,7 @@
                         </div>
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-account white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลส่วนตัว</span>
+                                <i class="icon icon-circle md-account white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลส่วนตัว</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -67,7 +67,7 @@
                         </div>
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-settings white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ตั้งค่าอื่นๆ</span>
+                                <i class="icon icon-circle md-settings white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ตั้งค่าอื่นๆ</span>
                             </h3>
                         </div>
                         <div class="panel-body">

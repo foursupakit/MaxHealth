@@ -44,7 +44,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลตัวอย่าง 1</span>
+                                <i class="white icon icon-circle md-shopping-cart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลตัวอย่าง 1</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <div class="dropdown">
@@ -92,7 +92,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขายรวม</span>
+                                <i class="white icon icon-circle md-shopping-cart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขายรวม</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <i class="icon icon-circle md-chart" style="pointer-events: none;" aria-hidden="true"></i>
@@ -141,7 +141,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สินค้าขายดีย้อนหลัง 7 วัน</span>
+                                <i class="white icon icon-circle md-shopping-cart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สินค้าขายดีย้อนหลัง 7 วัน</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">
@@ -202,7 +202,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขาย รายสินค้า</span>
+                                <i class="white icon icon-circle md-shopping-cart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขาย รายสินค้า</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">

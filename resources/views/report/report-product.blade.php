@@ -41,7 +41,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สรุปมูลค่าสินค้าทั้งหมด</span>
+                                <i class="white icon icon-circle md-shopping-cart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สรุปมูลค่าสินค้าทั้งหมด</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -65,7 +65,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-chart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">มูลค่าสินค้าคงเหลือรายคลัง</span>
+                                <i class="white icon icon-circle md-chart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">มูลค่าสินค้าคงเหลือรายคลัง</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">
@@ -83,7 +83,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-chart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สินค้าจม</span>
+                                <i class="white icon icon-circle md-chart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สินค้าจม</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep d-flex">
                                 <select class="form-control mr-2">
@@ -150,7 +150,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-chart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สินค้าใกล้หมด</span>
+                                <i class="white icon icon-circle md-chart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สินค้าใกล้หมด</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep d-flex">
                                 <select class="form-control mr-2">
@@ -198,7 +198,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-chart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ล็อตใกล้หมดอายุ</span>
+                                <i class="white icon icon-circle md-chart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ล็อตใกล้หมดอายุ</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control mr-2">

@@ -39,7 +39,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">จำนวนลูกค้า</span>
+                                <i class="white icon icon-circle md-shopping-cart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">จำนวนลูกค้า</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">
@@ -57,7 +57,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-chart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">แนวโน้ม</span>
+                                <i class="white icon icon-circle md-chart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">แนวโน้ม</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">
@@ -112,7 +112,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-chart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ลูกค้า</span>
+                                <i class="white icon icon-circle md-chart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ลูกค้า</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep d-flex">
                                 <select class="form-control mr-2">

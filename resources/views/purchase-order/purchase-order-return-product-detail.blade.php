@@ -41,7 +41,7 @@
                         <div class="panel-body">
                             <div class="d-flex justify-content-between">
                                 <div class="white">
-                                    <i class="icon icon-circle icon-2x md-money bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
+                                    <i class="icon icon-circle icon-2x md-money bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
                                 <div class="text-right">
                                     <div>สถานะการชำระเงิน</div>
@@ -62,7 +62,7 @@
                         <div class="panel-body">
                             <div class="d-flex justify-content-between">
                                 <div class="white">
-                                    <i class="icon icon-circle icon-2x icon md-dropbox bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
+                                    <i class="icon icon-circle icon-2x icon md-dropbox bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
                                 <div class="text-right">
                                     <div>สถานะการโอนสินค้า</div>
@@ -81,7 +81,7 @@
                         <div class="panel-body">
                             <div class="d-flex justify-content-between">
                                 <div class="white">
-                                    <i class="icon icon-circle icon-2x md-truck bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
+                                    <i class="icon icon-circle icon-2x md-truck bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
                                 <div class="text-right">
                                     <div>การจัดส่งสินค้า</div>
@@ -98,7 +98,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-assignment white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูล</span>
+                                <i class="icon icon-circle md-assignment white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูล</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -127,7 +127,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-account white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ผู้ติดต่อ</span>
+                                <i class="icon icon-circle md-account white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ผู้ติดต่อ</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -172,7 +172,7 @@
                     <div class="col-md-12">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-dropbox white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สินค้า</span>
+                                <i class="icon icon-circle md-dropbox white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สินค้า</span>
                             </h3>
                         </div>
                         <div class="panel-body container-fluid pb-0">
@@ -257,7 +257,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-assignment white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลที่อยู่ผู้รับ</span>
+                                <i class="icon icon-circle md-assignment white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลที่อยู่ผู้รับ</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -292,7 +292,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-assignment white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลการจัดส่งสินค้า</span>
+                                <i class="icon icon-circle md-assignment white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลการจัดส่งสินค้า</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -319,7 +319,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-money white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การชำระเงิน</span>
+                                <i class="icon icon-circle md-money white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การชำระเงิน</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -403,7 +403,7 @@
                     <div class="col-md-12">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-swap white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การโอนสินค้า</span>
+                                <i class="icon icon-circle md-swap white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">การโอนสินค้า</span>
                             </h3>
                         </div>
                         <div class="panel-body">

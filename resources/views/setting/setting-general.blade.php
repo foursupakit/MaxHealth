@@ -22,7 +22,7 @@
                     <div class="col-md-12">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-money white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ตั้งค่าส่วนแบ่งยอดขาย</span>
+                                <i class="icon icon-circle md-money white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ตั้งค่าส่วนแบ่งยอดขาย</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -54,7 +54,7 @@
                     <div class="col-md-12">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-money white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ตั้งค่าการถอดเงินขั้นต่ำ</span>
+                                <i class="icon icon-circle md-money white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ตั้งค่าการถอดเงินขั้นต่ำ</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -80,7 +80,7 @@
                     <div class="col-md-12">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-notifications white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">แจ้งเตือน</span>
+                                <i class="icon icon-circle md-notifications white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">แจ้งเตือน</span>
                             </h3>
                         </div>
                         <div class="panel-body">

@@ -29,7 +29,7 @@
                     <div class="col-md-7">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-assignment white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลบริษัท</span>
+                                <i class="icon icon-circle md-assignment white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลบริษัท</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -56,7 +56,7 @@
                         </div>
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-assignment white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลติดต่อ</span>
+                                <i class="icon icon-circle md-assignment white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลติดต่อ</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -94,7 +94,7 @@
                     <div class="col-md-5 text-center">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-image white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รูปโลโก้บริษัท</span>
+                                <i class="icon icon-circle md-image white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รูปโลโก้บริษัท</span>
                             </h3>
                         </div>
                         <div class="panel-body">

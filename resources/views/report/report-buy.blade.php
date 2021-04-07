@@ -39,7 +39,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สรุปยอดซื้อ</span>
+                                <i class="white icon icon-circle md-shopping-cart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สรุปยอดซื้อ</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -58,7 +58,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-chart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รายงาน</span>
+                                <i class="white icon icon-circle md-chart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รายงาน</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">
@@ -76,7 +76,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-chart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดซื้อ</span>
+                                <i class="white icon icon-circle md-chart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดซื้อ</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep d-flex">
                                 <select class="form-control mr-2">

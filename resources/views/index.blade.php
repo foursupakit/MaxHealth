@@ -20,9 +20,9 @@
                     <div class="card card-shadow text-center">
                         <div class="card-block p-20 pt-10">
                             <div class="icon-wrap pb-10">
-                                <i class="icon md-search-in-file" aria-hidden="true"></i>
+                                <img src="/assets/images/dashboard1.jpg" width="120">
                             </div>
-                            <a href="#" class="btn btn-sm btn-default btn-round">ดูรายงาน</a>
+                            <a href="/report/main" class="btn btn-sm btn-outline-secondary btn-round">ดูรายงาน</a>
                         </div>
                     </div>
                 </div>
@@ -30,9 +30,9 @@
                     <div class="card card-shadow text-center">
                         <div class="card-block p-20 pt-10">
                             <div class="icon-wrap pb-10">
-                                <i class="icon wb-clipboard" aria-hidden="true"></i>
+                                <img src="/assets/images/dashboard2.jpg" width="120">
                             </div>
-                            <a href="/sale-order" class="btn btn-sm btn-default btn-round">ดูรายการขาย</a>
+                            <a href="/sale-order" class="btn btn-sm btn-outline-secondary btn-round">ดูรายการขาย</a>
                         </div>
                     </div>
                 </div>
@@ -40,9 +40,9 @@
                     <div class="card card-shadow text-center">
                         <div class="card-block p-20 pt-10">
                             <div class="icon-wrap pb-10">
-                                <i class="icon wb-plus-circle" aria-hidden="true"></i>
+                                <img src="/assets/images/dashboard3.jpg" width="120">
                             </div>
-                            <a href="/purchase-order/create" class="btn btn-sm btn-default btn-round">สร้างรายการซื้อ</a>
+                            <a href="/purchase-order/create" class="btn btn-sm btn-outline-secondary btn-round">สร้างรายการซื้อ</a>
                         </div>
                     </div>
                 </div>
@@ -50,9 +50,9 @@
                     <div class="card card-shadow text-center">
                         <div class="card-block p-20 pt-10">
                             <div class="icon-wrap pb-10">
-                                <i class="icon md-home" aria-hidden="true"></i>
+                                <img src="/assets/images/dashboard4.jpg" width="120">
                             </div>
-                            <a href="#" class="btn btn-sm btn-default btn-round">คลังสินค้า/สาขา</a>
+                            <a href="/product/warehouse" class="btn btn-sm btn-outline-secondary btn-round">คลังสินค้า/สาขา</a>
                         </div>
                     </div>
                 </div>
@@ -60,9 +60,9 @@
                     <div class="card card-shadow text-center">
                         <div class="card-block p-20 pt-10">
                             <div class="icon-wrap pb-10">
-                                <i class="icon md-dropbox" aria-hidden="true"></i>
+                                <img src="/assets/images/dashboard5.jpg" width="120">
                             </div>
-                            <a href="/product" class="btn btn-sm btn-default btn-round">ดูสินค้า</a>
+                            <a href="/product" class="btn btn-sm btn-outline-secondary btn-round">ดูสินค้า</a>
                         </div>
                     </div>
                 </div>
@@ -70,9 +70,9 @@
                     <div class="card card-shadow text-center">
                         <div class="card-block p-20 pt-10">
                             <div class="icon-wrap pb-10">
-                                <i class="icon md-truck" aria-hidden="true"></i>
+                                <img src="/assets/images/dashboard6.jpg" width="120">
                             </div>
-                            <a href="#" class="btn btn-sm btn-default btn-round">ดูบริการขนส่ง</a>
+                            <a href="/setting/transport" class="btn btn-sm btn-outline-secondary btn-round">ดูบริการขนส่ง</a>
                         </div>
                     </div>
                 </div>

@@ -258,8 +258,10 @@
                     <div class="row">
                         <label class="col-md-4 col-form-label">ตั้งค่า</label>
                         <div class="col-md-8 mt-5">
-                            <input type="checkbox" id="settingTax" name="settingTax" value="tax" >
-                            <label for="settingTax"> ภาษีหัก ณ ที่จ่าย</label>
+                            <div class="checkbox-custom checkbox-primary">
+                                <input type="checkbox" id="settingTax" name="settingTax" value="tax" >
+                                <label for="settingTax"> ภาษีหัก ณ ที่จ่าย</label>
+                            </div>
                         </div>
                     </div>
                 </div>

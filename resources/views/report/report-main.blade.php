@@ -39,7 +39,7 @@
                         <div class="panel-body">
                             <div class="d-flex justify-content-between">
                                 <div class="white">
-                                    <i class="icon icon-circle icon-2x md-assignment bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
+                                    <i class="icon icon-circle icon-2x md-assignment bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
                                 <div class="text-right">
                                     <div>ยอดขายวันนี้ (บาท)</div>
@@ -54,7 +54,7 @@
                         <div class="panel-body">
                             <div class="d-flex justify-content-between">
                                 <div class="white">
-                                    <i class="icon icon-circle icon-2x icon md-calendar bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
+                                    <i class="icon icon-circle icon-2x icon md-calendar bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
                                 <div class="text-right">
                                     <div>ยอดขายเดือนนี้ (เม.ย./2564) (บาท)</div>
@@ -69,7 +69,7 @@
                         <div class="panel-body">
                             <div class="d-flex justify-content-between">
                                 <div class="white">
-                                    <i class="icon icon-circle icon-2x md-calendar-note bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
+                                    <i class="icon icon-circle icon-2x md-calendar-note bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
                                 <div class="text-right">
                                     <div>ยอดขายรวมทั้งปี (บาท)</div>
@@ -84,7 +84,7 @@
                         <div class="panel-body">
                             <div class="d-flex justify-content-between">
                                 <div class="white">
-                                    <i class="icon icon-circle icon-2x md-dropbox bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
+                                    <i class="icon icon-circle icon-2x md-dropbox bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
                                 <div class="text-right">
                                     <div>หมวดหมู่ขายดีปีนี้</div>
@@ -99,7 +99,7 @@
                         <div class="panel-body">
                             <div class="d-flex justify-content-between">
                                 <div class="white">
-                                    <i class="icon icon-circle icon-2x md-dropbox bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
+                                    <i class="icon icon-circle icon-2x md-dropbox bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
                                 <div class="text-right">
                                     <div>เปรียบเทียบยอดขาย ตั้งแต่ต้นปี (YTD)</div>
@@ -113,7 +113,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-shopping-cart bg-blue-600" aria-hidden="true"></i><span class="ml-10">ยอดขายรวม</span>
+                                <i class="white icon icon-circle md-shopping-cart bg-blue-900" aria-hidden="true"></i><span class="ml-10">ยอดขายรวม</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">
@@ -135,7 +135,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-dropbox bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">มูลค่าสินค้าคงเหลือรายคลัง</span>
+                                <i class="white icon icon-circle md-dropbox bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">มูลค่าสินค้าคงเหลือรายคลัง</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">
@@ -153,7 +153,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-chart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สินค้าเคลื่อนไหวย้อนหลัง 7 วัน</span>
+                                <i class="white icon icon-circle md-chart bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สินค้าเคลื่อนไหวย้อนหลัง 7 วัน</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">

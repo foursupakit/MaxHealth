@@ -26,7 +26,7 @@
                     <div class="col-md-7">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-alert-circle-o white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูล</span>
+                                <i class="icon icon-circle md-alert-circle-o white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูล</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -132,7 +132,7 @@
                     <div class="col-md-5">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-image white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รูปภาพ</span>
+                                <i class="icon icon-circle md-image white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รูปภาพ</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -142,7 +142,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-settings white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ตั้งค่า</span>
+                                <i class="icon icon-circle md-settings white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ตั้งค่า</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -150,14 +150,14 @@
                                 <div class="row">
                                     <label class="col-md-4">การตั้งค่า</label>
                                     <div class="col-md-8">
-                                        <input type="checkbox" id="showOrder" name="showOrder" value="">
-                                        <label for="showOrder"> แสดงในหน้าสั่งซื้อ</label><br>
-                                        <div class="d-flex">
-                                            <div class="mr-3">
-                                                <input type="checkbox" id="expirationDate" name="expirationDate" value="">
-                                            </div>
-                                            <div>
-                                                <label for="expirationDate"> ล็อต/วันหมดอายุ</label><br>
+                                        <div class="checkbox-custom checkbox-primary">
+                                            <input type="checkbox" id="showOrder" name="showOrder" value="">
+                                            <label for="showOrder"> แสดงในหน้าสั่งซื้อ</label><br>
+                                        </div>
+                                        <div class="checkbox-custom checkbox-primary">
+                                            <input type="checkbox" id="expirationDate" name="expirationDate" value="">
+                                            <label for="expirationDate" style="margin-bottom: .5rem;"> ล็อต/วันหมดอายุ</label>
+                                            <div class="pl-10">
                                                 <input type="text" class="form-control d-inline-block w-50 mr-1" autocomplete="off" value="90" /> วัน
                                             </div>
                                         </div>
@@ -169,7 +169,7 @@
                     <div class="col-md-6">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-notifications white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">แจ้งเตือน</span>
+                                <i class="icon icon-circle md-notifications white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">แจ้งเตือน</span>
                             </h3>
                         </div>
                         <div class="panel-body">
@@ -177,21 +177,17 @@
                                 <div class="row">
                                     <label class="col-md-4">แจ้งเตือนสินค้าคงเหลือ</label>
                                     <div class="col-md-8">
-                                        <div class="d-flex">
-                                            <div class="mr-3">
-                                                <input type="checkbox" id="inventory" name="inventory" value="">
-                                            </div>
-                                            <div>
-                                                <label for="inventory">แจ้งเตือนสินค้าคงเหลือน้อยกว่า</label><br>
+                                        <div class="checkbox-custom checkbox-primary">
+                                            <input type="checkbox" id="inventory" name="inventory" value="">
+                                            <label for="inventory" style="margin-bottom: .5rem;">แจ้งเตือนสินค้าคงเหลือน้อยกว่า</label><br>
+                                            <div class="pl-10">
                                                 <input type="text" class="form-control d-inline-block w-100 mr-1" autocomplete="off" value="5" disabled /> ชิ้น
                                             </div>
                                         </div>
-                                        <div class="d-flex mt-4">
-                                            <div class="mr-3">
-                                                <input type="checkbox" id="isremind" name="isremind" value="">
-                                            </div>
-                                            <div>
-                                                <label for="isremind">แจ้งเตือนหลังทำรายการขาย</label><br>
+                                        <div class="checkbox-custom checkbox-primary">
+                                            <input type="checkbox" id="isremind" name="isremind" value="">
+                                            <label for="isremind" style="margin-bottom: .5rem;">แจ้งเตือนหลังทำรายการขาย</label><br>
+                                            <div class="pl-10">
                                                 <input type="text" class="form-control d-inline-block w-50 mr-1" autocomplete="off" value="5" /> วัน
                                             </div>
                                         </div>
