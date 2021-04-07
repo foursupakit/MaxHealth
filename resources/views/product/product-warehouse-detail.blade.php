@@ -26,7 +26,7 @@
                 <button type="button" class="btn btn-light btn-round btn-lg" data-toggle="tooltip" data-original-title="export excel">
                     นำเข้าไฟล์ (Excel)
                 </button>
-                <button type="button" class="btn btn-primary btn-round btn-lg" data-toggle="tooltip" data-original-title="create" onclick="location.href='/product/create'">
+                <button type="button" class="btn btn-primary btn-round btn-lg" data-toggle="tooltip" onclick="location.href='/product/create'">
                     เพิ่มสินค้าใหม่
                 </button>
             </div>

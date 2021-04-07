@@ -17,7 +17,7 @@
             <h1 class="page-title">รับคืนสินค้า</h1>
             <span class="panel-desc">จำนวน 2 รายการ</span>
             <div class="page-header-actions">
-                <button type="button" class="btn btn-primary btn-round btn-lg" data-toggle="tooltip" data-original-title="create" onclick="location.href='/sale-order/return-product/create'">
+                <button type="button" class="btn btn-primary btn-round btn-lg" data-toggle="tooltip" onclick="location.href='/sale-order/return-product/create'">
                     สร้าง
                 </button>
             </div>

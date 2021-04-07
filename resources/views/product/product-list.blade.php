@@ -18,7 +18,7 @@
             <span class="panel-desc">จำนวน 5 รายการ</span>
 {{--            <span class="panel-desc d-inline-block">| <a href="">จัดการรูปภาพสินค้า</a></span>--}}
             <div class="page-header-actions">
-                <button type="button" class="btn btn-primary btn-round btn-lg" data-toggle="tooltip" data-original-title="create" onclick="location.href='/product/create'">
+                <button type="button" class="btn btn-primary btn-round btn-lg" data-toggle="tooltip" onclick="location.href='/product/create'">
                     เพิ่มสินค้าใหม่
                 </button>
             </div>
