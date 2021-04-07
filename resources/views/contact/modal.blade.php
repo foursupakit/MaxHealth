@@ -12,7 +12,7 @@
             <div class="modal-body">
                 <div class="panel-heading">
                     <h5 class="panel-title">
-                        <i class="icon icon-circle md-image white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ผู้ติดต่อ</span>
+                        <i class="icon icon-circle md-image white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ผู้ติดต่อ</span>
                     </h5>
                 </div>
                 <div class="panel-body">
@@ -75,7 +75,7 @@
                 </div>
                 <div class="panel-heading">
                     <h5 class="panel-title">
-                        <i class="icon icon-circle md-image white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลผู้ติดต่อ</span>
+                        <i class="icon icon-circle md-image white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ข้อมูลผู้ติดต่อ</span>
                     </h5>
                 </div>
                 <div class="panel-body">
@@ -122,7 +122,7 @@
                 </div>
                 <div class="panel-heading">
                     <h5 class="panel-title">
-                        <i class="icon icon-circle md-image white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สื่อออนไลน์</span>
+                        <i class="icon icon-circle md-image white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สื่อออนไลน์</span>
                     </h5>
                 </div>
                 <div class="panel-body">

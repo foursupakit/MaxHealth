@@ -42,7 +42,7 @@
                         <div class="panel-body">
                             <div class="d-flex justify-content-between">
                                 <div class="white">
-                                    <i class="icon icon-circle icon-2x md-assignment bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i>
+                                    <i class="icon icon-circle icon-2x md-assignment bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i>
                                 </div>
                                 <div class="text-right">
                                     <div>ยอดขายเดือนนี้ (บาท)</div>
@@ -132,7 +132,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="white icon icon-circle md-trending-up bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขายรายสินค้า</span>
+                                <i class="white icon icon-circle md-trending-up bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">ยอดขายรายสินค้า</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep">
                                 <select class="form-control">
@@ -194,7 +194,7 @@
                     <div class="panel">
                         <div class="panel-heading">
                             <h3 class="panel-title">
-                                <i class="icon icon-circle md-assignment white bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รายการ</span>
+                                <i class="icon icon-circle md-assignment white bg-blue-900" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">รายการ</span>
                             </h3>
                             <div class="panel-actions panel-actions-keep d-inline-flex">
                                 <select class="form-control input-search mr-10">

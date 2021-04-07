@@ -132,7 +132,7 @@
                                     <span class="site-menu-title">ผู้ติดต่อ/คู่ค้า</span>
                                 </a>
                             </li>
-                            <li class="site-menu-item {{ Request::is('contact/agent/list','contact/agent/*')?'active':''}}">
+                            <li class="site-menu-item {{ Request::is('contact/agent/list','contact/agent/edit')?'active':''}}">
                                 <a class="animsition-link" href="/contact/agent/list">
                                     <span class="site-menu-title">ตัวแทนจำหน่าย</span>
                                 </a>
