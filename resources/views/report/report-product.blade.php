@@ -39,9 +39,11 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="panel">
-                        <h3 class="panel-title">
-                            <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สรุปมูลค่าสินค้าทั้งหมด</span>
-                        </h3>
+                        <div class="panel-heading">
+                            <h3 class="panel-title">
+                                <i class="white icon icon-circle md-shopping-cart bg-blue-600" style="pointer-events: none;" aria-hidden="true"></i><span class="ml-10">สรุปมูลค่าสินค้าทั้งหมด</span>
+                            </h3>
+                        </div>
                         <div class="panel-body">
                             <form>
                                 <div class="text-center d-flex justify-content-center align-items-center" style="min-height:370px;">
