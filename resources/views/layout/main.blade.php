@@ -4,6 +4,31 @@
     @include('layout.head')
 
     @yield('style')
+
+    <style>
+        @font-face {
+            font-family : 'Kanit';
+            font-style: normal;
+            font-weight: normal;
+            src: url("{{ asset('font/kanit/Kanit-Regular.ttf') }}") format('truetype');
+        }
+        @font-face {
+            font-family : 'Kanit';
+            font-style: normal;
+            font-weight: bold;
+            src: url("{{ asset('font/kanit/Kanit-Bold.ttf') }}") format('truetype');
+        }
+
+        body {
+            font-family: 'Kanit', sans-serif;
+        }
+        h1, h2, h3, h4, h5, h6{
+            font-family: 'Kanit', sans-serif;
+        }
+        li {
+            font-family: 'Kanit', sans-serif;
+        }
+    </style>
 </head>
 <body class="animsition dashboard">
 <!--[if lt IE 8]>

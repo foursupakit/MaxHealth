@@ -56,4 +56,14 @@ class SettingController extends Controller
     {
         return view('setting.setting-general');
     }
+
+    public function mobileBanner(Request $request)
+    {
+        return view('setting.mobile.setting-banner');
+    }
+
+    public function mobileContent(Request $request)
+    {
+        return view('setting.mobile.setting-content');
+    }
 }

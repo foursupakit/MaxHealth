@@ -181,6 +181,24 @@
                                     <span class="site-menu-title">ตั้งค่าทั้วไป</span>
                                 </a>
                             </li>
+                            <li class="site-menu-item has-sub {{ Request::is('setting/mobile/*')?'open active':''}}">
+                                <a href="javascript:void(0)">
+                                    <span class="site-menu-title">ตั้งค่า Mobile</span>
+                                    <span class="site-menu-arrow"></span>
+                                </a>
+                                <ul class="site-menu-sub">
+                                    <li class="site-menu-item {{ Request::is('setting/mobile/banner')?'active':''}}">
+                                        <a class="animsition-link" href="/setting/mobile/banner">
+                                            <span class="site-menu-title">จัดการ Banner</span>
+                                        </a>
+                                    </li>
+                                    <li class="site-menu-item {{ Request::is('setting/mobile/content')?'active':''}}">
+                                        <a class="animsition-link" href="/setting/mobile/content">
+                                            <span class="site-menu-title">จัดการ Content</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
                         </ul>
                     </li>
                 </ul>
